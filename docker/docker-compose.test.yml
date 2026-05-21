@@ -1,0 +1,5 @@
+services:
+  cet4-web:
+    environment:
+      - DB_PATH=/app/data/cet4_test.db
+      - TEST_MODE=true

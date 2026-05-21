@@ -1,0 +1,16 @@
+services:
+  cet4-web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "9098:9098"
+    volumes:
+      - ../data:/app/data
+      - ../config:/app/config
+      - ../logs:/app/logs
+      - ../dist/client:/app/dist/client
+    environment:
+      - JWT_SECRET_FILE=/app/config/jwt_secret
+      - NODE_ENV=production
+    restart: unless-stopped
