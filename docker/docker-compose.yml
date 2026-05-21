@@ -10,6 +10,7 @@ services:
       - ../config:/app/config
       - ../logs:/app/logs
       - ../dist/client:/app/dist/client
+      - ../ref:/app/ref
     environment:
       - JWT_SECRET_FILE=/app/config/jwt_secret
       - NODE_ENV=production
