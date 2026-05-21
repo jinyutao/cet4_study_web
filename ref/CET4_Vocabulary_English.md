@@ -1,0 +1,4610 @@
+# CET-4 Vocabulary - English Definitions Only
+
+**Total: 4526 words**
+
+---
+
+
+## A
+
+- **a** (一(个)；每一(个))
+- **abandon** (丢弃；放弃，抛弃)
+- **ability**: the quality of having the means or skills to do something
+- **able**: having the necessary means or skill to do something
+- **abnormal**: not typical or usual or regular
+- **aboard**: on a ship, train, plane or other vehicle
+- **about** (关于；在…周围)
+- **above** (在…上面；高于)
+- **abroad**: to or in a foreign country
+- **absence**: the state of being not present
+- **absent**: not being in a specified place
+- **absolute**: perfect or complete or pure
+- **absolutely**: totally and definitely; without question
+- **absorb**: take in a liquid
+- **abstract**: existing only in the mind
+- **abundant** (丰富的；大量的)
+- **abuse**: cruel or inhumane treatment
+- **academic** (学院的；学术的)
+- **academy** (私立中学；专科院校)
+- **accelerate**: move faster
+- **acceleration** (加速(度))
+- **accent** (口音，腔调；重音)
+- **accept**: receive willingly something given or offered
+- **acceptable**: worthy of approval or satisfactory
+- **acceptance**: the state of being satisfactory
+- **access**: the right to enter
+- **accessory** (同谋，从犯；附件)
+- **accident**: an unfortunate mishap
+- **accidental**: happening by chance or unexpectedly or unintentionally
+- **accommodate**: have room for; hold without crowding
+- **accommodation**: making or becoming suitable; adjusting to circumstances
+- **accompany**: go or travel along with
+- **accomplish**: achieve with effort
+- **accord**: concurrence of opinion
+- **accordance**: concurrence or agreement of opinion
+- **accordingly**: in agreement with
+- **account**: a record or narrative description of past events
+- **accumulate** (积累 vi.堆积)
+- **accuracy**: the quality of being near to the true value
+- **accurate**: characterized by perfect conformity to fact or truth
+- **accuse**: blame for; make a claim of wrongdoing or misbehavior against
+- **accustom** (使习惯)
+- **accustomed**: commonly used or practiced; usual
+- **ache**: a dull persistent (usually moderately intense) pain
+- **achieve**: gain with effort
+- **achievement**: the action of accomplishing something
+- **acid** (酸；酸的，酸性的)
+- **acquaintance**: personal knowledge or information about someone or something
+- **acquire**: come into the possession of something concrete or abstract
+- **acre** (英亩(=6.07 亩))
+- **across**: to the opposite side
+- **act**: behave in a certain manner
+- **action**: something done (usually as opposed to something said)
+- **active**: characterized by energetic movement
+- **activity**: any specific behavior
+- **actor**: a performer in theater, television, or film
+- **actress**: a female actor
+- **actual**: existing in fact
+- **actually**: in fact
+- **acute** (尖的，锐的；敏锐的)
+- **ad** (广告)
+- **adapt**: make fit for, or change to suit a new purpose
+- **add**: join or combine or unite with others
+- **addition**: the arithmetic operation of summing
+- **additional**: further or extra
+- **address** (地址；演说；谈吐)
+- **adequate**: having the requisite qualities or resources to meet a task
+- **adjective** (形容词 a.形容词的)
+- **adjust**: alter or regulate so as to conform to a standard
+- **administration**: the act of governing or exercising authority
+- **admire** (钦佩，羡慕，赞赏)
+- **admission**: the act of letting someone enter
+- **admit**: declare to be true or accept the reality of
+- **adopt**: take into one&#039;s family
+- **adult**: a fully developed person from maturity onward
+- **advance**: move forward
+- **advanced**: situated ahead or going before
+- **advantage**: the quality of having a superior or more favorable position
+- **adventure**: a wild and exciting undertaking
+- **adverb**: a word that modifies something other than a noun
+- **advertisement**: a public promotion of some product or service
+- **advice**: a proposal for an appropriate course of action
+- **advisable**: worthy of being recommended or suggested; prudent or wise
+- **advise**: give advice to
+- **aeroplane**: an aircraft that has a fixed wing and is powered by propellers or jets
+- **affair** (事情，事件；事务)
+- **affect**: have an influence upon
+- **affection**: a positive feeling of liking
+- **afford** (担负得起…；提供)
+- **afraid** (害怕的；担心的)
+- **africa** (非洲)
+- **african** (非洲的 n.非洲人)
+- **after** (在…以后；次于)
+- **afternoon** (下午，午后)
+- **afterward** (后来，以后)
+- **again** (又一次；而且)
+- **against** (倚在；逆，对着)
+- **age**: how long something has existed
+- **agency**: the state of being in action or exerting power
+- **agent**: a representative who acts on behalf of others
+- **aggressive**: characteristic of an enemy or one eager to fight
+- **ago** (以前)
+- **agony** (极度痛苦)
+- **agree**: consent or assent to a condition
+- **agreement**: harmony of people&#039;s opinions, actions, or characters
+- **agriculture**: the practice of cultivating the land or raising stock
+- **ahead**: at or in the front
+- **aid** (帮助，救护；助手)
+- **aim** (瞄准，针对；致力)
+- **air**: a mixture of gases required for breathing
+- **aircraft**: a vehicle that can fly
+- **airline**: a commercial business that provides scheduled flights
+- **airplane**: a fixed-wing aircraft powered by propellers or jets
+- **airport**: an airfield equipped with control tower and hangars as well as accommodations for passengers and cargo
+- **alarm**: a device signaling the occurrence of some undesirable event
+- **alcohol** (酒精，乙醇)
+- **alike**: having the same or similar characteristics
+- **alive**: possessing life
+- **all** (全部的 prep.全部)
+- **allow**: make it possible for something to happen
+- **alloy** (合金；(金属的)成色)
+- **almost**: slightly short of or not quite accomplished; all but
+- **alone**: isolated from others
+- **along** (沿着 ad.向前)
+- **aloud**: using the voice; not silently
+- **alphabet**: a set of characters that are used to write a language
+- **already** (早已，已经)
+- **also** (亦，也；而且，还)
+- **alter**: cause to change; make different
+- **alternative**: one of a number of things from which only one can be chosen
+- **although** (尽管，虽然)
+- **altitude** (高，高度；高处)
+- **altogether**: to a complete degree or to the full or entire extent
+- **aluminium** (铝)
+- **always** (总是，一直；永远)
+- **amaze**: affect with wonder
+- **ambition**: a strong drive for success
+- **ambulance**: a vehicle that takes people to and from hospitals
+- **america** (美洲；美国)
+- **american** (美洲的 n.美国人)
+- **among** (在…之中)
+- **amount** (总数；数量；和)
+- **ampere** (安培)
+- **amplify** (放大，增强；扩大)
+- **amuse**: occupy in an agreeable, entertaining or pleasant fashion
+- **analyse**: break down into components or essential features
+- **analysis**: abstract separation of something into its various parts
+- **ancestor**: someone from whom you are descended
+- **anchor**: a mechanical device that prevents a vessel from moving
+- **ancient**: belonging to times long past
+- **and** (和，又，并，则)
+- **angel** (天使，神差，安琪儿)
+- **anger**: the state of being very annoyed
+- **angle**: the space between two lines or planes that intersect
+- **angry**: feeling or showing extreme displeasure or hostility
+- **animal** (动物，兽 a.动物的)
+- **ankle**: the part of the body between the foot and the lower leg
+- **announce**: make known
+- **announcer**: someone who proclaims a message publicly
+- **annoy** (使恼怒；打搅)
+- **annual** (每年的 n.年报)
+- **another**: an additional or different one
+- **answer**: a statement made to reply to a question or criticism
+- **ant** (蚂蚁)
+- **anticipate**: regard something as probable or likely
+- **anxiety**: a vague unpleasant emotion in anticipation of a misfortune
+- **anxious**: causing or fraught with or showing nervousness
+- **any** (什么，一些；任何的)
+- **anybody** (任何人)
+- **anyhow**: in any way whatsoever
+- **anyone** (任何人)
+- **anything** (任何事物；一切)
+- **anyway**: in any way whatsoever
+- **anywhere**: at or in or to any place
+- **apart**: separated or at a distance in place or position or time
+- **apartment**: a home in a building divided into separate dwellings
+- **apologize**: acknowledge faults or shortcomings or failing
+- **apology**: an expression of regret at having caused trouble for someone
+- **apparatus** (器械，仪器；器官)
+- **apparent**: clearly revealed to the mind or the senses or judgment
+- **appeal** (&n.呼吁；申述)
+- **appear**: come into sight or view
+- **appearance**: outward or visible aspect of a person or thing
+- **appetite** (食欲，胃口；欲望)
+- **apple** (苹果，苹果树)
+- **appliance**: a small mechanical device or tool
+- **applicable**: having relevance
+- **application**: the action of putting something into operation
+- **apply**: employ for a particular purpose
+- **appoint**: assign a duty, responsibility, or obligation to
+- **appointment**: a meeting arranged in advance
+- **appreciate**: be fully aware of; realize fully
+- **approach**: move towards
+- **appropriate**: suitable for a particular person, place, or situation
+- **approval**: the formal act of giving agreement or permission
+- **approve**: judge to be right or commendable; think well of
+- **approximate**: not quite exact or correct
+- **approximately**: imprecise but fairly close to correct
+- **april** (四月)
+- **arabian** (阿拉伯的)
+- **arbitrary** (随心所欲的；专断的)
+- **architecture**: the discipline dealing with the design of fine buildings
+- **area** (面积；地区；领域)
+- **argue**: have a disagreement about something
+- **argument**: a dispute where there is strong disagreement
+- **arise**: move upward
+- **arithmetic**: mathematics dealing with numerical calculations
+- **arm**: a human limb
+- **army**: a permanent organization of a nation&#039;s military land forces
+- **around**: in the area or vicinity
+- **arouse**: call forth, as an emotion, feeling, or response
+- **arrange**: put into a proper or systematic order
+- **arrangement**: an orderly grouping considered as a unit
+- **arrest**: take into custody
+- **arrival**: the act of coming to a certain place
+- **arrive**: reach a destination
+- **arrow** (箭；箭状物)
+- **art**: the creation of beautiful or significant things
+- **article** (文章；条款；物品)
+- **artificial**: contrived by art rather than nature
+- **artist**: person whose creative work shows sensitivity and imagination
+- **artistic**: relating to the products of human creativity
+- **as** (当…的时候)
+- **ash** (灰，灰末；骨灰)
+- **ashamed**: feeling guilt or embarrassment or remorse
+- **asia** (亚洲)
+- **asian** (亚洲的 n.亚洲人)
+- **aside**: on or to one side
+- **ask** (问；要求；邀请)
+- **asleep** (睡着的，睡熟的)
+- **aspect**: a characteristic to be considered
+- **assemble**: create by putting components or members together
+- **assembly**: a group of persons gathered together for a common purpose
+- **assess**: estimate the nature, quality, ability or significance of
+- **assign**: select something or someone for a specific purpose
+- **assignment**: an undertaking that you have been told to perform
+- **assist**: give help; be of service
+- **assistant**: a person who contributes to the furtherance of an effort
+- **associate**: bring or come into action
+- **association**: a formal organization of people or groups of people
+- **assume**: take to be the case or to be true
+- **assure**: inform positively and with certainty and confidence
+- **astonish** (使惊讶，使吃惊)
+- **astronaut**: a person trained to travel in a spacecraft
+- **at** (在…里；在…时)
+- **athlete** (运动员；田径运动员)
+- **atlantic** (大西洋的 n.大西洋)
+- **atmosphere**: the envelope of gases surrounding any celestial body
+- **atmospheric** (大气的;大气层的)
+- **atom**: the smallest component of an element
+- **atomic**: relating to the smallest component of an element
+- **attach**: be in contact with
+- **attack**: an offensive against an enemy
+- **attain** (达到，获得，完成)
+- **attempt**: make an effort
+- **attend**: be present
+- **attention**: the act of concentrating on something
+- **attentive** (注意的；有礼貌的)
+- **attitude** (态度，看法；姿势)
+- **attract**: exert a force on
+- **attraction**: the quality of arousing interest
+- **attractive**: pleasing to the eye or mind as through beauty or charm
+- **attribute**: a quality belonging to or characteristic of an entity
+- **audience**: a gathering of spectators or listeners at a performance
+- **august** (八月)
+- **aunt** (伯母，婶母，姑母)
+- **aural** (耳的，听觉的)
+- **australia** (澳大利亚)
+- **australian** (澳大利亚的)
+- **author**: a person who writes professionally
+- **authority**: the power or right to give orders or make decisions
+- **auto**: a motor vehicle with four wheels
+- **automatic**: operating with minimal human intervention
+- **automation** (自动，自动化)
+- **automobile**: a motor vehicle with four wheels
+- **autumn** (秋，秋季)
+- **auxiliary** (辅助的；附属的)
+- **available**: obtainable or accessible and ready for use or service
+- **avenue**: a wide street or thoroughfare
+- **average** (平均数 a.平均的)
+- **aviation** (航空，航空学)
+- **avoid** (避免，躲开；撤消)
+- **await**: look forward to the probable occurrence of
+- **awake**: not in a state of sleep; completely conscious
+- **award** (奖，奖品；判定)
+- **aware**: having or showing knowledge or understanding or realization
+- **away** (离开，远离；…去)
+- **awful** (令人不愉快的)
+- **awfully** (令人畏惧的；很)
+- **awkward** (笨拙的；尴尬的)
+- **ax** (斧子)
+- **axis** (轴，轴线；中心线)
+
+## B
+
+- **baby** (婴儿；孩子气的人)
+- **back** (在后；回原处；回)
+- **background**: the part of a scene behind objects in the front
+- **backward**: at or to or toward the back or rear
+- **bacteria** (细菌)
+- **bad**: having undesirable or negative qualities
+- **badly**: to a severe or serious degree
+- **badminton** (羽毛球)
+- **bag**: a flexible container with a single opening
+- **baggage**: cases used to carry belongings when traveling
+- **bake**: cook and make edible by putting in a hot oven
+- **balance** (使平衡；称 n.天平)
+- **ball**: an object with a spherical shape
+- **balloon**: a small thin inflatable rubber bag
+- **banana** (香蕉；芭蕉属植物)
+- **band**: an unofficial association of people or groups
+- **bang** (巨响，枪声；猛击)
+- **bank**: financial institution that accepts deposits and lends money
+- **banner** (旗，旗帜，横幅)
+- **bar**: a rigid piece of metal or wood
+- **barber** (理发师)
+- **bare**: lacking its natural or customary covering
+- **bargain** (交易 vi.议价；成交)
+- **bark** (吠叫声 vi.吠，叫)
+- **barn** (谷仓；牲口棚)
+- **barrel**: a bulging cylindrical shape; hollow with flat ends
+- **barrier**: a structure or object that impedes free movement
+- **base**: lowest support of a structure
+- **basic**: reduced to the simplest and most significant form possible
+- **basically**: in essence; at bottom or by one&#039;s (or its) very nature
+- **basin** (盆，洗脸盆；盆地)
+- **basis**: the fundamental assumptions from which something is begun
+- **basket** (篮，篓，筐)
+- **basketball**: a game played on a court by two opposing teams of 5 players
+- **bat**: a club used for hitting a ball in various games
+- **bath**: a large open container filled with water to wash the body
+- **bathe**: clean one&#039;s body by immersion into water
+- **bathroom** (浴室；盥洗室)
+- **battery**: a collection of related things intended for use together
+- **battle**: a hostile meeting of opposing military forces
+- **bay** (湾；山脉中的凹处)
+- **be**: have a specified quality or characteristic
+- **beach** (海滩，湖滩，河滩)
+- **beam** (梁；横梁；束，柱)
+- **bean** (豆，蚕豆)
+- **bear**: be pregnant with
+- **beard** (胡须，络腮胡子)
+- **beast** (兽，野兽；牲畜)
+- **beat**: hit repeatedly
+- **beautiful**: pleasing to the senses
+- **beauty**: the qualities that give pleasure to the senses
+- **because** (由于，因为)
+- **become**: come into existence
+- **bed**: a piece of furniture that provides a place to sleep
+- **bee** (蜂，密蜂；忙碌的人)
+- **beef** (牛肉；菜牛)
+- **beer** (啤酒)
+- **before**: at or in the front
+- **beg**: make a solicitation or entreaty for something
+- **beggar**: an impoverished person who lives by asking for charity
+- **begin**: set in motion, cause to start
+- **beginner**: someone new to a field or activity
+- **beginning**: the act of starting something
+- **behalf**: as the agent of or on someone&#039;s part
+- **behave**: act in a certain manner
+- **behavior**: the way a person acts toward other people
+- **behind**: in or to or toward the rear
+- **being**: the state or fact of existing
+- **belief**: any cognitive content held as true
+- **believe**: accept as true; take to be true
+- **bell** (钟，铃，门铃；钟声)
+- **belong** (属于，附属)
+- **beloved**: dearly loved
+- **below**: in or to a place that is lower
+- **belt** (带，腰带；皮带；区)
+- **bench** (长凳，条凳；工作台)
+- **bend** (使弯曲 vi.弯曲)
+- **beneath**: in or to a place that is lower
+- **beneficial**: promoting or enhancing well-being
+- **benefit**: something that aids or promotes well-being
+- **berry** (浆果(如草莓等))
+- **beside** (在…旁边)
+- **besides**: in addition
+- **best**: having the most positive qualities
+- **bet** (&vi.&n.打赌)
+- **betray**: deliver to an enemy by treachery
+- **better**: superior to another in excellence or quality or desirability
+- **between**: in the interval
+- **beyond** (在…的那边)
+- **Bible** (基督教《圣经》)
+- **bicycle**: a vehicle that has two wheels and is moved by foot pedals
+- **big** (大的，巨大的)
+- **bike** (自行车 vi.骑自行车)
+- **bill** (账单；招贴；票据)
+- **billion**: one thousand million items or units in the United States
+- **bind**: secure with or as if with ropes
+- **biology** (生物学；生态学)
+- **bird** (鸟，禽)
+- **birth**: the time when something begins (especially life)
+- **birthday** (生日，诞生的日期)
+- **biscuit** ((英)饼干；(美)软饼)
+- **bit**: a small piece or quantity of something
+- **bite**: to grip, cut off, or tear with or as if with the teeth or jaws
+- **bitter**: causing a sharp and acrid taste experience
+- **bitterly** (苦苦地；悲痛地)
+- **black** (黑色的；黑暗的)
+- **blackboard**: sheet of slate; for writing with chalk
+- **blade** (刀刃，刀片；叶片)
+- **blame** (责备，把…归咎于)
+- **blank**: (of a surface) not written or printed on
+- **blanket**: bedding that keeps a person warm in bed
+- **blast**: a sudden, loud sound
+- **blaze** (火；闪光 vi.燃烧)
+- **bleed**: lose blood from one&#039;s body
+- **blend**: mix together different elements
+- **bless** (为…祝福)
+- **blind**: unable to see
+- **block** (街区 vt.堵塞，拦阻)
+- **blood**: the fluid that is pumped through the body by the heart
+- **bloom** (花；开花，开花期)
+- **blossom** (花，开花 vi.开花)
+- **blow**: be in motion due to some air or water current
+- **blue** (蓝色的 n.蓝色)
+- **board**: a stout length of sawn timber
+- **boast** (自夸 vt.吹嘘)
+- **boat** (小船，艇；渔船)
+- **body** (身体；主体；尸体)
+- **boil**: change from a liquid to vapor
+- **bold** (大胆的；冒失的)
+- **bolt** (螺栓；插销 vt.闩门)
+- **bomb** (炸弹 vt.轰炸)
+- **bond**: a connection that fastens things together
+- **bone** (骨，骨骼)
+- **book**: an object consisting of a number of pages bound together
+- **boot** (靴子，长统靴)
+- **booth** (货摊；公用电话亭)
+- **border**: the boundary of a surface
+- **bore** (使厌烦；钻，挖)
+- **born**: brought into existence
+- **borrow** (借，借用，借人)
+- **bosom** (胸，胸部；内心)
+- **boss** (老板，上司 vt.指挥)
+- **both** (两者(都))
+- **bother** (烦扰，迷惑 n.麻烦)
+- **bottle** (瓶，酒瓶；一瓶)
+- **bottom** (底，底部，根基)
+- **bough** (树枝)
+- **bounce** (反跳，弹起；跳起)
+- **bound**: confined by bonds
+- **boundary**: the line indicating the limit or extent of something
+- **bow**: something curved in shape
+- **bowl** (碗，钵；碗状物)
+- **box** (箱，盒；包箱)
+- **boy** (男孩，少年；家伙)
+- **brain** (脑，脑髓；脑力)
+- **brake**: a restraint used to slow or stop a vehicle
+- **branch** (树枝；分部；分科)
+- **brand**: a name given to a product or service
+- **brandy**: distilled from wine or fermented fruit juice
+- **brass** (黄铜；黄铜器)
+- **brave** (勇敢的，华丽的)
+- **bread** (面包；食物，粮食)
+- **breadth**: the extent of something from side to side
+- **break**: destroy the integrity of
+- **breakfast** (早饭，早餐)
+- **breast** (乳房；胸脯，胸膛)
+- **breath**: the process of taking in and expelling air during breathing
+- **breathe**: draw air into, and expel out of, the lungs
+- **breed** (品种 vt.使繁殖)
+- **breeze** (微风，和风)
+- **brick** (砖，砖块；砖状物)
+- **bridge** (桥，桥梁；桥牌)
+- **brief**: of short duration or distance
+- **bright** (明亮的；聪明的)
+- **brighten** (使发光；使快活)
+- **brilliant** (光辉的；卓越的)
+- **brim** (边，边缘；帽沿)
+- **bring**: take something or somebody with oneself somewhere
+- **brisk** (活泼的；清新的)
+- **bristle** (短而硬的毛；鬃毛)
+- **Britain** (不列颠，英国)
+- **British** (不列颠的，英联邦的)
+- **brittle** (脆的；易损坏的)
+- **broad**: having great extent from one side to the other
+- **broadcast**: disseminate over the airwaves, as in radio or television
+- **broken** (被打碎的，骨折的)
+- **bronze** (青铜；青铜制品)
+- **brood** (同窝幼鸟 vt.孵(蛋))
+- **brook** (小河，溪流)
+- **broom** (扫帚)
+- **brother** (兄弟；同事，同胞)
+- **brow** (额；眉，眉毛)
+- **brown** (褐色，棕色)
+- **bruise** (青肿，伤痕；擦伤)
+- **brush** (刷子，毛刷；画笔)
+- **brute**: resembling a beast
+- **bubble** (泡 vi.冒泡，沸腾)
+- **bucket** (水桶；吊桶；铲斗)
+- **bud** (芽，萌芽；蓓蕾)
+- **build**: make by combining materials and parts
+- **building**: the act of constructing something
+- **bulb** (电灯泡；球状物)
+- **bulk** (物体，容积，大批)
+- **bull** (公牛；雄的象)
+- **bullet**: a projectile that is fired from a gun
+- **bunch** (束，球，串；一群)
+- **bundle**: a collection of things wrapped or boxed together
+- **burden** (担子，重担；装载量)
+- **bureau** (局，司，处；社，所)
+- **burn**: destroy by fire
+- **burst** (使爆裂 vi.&n.爆炸)
+- **bury** (埋葬，葬；埋藏)
+- **bus** (公共汽车)
+- **bush** (灌木，灌木丛，矮树)
+- **business**: the principal activity in one&#039;s life to earn money
+- **busy**: actively or fully engaged or occupied
+- **but** (但是，可是)
+- **butcher** (屠夫；屠杀者)
+- **butter** (黄油；奶油)
+- **butterfly** (蝴蝶)
+- **button** (扣子；按钮 vt.扣紧)
+- **buy** (买，购买 vi.买)
+- **by** (在…旁；被，由)
+
+## C
+
+- **cabbage**: a vegetable grown for its edible leaves or flowers
+- **cabin**: a small house built of wood; usually in a wooded area
+- **cabinet**: a storage compartment for clothes and valuables
+- **cable** (缆，索；电缆；电报)
+- **cafe** (咖啡馆；小餐厅)
+- **cafeteria** (自助食堂)
+- **cage** (笼；鸟笼，囚笼)
+- **cake** (饼，糕，蛋糕)
+- **calculate**: make a mathematical computation
+- **calculation**: determination by mathematical or logical methods
+- **calculator**: a small machine that is used for mathematical calculations
+- **calendar**: a system of timekeeping that defines divisions of the year
+- **call**: utter a sudden loud cry
+- **calm** (静的，平静的)
+- **camel** (骆驼)
+- **camera** (照相机，摄影机)
+- **camp**: temporary lodgings in the country for travelers
+- **campaign**: related operations aimed at achieving a particular goal
+- **campus**: a field on which the buildings of a university are situated
+- **can** (v.能，会，可能)
+- **Canada** (加拿大)
+- **Canadian** (加拿大的)
+- **canal**: long and narrow strip of water for boats or for irrigation
+- **cancel** (取消，撤消；删去)
+- **cancer** (癌，癌症，肿瘤)
+- **candidate**: someone who is considered for something
+- **candle**: stick of wax with a wick in the middle
+- **candy**: a rich sweet made of flavored sugar often with fruit or nuts
+- **cannon** (大炮，火炮；榴弹炮)
+- **canoe**: a small, light boat propelled with a paddle
+- **canteen** (小卖部；临时餐室)
+- **canvas** (粗帆布；一块油画布)
+- **cap** (帽子，便帽；帽状物)
+- **capable**: having ability
+- **capacity**: capability to perform or produce
+- **capital**: a large alphabetic character used in writing or printing
+- **captain**: the leader of a group of people
+- **captive** (俘虏，被监禁的人)
+- **capture**: seize as if by hunting, snaring, or trapping
+- **car**: a motor vehicle with four wheels
+- **carbon** (碳)
+- **card**: thin cardboard, usually rectangular
+- **care**: providing treatment for or attending to someone or something
+- **career**: the particular occupation for which you are trained
+- **careful**: exercising caution or showing attention
+- **careless**: marked by lack of attention or consideration or forethought
+- **cargo**: goods carried by a large vehicle
+- **carpenter**: a woodworker who makes or repairs wooden objects
+- **carpet** (地毯，毡毯，毛毯)
+- **carriage**: a vehicle with wheels drawn by one or more horses
+- **carrier**: a person or firm transporting people or goods or messages
+- **carrot** (胡罗卜)
+- **carry**: physically move while supporting, by vehicle, hands, or body
+- **cart**: a heavy open wagon usually having two wheels and drawn by an animal
+- **carve** (刻，雕刻；切开)
+- **case**: an occurrence of something
+- **cash**: money in the form of bills or coins
+- **cassette**: a flat case holding magnetic tape for playing sound or video
+- **cast**: put or send forth
+- **castle** (城堡；巨大建筑物)
+- **casual**: without or seeming to be without plan or method; offhand
+- **cat** (猫，猫科，猫皮)
+- **catalog**: a complete list of things, usually arranged systematically
+- **catch**: take hold of so as to seize or stop the motion of
+- **cathedral** (总教堂；大教堂)
+- **cattle** (牛；牲口，家畜)
+- **cause**: events that provide the generative force of something
+- **cave** (山洞，洞穴，窑洞)
+- **cease** (&vi.&n.停止，停息)
+- **ceiling** (天花板，顶蓬)
+- **celebrate**: have a festivity
+- **cell**: the basic structural and functional unit of all organisms
+- **cellar**: a room that is partly or wholly below ground level
+- **cement** (水泥；胶泥 vt.粘结)
+- **cent**: a fractional monetary unit of several countries
+- **centigrade**: temperature scale on which water freezes at 0 degrees
+- **centimetre**: a metric unit of length equal to one hundredth of a meter
+- **central**: in or near an inner area
+- **centre** (中心；中枢 vt.集中)
+- **century**: a period of 100 years
+- **ceremony** (典礼，仪式；礼节)
+- **certain**: established beyond doubt or question; definitely known
+- **certainly**: definitely or positively
+- **certainty**: the state of being sure about something
+- **certificate**: a document attesting to the truth of certain stated facts
+- **chain** (链，链条，项圈)
+- **chair** (椅子；主席)
+- **chairman**: the officer who leads the meetings of an organization
+- **chalk** (白垩；粉笔)
+- **challenge**: a call to engage in a contest or fight
+- **chamber** (会议室；房间；腔)
+- **champion**: someone who has won first place in a competition
+- **chance** (机会，机遇；可能性)
+- **change**: become different in some particular way
+- **channel**: a deep and relatively narrow body of water
+- **chapter**: a subdivision of a written work; usually numbered and titled
+- **character**: a property that defines the individual nature of something
+- **characteristic**: typical or distinctive
+- **charge**: assign a duty, responsibility or obligation to
+- **charity**: an institution set up to provide help to the needy
+- **charming**: pleasing or delighting
+- **chart**: a visual display of data or information
+- **chase**: go after with the intent to catch
+- **cheap** (廉价的；劣质的)
+- **cheat** (骗取；哄 vi.行骗)
+- **check** (检查；制止 n.检查)
+- **cheek** (面颊，脸蛋)
+- **cheer** (使振作；欢呼)
+- **cheerful** (快乐的，愉快的)
+- **cheese** (乳酪，干酪)
+- **chemical** (化学的 n.化学制品)
+- **chemist** (化学家；药剂师)
+- **chemistry** (化学)
+- **cheque** (支票)
+- **cherry** (樱桃；樱桃树)
+- **chess** (棋；国际象棋)
+- **chest** (胸腔，胸膛；箱子)
+- **chew** (咀嚼，嚼碎)
+- **chicken**: a domestic bird bred for meat or eggs
+- **chief**: the head of a tribe or clan
+- **child**: a human offspring (son or daughter) of any age
+- **childhood**: the state of a child between infancy and adolescence
+- **childish**: indicating a lack of maturity
+- **chill**: coldness due to a cold environment
+- **chimney** (烟囱，烟筒；玻璃罩)
+- **chin** (颏，下巴)
+- **China** (中国)
+- **Chinese** (中国的 n.中国人)
+- **chocolate** (巧克力；巧克力糖)
+- **choice**: the act of selecting
+- **choke** (使窒息；塞满)
+- **choose**: pick out from a number of alternatives
+- **chop**: cut with a hacking tool
+- **Christian**: a religious person who believes Jesus is the savior
+- **Christmas**: a Christian holiday celebrating the birth of Christ
+- **church** (教堂，礼拜堂；教会)
+- **cigarette** (香烟，纸烟，卷烟)
+- **cinema** (电影院；电影，影片)
+- **circle**: a plane curve with every point equidistant from the center
+- **circuit**: a journey or route all the way around a place or area
+- **circular**: having a circular shape
+- **circulate**: move through a system and return to the starting point
+- **circumference** (圆周，周长，圆周线)
+- **circumstance**: the set of facts that surround a situation or event
+- **citizen**: a native or naturalized member of a state
+- **city**: a large and densely populated urban area
+- **civil**: of or occurring between or among citizens of the state
+- **civilization**: a society in an advanced state of social development
+- **civilize**: raise to a more advanced stage of development
+- **claim**: assert or affirm strongly
+- **clap** (拍手 vt.拍，轻拍)
+- **clarify**: make clear by removing impurities or solids, as by heating
+- **clasp** (扣子，钩子；别针)
+- **class**: a collection of things sharing a common attribute
+- **classical**: of the most highly developed stage of an early civilization
+- **classification**: the basic cognitive process of arranging into categories
+- **classify**: arrange or order by categories
+- **classmate**: an acquaintance that you go to school with
+- **classroom** (教室，课堂)
+- **claw** (爪，脚爪，螯)
+- **clay** (粘土，泥土；肉体)
+- **clean**: free from dirt or impurities
+- **clear**: readily apparent to the mind
+- **clearly** (明白地，清晰地)
+- **clerk** (店员；办事员，职员)
+- **clever** (聪明的；机敏的)
+- **cliff** (悬崖，峭壁)
+- **climate** (气候；风土，地带)
+- **climb** (攀登，爬 vt.爬)
+- **cloak** (斗篷；覆盖(物))
+- **clock** (钟，仪表)
+- **close**: at or within a short distance in space or time
+- **closely**: in a close relation or position in time or space
+- **cloth**: artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers
+- **clothe**: provide with clothes or put clothes on
+- **clothes**: apparel in general
+- **clothing**: a covering designed to be worn on a person&#039;s body
+- **cloud** (云；云状物；阴影)
+- **cloudy** (多云的；云一般的)
+- **club** (俱乐部，夜总会)
+- **clue** (线索，暗示，提示)
+- **clumsy** (笨拙的；愚笨的)
+- **coach** (长途公共汽车)
+- **coal** (煤，煤块)
+- **coarse** (粗的，粗糙的)
+- **coast** (海岸，海滨(地区))
+- **coat** (外套，上衣；表皮)
+- **cock**: adult male chicken
+- **code** (准则；法典；代码)
+- **coffee** (咖啡，咖啡茶)
+- **coil** ((一)卷；线圈 vt.卷)
+- **coin** (硬币；铸造(硬币))
+- **cold** (冷的；冷淡的 n.冷)
+- **collapse** (倒坍；崩溃，瓦解)
+- **collar** (衣领，项圈)
+- **colleague**: an associate that one works with
+- **collect**: gather
+- **collection**: the act of gathering something together
+- **collective**: done by or characteristic of individuals acting together
+- **college** (学院；大学)
+- **collision** (碰撞；冲突)
+- **colonel** (陆军上校；中校)
+- **colony**: a group of organisms of the same type living together
+- **color** (颜色，彩色；颜料)
+- **column** (柱，支柱，圆柱)
+- **comb** (梳子 vt.梳理)
+- **combination**: the act of bringing things together to form a new whole
+- **combine**: put or add together
+- **come**: move toward, travel toward
+- **comfort**: a state of being relaxed and feeling no pain
+- **comfortable**: providing or experiencing physical well-being or relief
+- **command**: an authoritative direction or instruction to do something
+- **commander**: an official who can give orders or control others
+- **comment**: a statement that expresses a personal opinion
+- **commerce**: transactions supplying goods and services
+- **commercial**: connected with or engaged in the exchange of goods
+- **commission**: the act of granting authority to undertake certain functions
+- **commit**: engage in or perform
+- **committee**: a special group delegated to consider some matter
+- **common**: having no special distinction or quality
+- **commonly** (普通地，一般地)
+- **communicate**: transfer to another
+- **communication**: the activity of conveying information
+- **communism**: a theory favoring collectivism in a classless society
+- **communist**: relating to socialism that abolishes private ownership
+- **community**: a group of people living in a particular local area
+- **companion**: a friend who is frequently with another
+- **company**: an institution created to conduct business
+- **comparative**: involving the examination of similarities and differences
+- **compare**: examine and note the similarities or differences of
+- **comparison**: the act of examining resemblances
+- **compass**: navigational instrument for finding directions
+- **compel**: force somebody to do something
+- **compete**: engage in a contest or measure oneself against others
+- **competent**: properly or sufficiently qualified, capable, or efficient
+- **competition**: the act of contending with others for rewards or resources
+- **compile** (编辑，编制，搜集)
+- **complain**: express discontent, displeasure, or unhappiness
+- **complaint**: an expression of grievance or resentment
+- **complete**: having all necessary qualities
+- **completely** (十分，完全地)
+- **complex**: complicated in structure
+- **complicate**: make less simple
+- **complicated**: difficult to analyze or understand
+- **component**: one of the individual parts making up a larger entity
+- **compose**: form the substance of
+- **composition**: the way in which someone or something is put together
+- **compound**: a whole formed by a union of two or more elements or parts
+- **comprehension**: an ability to understand the meaning of something
+- **comprehensive**: including all or everything
+- **compress**: squeeze or push together
+- **comprise**: be made of
+- **compromise**: an accommodation in which both sides make concessions
+- **compute**: make a mathematical calculation
+- **computer**: a machine for performing calculations automatically
+- **comrade** (同志，亲密的同伴)
+- **conceal**: prevent from being seen or discovered
+- **concentrate**: make denser, stronger, or purer
+- **concentration**: the spatial property of being crowded together
+- **concept**: an abstract or general idea inferred from specific instances
+- **concern**: something that interests you because it is important
+- **concerning** (关于)
+- **concert** (音乐会，演奏会)
+- **conclude**: bring to a close
+- **conclusion**: a position or opinion reached after consideration
+- **concrete**: capable of being perceived by the senses
+- **condemn**: express strong disapproval of
+- **condense**: cause a gas or vapor to change into a liquid
+- **condition** (状况，状态；环境)
+- **conduct**: the way a person behaves toward other people
+- **conductor**: the person who leads a musical group
+- **conference**: a prearranged meeting for consultation or discussion
+- **confess**: admit to a wrongdoing
+- **confidence**: belief in yourself and your abilities
+- **confident**: having or marked by assurance
+- **confine** (限制；禁闭)
+- **confirm**: strengthen
+- **conflict** (争论；冲突；斗争)
+- **confuse**: mistake one thing for another
+- **confusion**: a mistake that results from taking one thing to be another
+- **congratulate**: say something to someone that expresses praise
+- **congratulation**: acknowledging that someone has an occasion for celebration
+- **congress**: a formal meeting, especially of representatives
+- **conjunction**: the state of being joined together
+- **connect**: fasten or put together two or more pieces
+- **connection**: a relation between things or events
+- **conquer** (征服，战胜；破除)
+- **conquest** (攻取，征服；克服)
+- **conscience**: motivation deriving from ethical or moral principles
+- **conscious**: having awareness of surroundings and sensations and thoughts
+- **consciousness** (意识,觉悟;知觉)
+- **consent**: give an affirmative reply to; respond favorably to
+- **consequence**: a phenomenon that is caused by some previous phenomenon
+- **consequently**: as a result
+- **conservation**: careful management of the environment and natural resources
+- **conservative**: resistant to change
+- **consider**: think about carefully; weigh
+- **considerable**: large in number, amount, extent, or degree
+- **considerate**: showing concern for the rights and feelings of others
+- **consideration**: the process of giving careful thought to something
+- **consist**: have its essential character
+- **consistent**: the same throughout in structure or composition
+- **constant**: uninterrupted in time and indefinitely long continuing
+- **constitution**: the act of forming or establishing something
+- **construct**: make by combining materials and parts
+- **construction**: the act of building something
+- **consult**: seek information from
+- **consume**: take in as food
+- **consumption**: the act of using something up
+- **contact** (使接触；与…联系)
+- **contain**: hold or have within
+- **container**: any object that can be used to hold things
+- **contemporary**: occurring in the same period of time
+- **contempt** (轻蔑；藐视；受辱)
+- **content**: satisfied or showing satisfaction with things as they are
+- **contest**: a struggle between rivals
+- **continent** (大陆；陆地；洲)
+- **continual**: occurring without interruption
+- **continue**: keep or maintain in unaltered condition
+- **continuous**: moving in time or space without interruption
+- **contract**: a binding agreement that is enforceable by law
+- **contradiction**: opposition between two conflicting forces or ideas
+- **contrary**: exact opposition
+- **contrast**: the opposition or dissimilarity of things that are compared
+- **contribute**: give, provide, or supply something
+- **control**: power to direct or determine
+- **convenience**: the quality of being useful
+- **convenient**: suited to your comfort or purpose or needs
+- **convention**: the act of meeting formally
+- **conventional**: following accepted customs and proprieties
+- **conversation**: the use of speech for informal exchange of views or ideas
+- **conversely**: with the terms of the relation reversed
+- **conversion**: the act of changing from one use or function to another
+- **convert**: change the nature, purpose, or function of something
+- **convey**: transmit or serve as the medium for transmission
+- **convince**: make realize the truth or validity of something
+- **cook** (烹调，煮 vt.烧菜)
+- **cool**: neither warm nor very cold; giving relief from heat
+- **cooperate**: work together on a common enterprise or project
+- **coordinate**: of equal importance, rank, or degree
+- **cope**: come to terms with
+- **copper** (铜；铜币，铜制器)
+- **copy**: a thing made to be similar or identical to another thing
+- **cord**: a line made of twisted fibers or threads
+- **cordial** (真诚的，诚恳的)
+- **core**: the center of an object
+- **corn** (谷物；(英)小麦)
+- **corner** (角；犄角；边远地区)
+- **corporation** (公司，企业；社团)
+- **correct** (正确的 vt.纠正)
+- **correction** (改正，纠正，修改)
+- **correspond**: take the place of or be parallel or equivalent to
+- **correspondent**: a journalist who supplies stories for news media
+- **corresponding**: similar especially in position or purpose
+- **corridor** (走廊，回廊，通路)
+- **cost**: be priced at
+- **costly**: having a high price
+- **cottage** (村舍，小屋)
+- **cotton** (棉；棉线；棉布)
+- **cough** (咳，咳嗽 n.咳嗽)
+- **could** (v.(can 的过去式))
+- **council**: a body serving in an administrative capacity
+- **count**: determine the number or amount of
+- **counter**: a calculator recording the number of times something happens
+- **country**: the territory occupied by a nation
+- **countryside**: rural regions
+- **county** (英国的郡，美国的县)
+- **couple** (夫妇；(一)对；几个)
+- **courage**: a quality of spirit that enables you to face danger or pain
+- **course**: a connected series of events or actions or developments
+- **court**: an assembly to conduct judicial business
+- **cousin** (堂(或表)兄弟(姐妹))
+- **cover**: provide with a covering or cause to be covered
+- **cow**: female of domestic cattle
+- **coward**: a person who shows fear or timidity
+- **crack**: a narrow opening
+- **craft**: the skilled practice of a practical occupation
+- **crane** (起重机，摄影升降机)
+- **crash**: break violently or noisily
+- **crawl** (爬，爬行)
+- **crazy** (疯狂的，荒唐的)
+- **cream** (奶油，乳脂；奶油色)
+- **create**: bring into existence
+- **creative**: having the ability or power to invent or make something
+- **creature**: a living organism characterized by voluntary movement
+- **credit**: an estimate of ability to fulfill financial commitments
+- **creep**: move slowly
+- **crew** (全体船员)
+- **cricket** (板球；蟋蟀)
+- **crime**: an act punishable by law; usually considered an evil act
+- **criminal**: someone who has committed a punishable act
+- **cripple**: deprive of the use of a limb, especially a leg
+- **crisis**: a crucial stage or turning point in the course of something
+- **critic**: a person engaged in the analysis and interpretation of art
+- **critical**: of a serious examination and judgment of something
+- **criticism**: a serious examination and judgment of something
+- **criticize**: find fault with; point out real or perceived flaws
+- **crop** (农作物，庄稼；一熟)
+- **cross**: a marking that consists of lines that intersect each other
+- **crow** (鸦，乌鸦 vi.啼)
+- **crowd** (群；大众；一伙人)
+- **crown** (王冠，冕；花冠)
+- **crude** (简陋的；天然的)
+- **cruel** (残忍的，残酷的)
+- **crush**: compress with force, out of natural shape or condition
+- **crust** (面包皮；硬外皮)
+- **cry** (哭，哭泣；叫喊)
+- **crystal** (水晶，结晶体；晶粒)
+- **cube** (立方形；立方)
+- **cubic** (立方形的；立方的)
+- **cucumber** (黄瓜)
+- **cultivate**: adapt something wild to the environment
+- **culture**: all the knowledge and values shared by a society
+- **cunning** (狡猾的，狡诈的)
+- **cup** (杯子；(一)杯；奖杯)
+- **cupboard**: a small room (or recess) or cabinet used for storage space
+- **cure**: a medicine or therapy that treats disease or relieves pain
+- **curiosity**: a state in which you want to learn more about something
+- **curious**: eager to investigate and learn or learn more
+- **curl** (卷毛；螺旋 vi.卷曲)
+- **current**: occurring in or belonging to the present time
+- **curse** (诅咒，咒骂；天谴)
+- **curtain** (帘，窗帘；幕(布))
+- **curve** (曲线；弯 vt.弄弯)
+- **cushion** (垫子，坐垫，靠垫)
+- **custom**: accepted or habitual practice
+- **customer**: someone who pays for goods or services
+- **cut**: separate with or as if with an instrument
+
+## D
+
+- **daily** (每日的 n.日报)
+- **dairy** (牛奶场；乳制品)
+- **dam** (水坝，水堤；障碍物)
+- **damage** (损害，毁坏 n.损害)
+- **damp** (潮湿的，有湿气的)
+- **dance** (跳舞；摇晃 n.舞)
+- **danger**: the condition of being susceptible to harm or injury
+- **dangerous**: involving or causing risk; liable to hurt or harm
+- **dare**: a challenge to do something dangerous or foolhardy
+- **daring**: a challenge to do something dangerous or foolhardy
+- **dark** (暗的；黑色的)
+- **darling** (亲爱的人；宠儿)
+- **dash** (使猛撞；溅 n.猛冲)
+- **data** (数据; 资料)
+- **date**: the specified day of the month
+- **daughter** (女儿)
+- **dawn** (黎明；开端 vi.破晓)
+- **day** ((一)天，白昼，白天)
+- **daylight**: the time after sunrise and before sunset while it is light outside
+- **dead**: no longer having or seeming to have or expecting to have life
+- **deadly**: causing or capable of causing death
+- **deaf** (聋的；不愿听的)
+- **deal** (买卖；待遇 vt.给予)
+- **dear** (亲爱的 int.啊)
+- **death**: the permanent end of all life functions in an organism
+- **debate**: a discussion with reasons for and against some proposal
+- **debt** (债，债务，欠债)
+- **decade**: a period of 10 years
+- **decay** (腐烂；衰败 n.腐烂)
+- **deceit** (欺骗，欺诈)
+- **deceive**: cause someone to believe an untruth
+- **December**: the last (12th) month of the year
+- **decent**: socially or conventionally correct; refined or virtuous
+- **decide**: reach, make, or come to a conclusion about something
+- **decision**: a position or opinion reached after consideration
+- **deck** (甲板；舱面；层面)
+- **declare**: state emphatically and authoritatively
+- **decorate**: make more attractive, as by adding ornament or color
+- **decrease**: a change downward
+- **deduce** (演绎，推论，推断)
+- **deed**: a legal document to effect a transfer of property
+- **deep**: having great spatial extension downward or inward
+- **deepen** (加深 vi.深化)
+- **deer** (鹿)
+- **defeat** (战胜，击败；挫败)
+- **defect**: a failing or deficiency
+- **defence**: the act of shielding someone or something against attack
+- **defend**: protect against a challenge or attack
+- **define** (给…下定义；限定)
+- **definite** (明确的；肯定的)
+- **definitely** (一定地，明确地)
+- **definition** (定义，释义；定界)
+- **degree** (程度；度；学位)
+- **delay**: time during which some action is awaited
+- **delete** (删除；擦掉)
+- **delegation**: a group of representatives
+- **delicate** (纤细的；易碎的)
+- **delicious** (美味的，怡人的)
+- **delight**: a feeling of extreme pleasure or satisfaction
+- **deliver**: bring to a destination
+- **delivery**: voluntary transfer of something from one party to another
+- **demand**: request urgently and forcefully
+- **democracy**: the orientation of those who favor government by the people
+- **democratic**: based upon the principles of social equality
+- **demonstrate** (说明;论证;表露)
+- **dense**: having high compaction or concentration
+- **density**: the amount per unit size
+- **deny**: declare untrue; contradict
+- **depart**: go away or leave
+- **department**: a specialized division of a large organization
+- **departure**: the act of leaving
+- **depend**: be determined by something else
+- **dependent**: a person who relies on another person for support
+- **deposit**: the act of putting something somewhere
+- **depress**: push down
+- **depth**: the extent downward or backward or inward
+- **derive**: come from
+- **descend**: move downward and lower, but not necessarily all the way
+- **describe**: give a statement representing something
+- **description**: the act of depicting something
+- **desert** (沙漠 vt.离弃；擅离)
+- **deserve**: be worthy
+- **design**: the act of working out the form of something
+- **desirable**: worth having or seeking or achieving
+- **desire**: the feeling that accompanies an unsatisfied state
+- **desk** (书桌，办公桌)
+- **despair**: a state in which all hope is lost or absent
+- **desperate**: a person who is frightened and in need of help
+- **despise** (鄙视，蔑视)
+- **despite**: contemptuous disregard
+- **destination** (目的地,终点；目标)
+- **destroy**: do away with; cause the ruin or undoing of
+- **destruction**: an event that completely ruins something
+- **detail**: a small part considered separately from the whole
+- **detect**: discover or determine the existence, presence, or fact of
+- **detection**: the perception or discovery that something has occurred
+- **determination**: the act of finding out the properties of something
+- **determine**: find out or learn with certainty, as by making an inquiry
+- **develop**: progress or evolve through a process of natural growth
+- **development**: a process in which something passes to a different stage
+- **device**: an instrumentality invented for a particular purpose
+- **devil** (魔鬼，恶魔)
+- **devise**: arrange by systematic planning and united effort
+- **devote**: dedicate
+- **dew** (露，露水)
+- **diagram**: a drawing intended to explain how something works
+- **dial** (钟面；拨号盘 vt.拨)
+- **dialect**: the usage or vocabulary characteristic of a group of people
+- **dialog**: a conversation between two persons
+- **diameter**: the length of a straight line through the center of a circle
+- **diamond** (金钢石，钻石；菱形)
+- **diary** (日记，日记簿)
+- **dictate**: a guiding principle
+- **dictation**: an authoritative direction or instruction to do something
+- **dictionary**: a reference book containing an alphabetical list of words
+- **die**: lose all bodily functions necessary to sustain life
+- **differ**: be dissimilar or unlike
+- **difference**: the quality of being unlike or dissimilar
+- **different**: unlike in nature, quality, form, or degree
+- **difficult**: requiring great physical or mental effort to accomplish
+- **difficulty**: an effort that is inconvenient
+- **dig**: turn up, loosen, or remove earth
+- **digest**: convert food into absorbable substances
+- **digital** (数字的，计数的)
+- **diligent** (勤勉的，勤奋的)
+- **dim** (昏暗的；朦胧的)
+- **dimension**: a construct distinguishing objects or individuals
+- **dinner** (正餐，主餐；宴会)
+- **dip**: immerse briefly into a liquid
+- **direct**: proceeding without interruption
+- **direction**: a line leading to a place or point
+- **directly**: without turning aside from your course
+- **director**: someone who manages an organization
+- **dirt**: the part of the earth&#039;s surface consisting of humus and disintegrated rock
+- **dirty**: soiled or likely to soil with dirt or grime
+- **disable** (使无能，使伤残)
+- **disadvantage**: the quality of having an inferior or less favorable position
+- **disagree**: be of different opinions
+- **disappear**: become invisible or unnoticeable
+- **disappoint**: fail to meet the hopes or expectations of
+- **disaster**: an event resulting in great loss and misfortune
+- **disk** (圆盘，唱片；磁盘)
+- **discard**: anything that is cast aside
+- **discharge**: remove the unbalanced electricity from
+- **discipline** (纪律；训练 vt.训练)
+- **disclose**: expose to view as by removing a cover
+- **discourage**: try to prevent; show opposition to
+- **discover**: determine the existence, presence, or fact of
+- **discovery** (发现；被发现的事物)
+- **discuss**: consider or examine in speech or writing
+- **discussion**: an extended communication dealing with a particular topic
+- **disease**: an impairment of health
+- **disguise** (隐瞒，掩埋 n.假装)
+- **disgust** (厌恶，憎恶)
+- **dish** (碟，盘子；菜肴)
+- **dishonor** (不光彩；丢脸的人)
+- **dislike**: a feeling of aversion or disapproval
+- **dismiss**: stop associating with
+- **disorder**: a condition in which things are not in their expected places
+- **display**: something intended to communicate a particular impression
+- **disposal**: the act or means of getting rid of something
+- **dispose**: give, sell, or transfer to another
+- **displease** (使不愉快，使生气)
+- **dispute**: the act of coming into conflict
+- **dissatisfy** (使不满，使不平)
+- **dissolve**: pass into a solution
+- **distance**: the property created by the space between two objects
+- **distant**: separated in space or coming from far away
+- **distinct**: constituting a separate entity or part
+- **distinction**: a discrimination between things as different
+- **distinguish**: mark as different
+- **distress**: a state of adversity
+- **distribute**: give to several people
+- **distribution**: the act of spreading or apportioning
+- **district**: a region marked off for administrative or other purposes
+- **disturb**: trouble deeply
+- **ditch**: a long narrow excavation in the earth
+- **dive** (跳水；潜水；俯冲)
+- **diverse**: distinctly dissimilar or unlike
+- **divide**: a serious disagreement between two groups of people
+- **division**: the act of partitioning
+- **divorce** (离婚，离异 vi.离婚)
+- **do**: engage in
+- **dock** (船坞；码头；船厂)
+- **doctor** (医生，医师；博士)
+- **document** (公文，文件；证件)
+- **dog**: a canine domesticated by man since prehistoric times
+- **dollar** (元(货币单位))
+- **domestic**: of or relating to the home
+- **donkey** (驴；笨蛋)
+- **door**: a swinging or sliding barrier that will close the entrance to a room or building or vehicle
+- **dorm** (宿舍)
+- **dormitory** (集体寝室；宿舍)
+- **dose** (剂量，用量；一剂)
+- **dot** (点，圆点 vt.打点于)
+- **double**: consisting of or involving two parts or components usually in pairs
+- **doubt**: the state of being unsure of something
+- **doubtful**: fraught with uncertainty
+- **doubtless** (无疑地；很可能)
+- **down** (向下，在下面)
+- **downstairs**: on or of lower floors of a building
+- **downward**: extending or moving from a higher to a lower place
+- **dozen** (一打，十二个)
+- **draft**: a current of air
+- **drag**: pull, as against a resistance
+- **dragon**: a mythological creature with a reptile body and wings
+- **drain** (排去；放水 n.耗竭)
+- **drama**: a work intended for performance by actors on a stage
+- **dramatic**: characteristic of a stage performance
+- **draw**: cause to move by pulling
+- **drawer**: a boxlike container in a piece of furniture
+- **drawing**: a representation of forms or objects on a surface by means of lines
+- **dread** (畏惧；恐怖 vt.惧怕)
+- **dream** (梦；梦想 vi.做梦)
+- **dress**: put on clothes
+- **drift**: be in motion due to some air or water current
+- **drill** (钻头；操练 vi.钻孔)
+- **drink**: take in liquids
+- **drip**: flowing in drops
+- **drive**: operate or control a vehicle
+- **driver**: someone who drives animals that pull a vehicle
+- **drop**: let fall to the ground
+- **drought**: a shortage of rainfall
+- **drown** (淹死，溺死)
+- **drug** (药，药物，药材)
+- **drum** (鼓；鼓状物，圆桶)
+- **drunk**: someone who is intoxicated
+- **dry**: free from liquid or moisture
+- **duck** (鸭，雌鸭；鸭肉)
+- **due** (预期的；应给的)
+- **dull** (枯燥的；不鲜明的)
+- **dumb** (哑的；无言的)
+- **dump**: a piece of land where waste materials are dumped
+- **durable**: existing for a long time
+- **duration**: the period of time during which something continues
+- **during** (在…期间)
+- **dusk** (薄暮，黄昏，幽暗)
+- **dust** (尘土，灰尘)
+- **duty** (职责；责任；税)
+- **dwelling** (住处，寓所)
+- **dye** (染 n.染料；染色)
+- **dying** (垂死的；临终的)
+- **dynamic** (有活力的；动力的)
+
+## E
+
+- **each** (各，各自 a.各)
+- **eager** (渴望的，热切的)
+- **eagle** (鹰)
+- **ear** (耳朵；听力，听觉)
+- **early** (早 a.早的，早期的)
+- **earn** (赚得，挣得；获得)
+- **earnest** (认真的，诚恳的)
+- **earth** (地球；陆地，地面)
+- **earthquake**: vibration from underground movement along a fault plane
+- **ease**: freedom from difficulty or hardship or effort
+- **easily** (容易地；舒适的)
+- **east** (东；东部 ad.在东方)
+- **eastern**: lying toward or situated in the east
+- **easy**: posing no difficulty; requiring little effort
+- **eat** (吃，喝 vi.吃饭)
+- **echo** (回声，反响 vi.重复)
+- **economic**: of or relating to production and management of wealth
+- **economical**: using the minimum of time or resources for effectiveness
+- **economy**: the system of production and distribution and consumption
+- **edge** (边缘，边；刀口)
+- **edition**: the form in which a text is published
+- **editor**: the person who determines the final content of a text
+- **educate**: give knowledge acquired by learning and instruction
+- **education**: activities that impart knowledge or skill
+- **effect**: a phenomenon that is caused by some previous phenomenon
+- **effective**: producing or capable of producing an intended result
+- **efficiency**: skillfulness in avoiding wasted time and effort
+- **efficient**: being effective without wasting time, effort, or expense
+- **effort**: use of physical or mental energy; hard work
+- **egg** (蛋，鸡蛋，卵)
+- **eight** (八，八个，第八)
+- **eighteen** (十八，十八个)
+- **eighth** (第八 n.八分之一)
+- **eighty** (八十，八十个)
+- **either**: also, likewise, as well
+- **elaborate**: marked by complexity and richness of detail
+- **elastic** (松紧带 a.有弹性的)
+- **elbow**: hinge joint between the forearm and upper arm and the corresponding joint in the forelimb of a quadruped
+- **elder**: a person of more advanced age
+- **elect**: choose by a vote for an office or membership
+- **election**: a vote choosing the winner of a position or political office
+- **electric**: using or providing the flow of charge through a conductor
+- **electrical**: relating to or concerned with electricity
+- **electricity**: a physical phenomenon that can produce light, heat and power
+- **electron**: an elementary particle with negative charge
+- **electronic**: relating to or operating by a controlled current
+- **electronics**: equipment that involves the controlled conduction of electrons (especially in a gas or vacuum or semiconductor)
+- **element**: a substance that cannot be separated into simpler substances
+- **elementary**: of or being the essential or basic part
+- **elephant** (象)
+- **elevator**: lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building
+- **eleven** (十一，十一个)
+- **eleventh** (第十一(个))
+- **eliminate**: end, take out, or do away with
+- **elimination** (消灭，排除，消除)
+- **else** (其它，另外 a.别的)
+- **elsewhere**: in or to another place
+- **embarrass**: cause to feel self-conscious
+- **embrace**: squeeze tightly in your arms, usually with fondness
+- **emerge**: come out into view, as from concealment
+- **emergency**: a sudden unforeseen crisis that requires immediate action
+- **emit**: give off, send forth, or discharge
+- **emotion**: any strong feeling
+- **emotional**: of or pertaining to feelings
+- **emperor**: the male ruler of an empire
+- **emphasis**: intensity or forcefulness of expression
+- **emphasize**: stress or single out as important
+- **empire**: the domain ruled by a single authoritative sovereign
+- **employ**: put into service
+- **employee**: a worker who is hired to perform a job
+- **employer**: a person or firm that hires workers
+- **employment**: the state of having a job
+- **empty** (空的；空洞的)
+- **enable**: provide the means to perform some task
+- **enclose**: surround completely
+- **encounter**: come together
+- **encourage**: inspire with confidence
+- **end**: either extremity of something that has length
+- **ending**: the act of ending something
+- **endless**: having no known beginning and presumably no end
+- **endure**: undergo or be subjected to
+- **enemy** (敌人；仇敌；敌兵)
+- **energy**: forceful exertion
+- **enforce**: compel to behave in a certain way
+- **engage** (使从事于；聘用)
+- **engine**: motor that converts energy into work or motion
+- **engineer**: a person who uses scientific knowledge to solve problems
+- **engineering**: applying scientific knowledge to practical problems
+- **England** (英格兰；英国)
+- **English** (英语 a.英国人的)
+- **Englishman** (英国男子)
+- **enjoy**: derive or receive pleasure from
+- **enlarge**: make bigger
+- **enormous**: extraordinarily large in size or extent or degree
+- **enough** (足够的 ad.足够地)
+- **ensure**: make certain of
+- **enter**: to come or go into
+- **entertain**: provide amusement for
+- **enthusiasm** (热情/心，热忱)
+- **enthusiastic** (热情的，热心的)
+- **entire** (全部的，整个的)
+- **entitle**: give the right to
+- **entrance**: something that provides access to get in
+- **entry**: the act of going in
+- **envelope**: a flat container for a letter or thin package
+- **environment** (环境，外界；围绕)
+- **envy**: a desire to have something that is possessed by another
+- **equal**: having the same quantity, value, or measure as another
+- **equality**: the quality of being the same in quantity, value, or status
+- **equation**: a mathematical statement that two expressions are the same
+- **equip**: provide with, usually for a specific purpose
+- **equipment**: an instrumentality needed for an undertaking
+- **equivalent**: being essentially comparable to something
+- **era** (时代，年代；纪元)
+- **erect**: upright in position or posture
+- **error** (错误，谬误；差错)
+- **escape**: run away from confinement
+- **especially**: to a distinctly greater extent or degree than is common
+- **essay** (短文，散文，小品文)
+- **essential**: basic and fundamental
+- **establish** (建立，设立；确立)
+- **establishment** (建立,设/确立)
+- **estimate**: judge tentatively
+- **Europe** (欧洲)
+- **European** (欧洲的 n.欧洲人)
+- **evaluate**: estimate the nature, quality, ability or significance of
+- **evaporate** (使蒸发 vi.蒸发)
+- **eve** (前夜，前夕，前一刻)
+- **even** (甚至；甚至更，还)
+- **evening** (傍晚，黄昏，晚上)
+- **event**: something that happens at a given place and time
+- **eventually**: after an unspecified period of time or a long delay
+- **ever**: at all times; all the time and on every occasion
+- **every** (每一的；每隔…的)
+- **everybody** (每人，人人)
+- **everyday** (每天的，日常的)
+- **everyone** (每人，人人)
+- **everything** (每件事，事事)
+- **everywhere** (到处，处处)
+- **evidence**: knowledge on which to base belief
+- **evident**: clearly revealed to the mind or the senses or judgment
+- **evil** (邪恶；祸害 a.坏的)
+- **evolution**: sequence of events involved in the development of a species
+- **evolve**: undergo development
+- **exact**: marked by strict and complete accordance with fact
+- **exactly** (确切地；恰恰正是)
+- **exaggerate** (&vi.夸大，夸张)
+- **exam**: a set of questions testing your skill or knowledge
+- **examination** (考试；检/细查)
+- **examine**: observe, check out, and look over carefully or inspect
+- **example**: an item of information that is typical of a class or group
+- **exceed**: be or do something to a greater degree
+- **exceedingly**: to a very great or unusually large degree
+- **excellent**: very good; of the highest quality
+- **except**: prevent from being included or considered or accepted
+- **exception**: an instance that does not conform to a rule
+- **excess**: the state of being more than full
+- **excessive**: beyond normal limits
+- **exchange**: the act of changing one thing for another thing
+- **excite**: act as a stimulant
+- **exciting**: creating or arousing uncontrolled emotion
+- **exclaim**: utter aloud, often with surprise, horror, or joy
+- **exclude**: prevent from entering; shut out
+- **exclusively** (专门地)
+- **excursion**: a journey taken for pleasure
+- **excuse**: a defense of some offensive behavior
+- **execute**: put in effect
+- **executive**: a person responsible for the administration of a business
+- **exercise**: the activity of exerting muscles to keep fit
+- **exert**: put to use
+- **exhaust** (使筋疲力尽；用尽)
+- **exhibit**: make visible or apparent
+- **exhibition**: the act of displaying or demonstrating
+- **exist**: have a presence
+- **existence**: the state or fact of being
+- **exit**: move out of or depart from
+- **expand**: extend in one or more directions
+- **expansion**: the act of increasing in size or volume or quantity or scope
+- **expect**: regard something as probable or likely
+- **expectation**: belief about the future
+- **expense**: a financial burden; money that must be paid out
+- **expensive**: high in price or charging high prices
+- **experience**: the content of observation or participation in an event
+- **experiment**: the act of conducting a controlled test or investigation
+- **experimental**: of the nature of or undergoing a trial
+- **expert**: a person with special knowledge who performs skillfully
+- **explain**: make plain and comprehensible
+- **explanation**: making something understandable
+- **explode**: burst and release energy as through a violent reaction
+- **exploit**: use or manipulate to one&#039;s advantage
+- **explore** (&vi.探险，探索)
+- **explosion**: the act of bursting
+- **explosive**: a substance that releases great energy when heated or struck
+- **export**: sell or transfer abroad
+- **expose**: make visible or apparent
+- **exposure**: the state of being exposed to harm
+- **express**: communicate beliefs or opinions
+- **expression**: the communication of your beliefs or opinions
+- **extend**: stretch out over a distance, space, time, or scope
+- **extension**: act of expanding in scope
+- **extensive**: large in spatial extent or range or scope or quantity
+- **extent**: the point or degree to which something extends
+- **exterior** (外部的；对外的)
+- **external** (外部的，外面的)
+- **extra**: more than is needed, desired, or required
+- **extraordinary**: highly unusual or exceptional or remarkable
+- **extreme** (极度的；尽头的)
+- **extremely** (极端，极其，非常)
+- **eye** (眼睛；眼力；鉴赏力)
+- **eyesight**: normal use of the faculty of vision
+
+## F
+
+- **fable** (寓言；虚构的故事)
+- **fabric** (织物，纺织品；结构)
+- **face**: the front of the human head from the forehead to the chin
+- **facility**: a building or place that provides a particular service
+- **fact**: a piece of information about events that have occurred
+- **factor**: anything that contributes causally to a result
+- **factory**: a plant with facilities for manufacturing
+- **faculty** (才能，能力；系，科)
+- **fade** (褪色；逐渐消失)
+- **Fahrenheit** (华氏温度计)
+- **fail**: be unable
+- **failure**: an act that does not succeed
+- **faint** (微弱的；虚弱的)
+- **fair**: free from favoritism, bias, or deception
+- **fairly**: without favoring one party, in a fair evenhanded manner
+- **faith**: complete confidence in a person or plan, etc.
+- **faithful**: loyal and reliable
+- **fall**: descend freely under the influence of gravity
+- **false** (不真实的；伪造的)
+- **fame**: the state or quality of being widely honored and acclaimed
+- **familiar**: a friend who is frequently in the company of another
+- **family**: a group of people related to one another
+- **famine** (饥荒；严重的缺乏)
+- **famous**: widely known and esteemed
+- **fan** ((运动等)狂热爱好者)
+- **fancy**: not plain; decorative or ornamented
+- **far**: at or to or from a great distance in space
+- **fare**: the sum charged for riding in a public conveyance
+- **farewell**: an acknowledgment or expression of goodwill at parting
+- **farm** (农场，农庄；饲养场)
+- **farmer** (农民，农夫；农场主)
+- **farther**: more distant in especially space or time
+- **fashion**: the latest and most admired style in clothes or behavior
+- **fashionable**: being or in accordance with current social trends
+- **fast**: acting, moving, or capable of acting or moving quickly
+- **fasten**: attach to
+- **fatal**: bringing death
+- **fate**: the ultimate agency predetermining the course of events
+- **father** (父亲；神父；创始人)
+- **father-in-law** (岳父；公公)
+- **fatigue** (疲劳，劳累)
+- **fault**: an imperfection in an object or machine
+- **faulty**: having a defect
+- **favour** (好感；赞同；恩惠)
+- **favourable** (有利的；赞成的)
+- **favourite** (特别受喜爱的)
+- **fear**: an emotion in anticipation of some specific pain or danger
+- **fearful**: experiencing or showing fear
+- **feasible**: capable of being done with means at hand
+- **feast** (盛宴，筵席；节日)
+- **feather** (羽毛；翎毛；羽状物)
+- **feature**: a prominent attribute or aspect of something
+- **February** (二月)
+- **federal** (联邦的；联盟的)
+- **fee** (费，酬金；赏金)
+- **feeble** (虚弱的；微弱的)
+- **feed**: provide as food
+- **feedback**: the process in which output of a system is returned to input
+- **feel**: be conscious of a physical, mental, or emotional state
+- **feeling**: a physical sensation that you experience
+- **fellow** (人，家伙；伙伴)
+- **female** (雌性的动物；女子)
+- **fence** (栅栏)
+- **fertile** (肥沃的；多产的)
+- **fertilizer** (肥料)
+- **festival** (节日；音乐节)
+- **fetch** (拿来；请来，接去)
+- **fever** (发热，发烧；狂热)
+- **few** (很少的；少数的)
+- **fibre** (纤维，纤维质)
+- **fiction**: a literary work based on the imagination
+- **field** (田野；田；运动场)
+- **fierce** (凶猛的，狂热的)
+- **fifteen** (十五；十五个)
+- **fifth** (第五 n.五分之一)
+- **fifty** (五十，五十个)
+- **fight** (打(仗)；斗争)
+- **figure**: alternate name for the body of a human being
+- **file**: record in a public office or in a court of law
+- **fill**: make full, also in a metaphorical sense
+- **film** (影片；胶卷；薄层)
+- **filter** (过滤 n.滤纸)
+- **final** (最后的；决定性的)
+- **finally** (最后；不可更改的)
+- **finance** (财政，金融；财源)
+- **financial** (财政的，金融的)
+- **find**: discover or determine the existence, presence, or fact of
+- **finding**: something that is discovered
+- **fine**: free from impurities
+- **finger** (手指；指状物)
+- **finish** (完成，结束 n.结束)
+- **fire**: the process of combustion of inflammable materials
+- **fireman**: a member of a fire department who tries to extinguish fires
+- **firm**: not soft or yielding to pressure
+- **first**: preceding all others in time or space or degree
+- **fish** (鱼，鱼肉 vi.钓鱼)
+- **fisherman**: someone whose occupation is catching fish
+- **fist** (拳(头))
+- **fit** (适合；安装 vi.适合)
+- **five** (五，五个，第五)
+- **fix**: restore by replacing a part or putting together what is torn or broken
+- **flag** (旗，旗帜；旗舰旗)
+- **flame** (火焰；光辉；热情)
+- **flare** (闪耀 vt.使闪亮)
+- **flash** (闪光 vi.闪，闪烁)
+- **flat**: having a surface without a slope; level
+- **flavour** (味，味道；风味)
+- **fleet** (舰队；船队，机群)
+- **flesh** (肉，肌肉；肉体)
+- **flexible**: able to bend easily
+- **flight**: an instance of traveling by air
+- **float** (漂浮 vt.使漂浮)
+- **flock**: a group of birds
+- **flood** (洪水 vt.淹没)
+- **floor** (地板；楼层)
+- **flour**: fine powdery foodstuff obtained by grinding and sifting the meal of a cereal grain
+- **flourish**: grow vigorously
+- **flow**: move along, of liquids
+- **flower**: reproductive organ of plants especially if showy or colorful
+- **flu**: an acute febrile highly contagious viral disease
+- **fluent**: expressing yourself readily, clearly, effectively
+- **fluid**: continuous amorphous matter that tends to flow
+- **flush**: rinse, clean, or empty with a liquid
+- **fly**: travel through the air; be airborne
+- **focus** (聚焦，注视 n.焦点)
+- **fog** (雾；烟雾，尘雾)
+- **fold** (折叠；合拢 n.褶)
+- **folk**: people in general (often used in the plural)
+- **follow**: travel behind, go after, or come after
+- **following**: the act of pursuing in an effort to overtake or capture
+- **fond** (喜爱的；溺爱的)
+- **food**: any substance that can be metabolized by an animal
+- **fool**: a person who lacks good judgment
+- **foolish**: lacking good sense or judgment
+- **foot** (脚；最下部；英尺)
+- **football** (足球比赛；足球)
+- **footstep**: the sound of a step of someone walking
+- **for** (为；给；因为)
+- **forbid**: command against
+- **force**: influence that results in motion, stress, etc. when applied
+- **forecast**: a prediction about how something will develop
+- **forehead**: the part of the face above the eyes
+- **foreign** (外国的；外来的)
+- **foreigner** (外国人)
+- **foremost**: ranking above all others
+- **forest** (森林；森林地带)
+- **forever**: for a limitless time
+- **forget**: dismiss from the mind; stop remembering
+- **forgive**: stop blaming
+- **fork** (餐叉；叉；分叉)
+- **form**: a perceptual structure
+- **formal**: in accord with established conventions and requirements
+- **formation**: the act of establishing or creating something
+- **former**: the first of two or the first mentioned of two
+- **formula**: a group of symbols that make a mathematical statement
+- **forth**: forward in time, order, or degree
+- **fortnight**: a period of fourteen consecutive days
+- **fortunate**: having unexpected good luck
+- **fortunately**: by good fortune
+- **fortune**: your overall circumstances or condition in life
+- **forty** (四十，第四十)
+- **forward**: at or to or toward the front
+- **found**: set up
+- **foundation**: the basis on which something is grounded
+- **fountain** (泉水，喷泉；源泉)
+- **four** (四，四个，第四)
+- **fourteen** (十四，第十四)
+- **fourth** (第四，四分之一)
+- **fox** (狐狸；狡猾的人)
+- **fraction**: a small part or item forming a piece of a whole
+- **fragment**: a piece broken off or cut off of something else
+- **frame** (框架，框子；构架)
+- **framework**: the underlying structure
+- **France** (法国，法兰西)
+- **frank** (坦白的，直率的)
+- **free**: able to act at will
+- **freedom**: the power to act, speak, or think without being controlled
+- **freely**: in a free manner
+- **freeze** (冻；结冻 vt.使结冰)
+- **freight** (货运；货物；运费)
+- **French** (法国的 n.法国人)
+- **frequency**: the number of occurrences within a given time period
+- **frequent**: coming at short intervals or habitually
+- **frequently**: many times at short intervals
+- **fresh**: recently made, produced, or harvested
+- **friction** (摩擦，摩擦力)
+- **Friday** (星期五)
+- **fridge** (电冰箱)
+- **friend**: a person you know well and regard with affection and trust
+- **friendly**: characteristic of or befitting an ally
+- **friendship**: the state of being a helpful ally
+- **frighten** (使惊恐，吓唬)
+- **frog** (蛙)
+- **from** (从…来；离开)
+- **front**: the side that is forward or prominent
+- **frontier**: a wilderness at the edge of a settled area of a country
+- **frost** (冰冻，严寒；霜)
+- **frown** (皱眉，蹙额)
+- **fruit**: the ripened reproductive body of a seed plant
+- **fruitful**: productive or conducive to producing in abundance
+- **fry** (油煎，油炸，油炒)
+- **fuel** (燃料 vt.给…加燃料)
+- **fulfil**: meet the requirements or expectations of
+- **full**: containing as much or as many as is possible or normal
+- **fun**: activities that are enjoyable or amusing
+- **function** (功能；职务；函数)
+- **fund**: a reserve of money set aside for some purpose
+- **fundamental**: serving as an essential component
+- **funeral** (葬礼，丧礼，丧葬)
+- **funny**: an account of an amusing incident
+- **fur** (软毛；毛皮，裘皮)
+- **furious** (狂怒的；狂暴的)
+- **furnace** (炉子，熔炉；鼓风炉)
+- **furnish**: provide with objects or articles that make a room usable
+- **furniture**: furnishings that make a room or other area ready for occupancy
+- **further**: to or at a greater extent or degree or a more advanced stage
+- **furthermore** (而且，此外)
+- **future** (将来，未来；前途)
+
+## G
+
+- **gain** (获得；增加 n.增进)
+- **gallery** (长廊，游廊；画廊)
+- **gallon** (加仑)
+- **game**: an amusement or pastime
+- **gang** (一帮，一伙)
+- **gap** (缺口；间隔；差距)
+- **garage**: an outbuilding for housing automobiles
+- **garbage** (垃圾，污物，废料)
+- **garden**: a plot of ground where plants are cultivated
+- **gardener**: someone who takes care of a garden
+- **gas**: state of matter distinguished from solid and liquid states
+- **gaseous**: existing as or having the qualities of a gas
+- **gasoline**: a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines
+- **gasp** (气喘，喘息)
+- **gate** (大门；篱笆门)
+- **gather**: assemble or get together
+- **gauge** (量，测量 n.量器)
+- **gay** (快乐的；鲜明的)
+- **gaze** (凝视，盯，注视)
+- **general**: applying to all or most members of a category or group
+- **generally**: usually; as a rule
+- **generate**: bring into existence
+- **generation**: group of genetically related organisms in a line of descent
+- **generator**: someone who originates, causes, or initiates something
+- **generous**: willing to give and share unstintingly
+- **genius**: unusual mental ability
+- **gentle** (和蔼的；轻柔的)
+- **gentleman**: a man of refinement
+- **gently** (有礼貌地；柔和地)
+- **genuine**: not fake or counterfeit
+- **geography**: study of the earth&#039;s surface
+- **geometry**: the mathematics of points and lines and curves and surfaces
+- **germ** (微生物，细菌，幼芽)
+- **German** (德国的 n.德国人)
+- **Germany** (德意志，德国)
+- **gesture**: motion of hands or body to emphasize a thought or feeling
+- **get**: come into the possession of something concrete or abstract
+- **ghost** (鬼，灵魂；鬼魂)
+- **giant** (巨人；巨物)
+- **gift**: something acquired without compensation
+- **girl** (女孩子，姑娘；女儿)
+- **give**: transfer possession of something concrete or abstract
+- **glad** (高兴的；乐意的)
+- **glance**: take a brief look at
+- **glare**: be sharply reflected
+- **glass** (玻璃；玻璃杯)
+- **glide**: move smoothly and effortlessly
+- **glimpse**: a brief or incomplete view
+- **glitter**: the quality of shining with a bright reflected light
+- **globe**: an object with a spherical shape
+- **gloomy** (黑暗的；令人沮丧的)
+- **glorious**: having or deserving or conferring high honor
+- **glory**: a state of high honor
+- **glove** (手套)
+- **glow**: emit a steady even light without flames
+- **glue** (胶，胶水 vt.胶合)
+- **go**: change location
+- **goal** (球门；得分；目的)
+- **goat** (山羊)
+- **God** (神，神像；上帝)
+- **gold**: a soft yellow malleable ductile metallic element
+- **golden**: made from or covered with gold
+- **golf** (高尔夫球)
+- **good**: having desirable or positive qualities
+- **goodbye** (再见，再会)
+- **goodness**: moral excellence or admirableness
+- **goods** (货物，商品)
+- **goose** (鹅，雌鹅)
+- **govern**: exercise authority over, as of nations
+- **government**: the system or form by which a community is ruled
+- **governor**: the head of a state authority
+- **gown** (长袍，长外衣)
+- **grace**: elegance and beauty of movement or expression
+- **graceful**: characterized by beauty of movement, style, or form
+- **gracious**: characterized by kindness and warm courtesy
+- **grade**: a position on a scale of intensity or amount or quality
+- **gradual**: proceeding in small stages
+- **gradually**: in a gradual manner
+- **graduate**: receive an academic degree upon completion of one&#039;s studies
+- **grain** (谷物，谷粒；颗粒)
+- **gramme** (克(重量单位))
+- **grammar**: the branch of linguistics that deals with sentence structure
+- **grammatical** (语法上的)
+- **grand**: large and impressive in physical size or extent
+- **granddaughter**: a female grandchild
+- **grandfather**: the father of your father or mother
+- **grandmother**: the mother of your father or mother
+- **grandson**: a male grandchild
+- **grant** (授给物 vt.授予)
+- **grape** (葡萄；葡萄藤)
+- **graph**: a visual representation of the relations between quantities
+- **grasp**: hold firmly
+- **grass** (草；牧草；草地)
+- **grateful**: feeling or showing thankfulness
+- **gratitude**: a feeling of thankfulness and appreciation
+- **grave**: a place for the burial of a corpse
+- **gravity**: the force of attraction between all masses in the universe
+- **gray** (灰色的 n.灰色)
+- **great** (大的；伟大的)
+- **greatly** (大大地，非常)
+- **greedy** (贪吃的；贪婪的)
+- **Greek** (希腊的 n.希腊人)
+- **green**: of the color between blue and yellow in the color spectrum
+- **greenhouse**: a building with glass walls and roof
+- **greet**: express greetings upon meeting someone
+- **greeting**: an acknowledgment or expression of good will
+- **grey** (灰色的 n.灰色)
+- **grieve** (使悲痛 vi.悲痛)
+- **grind** (磨(碎)；磨快)
+- **grip**: hold fast or firmly
+- **groan** (哼，呻吟 n.呻吟)
+- **grocer** (食品商；杂货商)
+- **grocery** (食品杂货店)
+- **gross** (总的；严重的)
+- **ground**: the solid part of the earth&#039;s surface
+- **group** (小组，群 vi.聚集)
+- **grow**: increase in size by natural process
+- **growth**: changing gradually from a simple to a more complex level
+- **guarantee** (保证；担保物)
+- **guard**: watch over or shield from danger or harm
+- **guess** (&vi.&n.猜测，推测)
+- **guest** (客人，宾客；旅客)
+- **guidance**: the act of showing the way
+- **guide**: someone employed to conduct others
+- **guilty**: responsible for or chargeable with wrongdoing
+- **gulf** (海湾)
+- **gum** (口香糖；树胶)
+- **gun** (枪，炮，手枪)
+- **gunpowder** (黑色火药；有烟火药)
+- **gymnasium** (体育馆，健身房)
+
+## H
+
+- **habit**: an established custom
+- **habitual**: commonly used or practiced
+- **hair**: a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss
+- **haircut**: the act of cutting the hair
+- **half**: one of two equal parts of a divisible whole
+- **hall** (门厅；过道；会堂)
+- **halt** (停止；立定 n.停住)
+- **hamburger** (汉堡包，牛肉饼)
+- **hammer** (锤，榔头 vt.锤击)
+- **hand**: the (prehensile) extremity of the superior limb
+- **handful**: the quantity that can be held in the hand
+- **handkerchief**: a square piece of cloth used for wiping the eyes or nose
+- **handle**: touch, lift, or hold
+- **handsome**: pleasing in appearance
+- **handwriting**: the activity of writing by hand
+- **handy**: skillful at making things or doing manual tasks
+- **hang**: cause to be hanging or suspended
+- **happen**: come to pass
+- **happiness** (幸福，幸运；快乐)
+- **happy** (快乐的；幸福的)
+- **harbour** (海港，港口 vt.庇护)
+- **hard**: resisting weight or pressure
+- **harden**: make hard or harder
+- **hardly**: almost not
+- **hardship**: something difficult to endure
+- **hardware**: tools or implements made of metal
+- **hare** (野兔)
+- **harm**: any physical damage to the body caused by violence or accident or fracture etc.
+- **harmful**: causing or capable of causing damage
+- **harmony** (调合，协调，和谐)
+- **harness** (治理 n.马具，挽具)
+- **harsh** (严厉的；刺耳的)
+- **harvest** (收获，收成 vt.收割)
+- **haste** (急速，急忙；草率)
+- **hasten** (催促 vi.赶紧)
+- **hasty** (急速的；仓促的)
+- **hat** (帽子(一般指有边的))
+- **hatch** (孵出 vi.(蛋)孵化)
+- **hate**: the emotion of intense dislike
+- **hateful**: evoking or deserving hatred
+- **hatred**: the emotion of intense dislike
+- **have**: possess, either in a concrete or an abstract sense
+- **hawk** (鹰，隼)
+- **hay** (干草)
+- **hazard** (危险；公害)
+- **he** ((主格)他)
+- **head**: the upper part of the human body or the body in animals
+- **headache**: pain in the head
+- **heading**: a line of text indicating what the passage below it is about
+- **headline**: the title or caption of a newspaper article
+- **headmaster**: presiding officer of a school
+- **headquarters**: the main office or administrative center of a business
+- **heal**: recover
+- **health**: the general condition of body and mind
+- **healthy**: free from infirmity or disease
+- **heap** ((一)堆；大量)
+- **hear**: perceive (sound) via the auditory sense
+- **heart**: the hollow muscular organ located behind the sternum
+- **heat**: a form of energy transferred by a difference in temperature
+- **heating**: the process of becoming warmer; a rising temperature
+- **heaven** (天堂；天，天空)
+- **heavily** (重重地；大量地)
+- **heavy** (重的；大的；充满的)
+- **hedge** (篱笆，树篱；障碍物)
+- **heel** (脚后跟，踵，后跟)
+- **height**: distance from the base of something to its top
+- **heir**: a person entitled by law to inherit the estate of another
+- **helicopter** (直升机)
+- **hell**: any place of pain and turmoil
+- **hello** (喂)
+- **helmet** (头盔，钢盔)
+- **help** (帮助；援助 n.帮手)
+- **helpful** (给予帮助的；有用的)
+- **helpless** (无助的；无能的)
+- **hen** (母鸡，雌禽)
+- **hence** (因此，所以；今后)
+- **her** ((宾格)她；她的)
+- **herd** (兽群，牧群 vt.放牧)
+- **here** (这里；向这里)
+- **hero**: someone who fights for a cause
+- **heroic**: having qualities appropriate for brave figures
+- **heroine**: the main good female character in a work of fiction
+- **hers** (她的(所有物))
+- **herself** (她自己；她亲自)
+- **hesitate**: pause or hold back in uncertainty or unwillingness
+- **hi** (嗨(表示问候等))
+- **hide** (把…藏起来；隐瞒)
+- **high**: being at or having a relatively great or specific elevation
+- **highly**: to a great degree or extent; favorably or with much respect
+- **highway**: a major road for any form of motor transport
+- **hill** (小山，山岗；丘陵)
+- **hillside** ((小山)山腰，山坡)
+- **him** ((宾格)他)
+- **himself** (他自己；他亲自)
+- **hint**: an indirect suggestion
+- **hire** (租借 n.租用，雇用)
+- **his** (他的，他的东西)
+- **historical**: of or relating to the study of recorded time
+- **history**: a record or narrative description of past events
+- **hit** (打；碰撞 n.击)
+- **hobby** (业余爱好，癖好)
+- **hold** (拿住；掌握；拥有)
+- **hole**: an opening into or through something
+- **holiday**: leisure time away from work devoted to rest or pleasure
+- **hollow**: not solid; having a space or gap or cavity
+- **holy**: belonging to or associated with a divine power
+- **home**: where you live at a particular time
+- **honest** (诚实的；可敬的)
+- **honesty** (诚实，正直)
+- **honey** (蜜，蜂蜜；甜，甜蜜)
+- **honeymoon**: a holiday taken by a newly married couple
+- **honour** (光荣；尊敬，敬意)
+- **honourable** (诚实的；光荣的)
+- **hook** (钩，挂钩 vt.钩住)
+- **hope**: the general feeling that some desire will be fulfilled
+- **hopeful**: having or manifesting optimism
+- **hopeless**: without hope because there seems to be no possibility of comfort or success
+- **horizon**: the line at which the sky and Earth appear to meet
+- **horizontal**: parallel to or in the plane of the horizon or a base line
+- **horn** (号角；警报器；角)
+- **horror**: intense and profound fear
+- **horse** (马；马科动物)
+- **horsepower**: a unit of power equal to 746 watts
+- **hospital** (医院)
+- **host**: a person who invites guests to a social event
+- **hostess**: a woman host
+- **hostile**: characterized by enmity or ill will
+- **hot**: having a high or higher than desirable temperature
+- **hotel**: a building where travelers can pay for lodging and meals and other services
+- **hour** (小时；时间，时刻)
+- **house**: a dwelling that serves as living quarters for a family
+- **household**: a social unit living together in a residence
+- **housewife**: a wife who manages a household while her husband earns the family income
+- **how** (怎么；怎样；多少)
+- **however**: in whatever way or manner
+- **huge** (巨大的，庞大的)
+- **human**: a person; a hominid with a large brain and articulate speech
+- **humble**: marked by meekness or modesty; not arrogant or prideful
+- **humid**: containing or characterized by a great deal of water vapor
+- **humorous**: characterized by the power to cause laughter
+- **humour** (幽默，诙谐，幽默感)
+- **hunger**: a physiological need for food
+- **hungry**: feeling a need or desire to eat food
+- **hunt**: pursue for food or sport (as of wild animals)
+- **hurry** (赶紧 vt.催促)
+- **hurt** (使受伤；使痛心)
+- **husband**: a male partner in a marriage
+- **hut** (小屋，棚屋)
+- **hydrogen**: a colorless, odorless gas; the lightest chemical element
+
+## I
+
+- **I** ((主格)我)
+- **ice**: water frozen in the solid state
+- **ice-cream** (冰淇淋)
+- **idea**: the content of cognition
+- **ideal** (理想的；观念的)
+- **identical** (完全相同的；同一的)
+- **identify** (认出，识别，鉴定)
+- **idiom** (习语，成语)
+- **idle** (空闲的；懒散的)
+- **if** (假如，如果)
+- **ignorant**: uneducated in general; lacking knowledge or sophistication
+- **ignore**: refuse to acknowledge
+- **ill** (有病的；坏的 ad.坏)
+- **illegal**: prohibited by law or by official or accepted rules
+- **illness** (病，疾病)
+- **illustrate** ((用图等)说明)
+- **illustration** (说明，图解；例证)
+- **image** (像；形象；映象)
+- **imaginary** (想象中的，假想的)
+- **imagination** (想象(力)；空想)
+- **imagine** (想象，设想；料想)
+- **imitate** (模仿，仿效；仿制)
+- **immediate**: directly before or after as in a chain of cause and effect
+- **immediately**: without delay or hesitation; with no time intervening
+- **immense**: unusually great in size or amount or extent or scope
+- **immigrant**: a person who comes to a country in order to settle there
+- **impact** (影响，作用；冲击)
+- **impatient**: restless or short-tempered under delay or opposition
+- **implication**: something that is inferred
+- **imply**: express or state indirectly
+- **import**: bring in from abroad
+- **importance** (重要；重要性)
+- **important** (重要的；有势力的)
+- **impose**: charge and collect payment
+- **impossible**: not capable of happening or being done or dealt with
+- **impress**: have a powerful and usually positive effect on
+- **impression**: a vague idea in which some confidence is placed
+- **impressive**: making a strong or vivid mental image
+- **imprison**: lock up or confine, in or as in a jail
+- **improve**: to make better
+- **improvement**: the act of making something better
+- **in** (在…里 ad.进，入)
+- **inch** (英寸)
+- **incident**: a single distinct event
+- **incline**: lower or bend, as in a nod or bow
+- **include**: have as a part; be made up out of
+- **income**: the amount of money one makes over a period of time
+- **incorrect** (不正确的，错误的)
+- **increase**: a process of becoming larger or longer or more numerous
+- **increasingly**: advancing in amount or intensity
+- **indeed**: in truth (often tends to intensify)
+- **indefinite** (不明确的；不定的)
+- **independence**: freedom from control or influence of another or others
+- **independent**: free from external control and constraint
+- **index**: alphabetical listing of names and topics with page numbers
+- **India** (印度)
+- **Indian** (印度的 n.印度人)
+- **indicate**: designate a place, direction, person, or thing
+- **indication**: the act of pointing out by name
+- **indifferent**: marked by a lack of interest
+- **indignant** (愤慨的，义愤的)
+- **indirect**: not leading by a straight line or course to a destination
+- **indispensable**: essential
+- **individual**: being or characteristic of a single thing or person
+- **indoors** (在室内，在屋里)
+- **industrial**: of or relating to commercial enterprise
+- **industrialize**: organize into systematic production or manufacture
+- **industry**: the action of making of goods and services for sale
+- **inefficient** (效率低的，无能的)
+- **inevitable** (不可避免的，必然的)
+- **inexpensive** (花费不多的,廉价的)
+- **infant** (婴儿 a.婴儿的)
+- **infect**: contaminate with a disease
+- **infer**: conclude by reasoning
+- **inferior** (下等的；劣等的)
+- **infinite** (无限的；无数的)
+- **influence**: a power to affect persons or events
+- **influential**: having or exercising power
+- **inform**: impart knowledge of some fact, state or affairs, or event to
+- **information**: knowledge acquired through study or experience
+- **inhabit**: live in; be a resident of
+- **inhabitant**: a person who lives in a particular place
+- **inherit**: receive from a predecessor
+- **initial**: occurring at the beginning
+- **injection**: the forceful insertion of a substance under pressure
+- **injure** (伤害，损害，损伤)
+- **injury** (损害，伤害；受伤处)
+- **ink** (墨水，油墨)
+- **inn** (小旅店；小酒店)
+- **inner** (内部的；内心的)
+- **innocent** (清白的，幼稚的)
+- **input**: signal going into an electronic system
+- **inquire**: conduct an investigation of
+- **inquiry**: an instance of questioning
+- **insect**: a small creature with six legs, a hard body, and two antennae
+- **insert** (插入; 嵌入; 登载)
+- **inside**: relating to or being on the side closer to the center or within a defined space
+- **insist**: be emphatic or resolute and refuse to budge
+- **inspect**: look over carefully
+- **inspection** (检查，审查；检阅)
+- **inspire**: serve as the inciting cause of
+- **install**: set up for use
+- **installation**: the act of setting something up for use
+- **instance**: an item of information that is typical of a class or group
+- **instant**: a very short time
+- **instantly** (立即，即刻)
+- **instead** (代替，顶替；反而)
+- **instinct**: inborn pattern of behavior often responsive to stimuli
+- **institute**: set up or lay the groundwork for
+- **institution**: a custom that has been an important feature of some group
+- **instruction**: activities that impart knowledge or skill
+- **instrument** (仪器;工具；乐器)
+- **insufficient** (不足的;不适当的)
+- **insult** (&n.侮辱，凌辱)
+- **insurance**: protection against future loss
+- **insure**: protect by a contract of reimbursement in case of loss
+- **intellectual**: of or associated with or requiring the use of the mind
+- **intelligence**: the ability to comprehend
+- **intelligent**: having the capacity for thought and reason to a high degree
+- **intend**: have in mind as a purpose
+- **intense**: possessing a distinctive feature to a heightened degree
+- **intensity**: high level or degree
+- **intensive**: characterized by a heightened level or degree
+- **intention**: an anticipated outcome that guides your planned actions
+- **intentional** (故意的，有意识的)
+- **interaction**: mutual or reciprocal dealings or influence
+- **interest**: a sense of concern with and curiosity about something
+- **interesting**: catching or holding your attention
+- **interfere**: get involved, so as to alter or hinder an action
+- **interference**: the act of hindering or obstructing or impeding
+- **interior** (内的；内地的 n.内部)
+- **intermediate**: lying between two extremes in time, space, or state
+- **internal** (内的；国内的)
+- **international**: concerning or belonging to two or more countries
+- **interpret**: make sense of; assign a meaning to
+- **interpretation**: the act of expressing something in an artistic performance
+- **interpreter**: someone who mediates between speakers of different languages
+- **interrupt**: make a break in
+- **interruption** (中断，打断；障碍物)
+- **interval**: the distance between things
+- **interview**: the questioning of a person, often conducted by journalists
+- **intimate** (亲密的；个人的)
+- **into** (进，入；进入到)
+- **introduce**: bring something new to an environment
+- **introduction**: the act of beginning something new
+- **invade**: march aggressively into a territory by military force
+- **invasion**: any entry into an area not previously occupied
+- **invent**: come up with after a mental effort
+- **invention**: the act of making something new
+- **inventor**: someone who is the first to think of or make something
+- **invest**: lay out money or resources in an enterprise
+- **investigate** (&vi.调查)
+- **investigation** (调查，调查研究)
+- **investment**: laying out money or capital in an enterprise
+- **invisible**: impossible or nearly impossible to see
+- **invitation** (邀请，招待；请柬)
+- **invite** (邀请，聘请；招待)
+- **involve**: contain as a part
+- **inward** (里面的 ad.向内)
+- **iron** (铁；烙铁 vt.烫(衣))
+- **irregular** (不规则的；不整齐的)
+- **island**: a land mass that is surrounded by water
+- **isolate**: place or set apart
+- **issue** (问题；发行 vt.发行)
+- **it** (这，那，它)
+- **Italian** (意大利的 n.意大利人)
+- **item** (条，条款；一条)
+- **its** (它的)
+- **itself** (它自己；自身)
+
+## J
+
+- **jacket** (短上衣，茄克衫)
+- **jail** (监狱 vi.监禁)
+- **jam** (果酱)
+- **January** (一月)
+- **Japan** (日本，日本国)
+- **Japanese** (日本的 n.日本人)
+- **jar** (罐子，坛子，广口瓶)
+- **jaw** (颌，颚)
+- **jazz** (爵士音乐，爵士舞曲)
+- **jealous**: suspicious or fearful of being displaced by a rival
+- **jet**: a hard black form of lignite that takes a brilliant polish
+- **jewel**: a precious or semiprecious stone incorporated into a piece of jewelry
+- **jewish** (犹太人的)
+- **job** (职业；工作；零活)
+- **join**: cause to become joined or linked
+- **joint**: junction by which parts or objects are linked together
+- **joke** (笑话 vi.说笑话)
+- **jolly** (快活的；令人高兴的)
+- **journal**: a daily written record of experiences and observations
+- **journalist**: a person who writes or broadcasts news stories
+- **journey**: the act of traveling from one place to another
+- **joy**: the emotion of great happiness
+- **joyful** (十分喜悦的，快乐的)
+- **judge**: an official who decides questions before a court
+- **judgement** (意见；审判；判断)
+- **juice** ((水果等)汁，液)
+- **July** (七月)
+- **jump** (跳；暴涨 vt.跳过)
+- **June** (六月)
+- **jungle** (丛林，密林，莽丛)
+- **junior** (年少的 n.晚辈)
+- **jury**: a body of citizens sworn to give a verdict in a court of law
+- **just**: and nothing more
+- **justice** (正义，公正；司法)
+- **justify**: show to be right by providing proof
+
+## K
+
+- **keen** (热心的；激烈的)
+- **keep**: continue a certain state, condition, or activity
+- **keeper** (看护人；饲养员)
+- **kettle** (水壶，水锅)
+- **key** (钥匙；键；答案)
+- **keyboard**: set of levers that can be pressed, as on a piano or computer
+- **kick** (&vt.&n.踢)
+- **kid** (小孩，儿童，少年)
+- **kill** (杀死；扼杀；消磨)
+- **kilogram**: one thousand grams
+- **kilometer** (千米，公里)
+- **kind**: having a tender and considerate and helpful nature
+- **kindness**: the quality of being warmhearted and considerate and humane
+- **king** (国王，君主)
+- **kingdom** (王国；领域，界)
+- **kiss** (吻 vi.接吻 n.吻)
+- **kitchen** (厨房，灶间)
+- **kite** (风筝)
+- **knee**: hinge joint in the human leg connecting the tibia and fibula with the femur and protected in front by the patella
+- **kneel**: rest one&#039;s weight on one&#039;s knees
+- **knife** (小刀，刀，餐刀)
+- **knit**: make by needlework with interlacing yarn
+- **knob** (门把，拉手；旋纽)
+- **knock** (&vt.&n.敲，击，打)
+- **knot**: a fastening formed by looping and tying a cord or rope
+- **know**: be cognizant or aware of a fact or a piece of information
+- **knowledge**: the result of perception, learning, and reasoning
+
+## L
+
+- **lab** (实验室，研究室)
+- **label** (标签；标记，符号)
+- **laboratory**: a workplace for the conduct of scientific research
+- **labour** (劳动；工作；劳工)
+- **lace** (鞋带，系带；花边)
+- **lack** (&vi.&n.缺乏，不足)
+- **ladder** (梯子，梯状物)
+- **lady** (女士，夫人；贵妇人)
+- **lag** (走得慢 n.落后)
+- **lake** (湖)
+- **lamb** (羔羊，小羊；羔羊肉)
+- **lame** (跛的；瘸的，残废的)
+- **lamp** (灯)
+- **land**: the solid part of the earth&#039;s surface
+- **landing** (上岸，登陆，着陆)
+- **landlady** (女房东；女地主)
+- **landlord**: a property owner who leases property or housing to others
+- **lane** ((乡间)小路；跑道)
+- **language** (语言，语言课程)
+- **lantern** (提灯，灯笼)
+- **lap**: the upper side of the thighs of a seated person
+- **large**: above average in size or number or quantity or magnitude
+- **largely**: mainly or chiefly
+- **laser** (激光)
+- **last**: coming after all others in time or space or degree or being the only one remaining
+- **late**: at or toward an end or late period or stage of development
+- **lately**: in the recent past
+- **later**: happening at a time subsequent to a reference time
+- **Latin** (拉丁的 n.拉丁语)
+- **latter**: the second of two or the second mentioned of two
+- **laugh**: produce laughter
+- **laughter**: the activity of laughing
+- **launch** (发射，投射；发动)
+- **laundry** (洗衣房，洗衣店)
+- **lavatory** (盥洗室，厕所)
+- **law**: the collection of rules imposed by authority
+- **lawn** (草地，草坪，草场)
+- **lawyer**: a professional person authorized for legal practice
+- **lay**: put into a certain place
+- **layer**: a single thickness of some substance or material
+- **layout**: a plan or design of something that is laid out
+- **lazy** (懒惰的，懒散的)
+- **lead**: take somebody somewhere
+- **leader**: a person who rules or guides or inspires others
+- **leadership**: the status of being in charge
+- **leading**: going or proceeding or going in advance; showing the way
+- **leaf** (叶，叶子)
+- **league**: an association of states or individuals for common action
+- **leak** (漏；泄露 n.漏洞)
+- **lean**: incline or bend from a vertical position
+- **leap** (跳，跃 n.跳跃)
+- **learn**: gain knowledge or skills
+- **learned**: having or showing profound knowledge
+- **learning**: the cognitive process of acquiring skill or knowledge
+- **least**: the superlative of `little&#039; that can be used with mass nouns and is usually preceded by `the&#039;; a quantifier meaning smallest in amount or extent or degree
+- **leather** (皮革；皮革制品)
+- **leave** (离去 vt.离开)
+- **lecture**: a speech that is open to the public
+- **left** (左边的 ad.在左边)
+- **leg** (腿，腿部)
+- **legal**: established by or founded upon law or official rules
+- **legend** (传说，传奇)
+- **leisure** (空闲时间；悠闲)
+- **lemon** (柠檬，柠檬树)
+- **lend** (把…借给，贷(款))
+- **length**: the linear extent in space from one end to the other
+- **lens** (透镜，镜片；镜头)
+- **less**: a quantifier meaning not as great in amount or degree
+- **lessen** (减少，减轻；缩小)
+- **lesson** (功课，课；课程)
+- **lest** (惟恐，以免)
+- **let**: actively cause something to happen
+- **letter**: a written message addressed to a person or organization
+- **level** (水平面 a.水平的)
+- **lever** (杆，杠杆；控制杆)
+- **liable**: subject to legal action
+- **liar**: a person who does not tell the truth
+- **liberal**: showing or characterized by broad-mindedness
+- **liberate**: grant freedom to; free from confinement
+- **liberation**: the act of freeing someone or something
+- **liberty**: freedom of choice
+- **librarian** (图书馆馆长)
+- **library** (图书馆；藏书)
+- **license** (许可；执照 vt.准许)
+- **lick** (舔；舔吃)
+- **lid** (盖子，盖，囊盖)
+- **lie**: be prostrate; be in a horizontal position
+- **lieutenant** (陆军中尉；副职官员)
+- **life** (生命；一生；寿命)
+- **lifetime** (一生，终身)
+- **lift**: raise from a lower to a higher position
+- **light**: electromagnetic radiation that can produce visual sensation
+- **lighten**: make lighter or brighter
+- **lightly** (轻轻地，轻松地)
+- **like**: having the same or similar characteristics
+- **likely**: having a good chance of being the case or of coming about
+- **likewise**: in a similar manner
+- **limb** (肢，臂，翼；树枝)
+- **lime** (石灰)
+- **limit**: as far as something can go
+- **limitation**: an act of restricting (as by regulation)
+- **limited**: subject to restrictions or constraints
+- **line**: a length between two points
+- **linen**: a fabric woven with fibers from the flax plant
+- **liner** (班船，班机)
+- **link** (有环连接 n.环)
+- **lion** (狮子；勇猛的人)
+- **lip** (嘴唇)
+- **liquid**: fluid matter having no fixed shape but a fixed volume
+- **liquor**: an alcoholic beverage that is distilled rather than fermented
+- **list** (表，目录 n.列举)
+- **listen** (听，留神听；听从)
+- **listener** (听者，听众之一)
+- **liter** (升(容量单位))
+- **literary**: relating to or characteristic of creative writing
+- **literature**: writings in a particular style on a particular subject
+- **little**: limited or below average in number or quantity or magnitude
+- **live**: have life, be alive
+- **lively**: full of life and energy
+- **liver** (肝；肝脏)
+- **living**: pertaining to living persons
+- **living-room** (起居室)
+- **load**: weight to be borne or conveyed
+- **loaf** (一条面包，一个面包)
+- **loan** (贷款；暂借 vt.借出)
+- **local**: of or belonging to or characteristic of a particular area
+- **locate**: determine the place of by searching or examining
+- **location**: the act of putting something in a certain place
+- **lock** (锁 vt.锁上，锁住)
+- **locomotive** (火车头，机车)
+- **lodge** (暂住，借宿，投宿)
+- **log** (原木，木料)
+- **logic**: the branch of philosophy that analyzes inference
+- **logical**: based on known statements or events or conditions
+- **lonely**: lacking companions or companionship
+- **long**: primarily spatial sense
+- **look**: perceive with attention; direct one&#039;s gaze towards
+- **loop** (圈，环，环孔)
+- **loose**: not affixed
+- **loosen**: make less tight
+- **lord** (贵族；上帝，基督)
+- **lorry** (运货汽车，卡车)
+- **lose**: fail to keep or to maintain
+- **loss**: the act of losing someone or something
+- **lot** (许多，大量；签，阄)
+- **loud**: characterized by sound of great volume or intensity
+- **loudspeaker**: electro-acoustic transducer that converts electrical signals into sounds loud enough to be heard at a distance
+- **love**: a strong positive emotion of regard and affection
+- **lovely**: lovable especially in a childlike or naive way
+- **lover**: a person who loves someone or is loved by someone
+- **low**: less than normal in degree or intensity or amount
+- **lower**: move something or somebody to a lower position
+- **loyal** (忠诚的，忠心的)
+- **loyalty** (忠诚，忠心)
+- **luck**: an unknown and unpredictable phenomenon that causes an event to result one way rather than another
+- **lucky**: having or bringing good fortune
+- **luggage** (行李；皮箱，皮包)
+- **lumber** (木材；木料；制材)
+- **lump**: a compact mass
+- **lunch**: a midday meal
+- **lung** (肺脏，肺)
+- **luxury** (奢侈，奢华；奢侈品)
+
+## M
+
+- **machine**: a mechanical or electrical device that transmits energy
+- **mad** (发疯的；恼火的)
+- **madam** (夫人，女士，太太)
+- **magazine** (杂志，期刊)
+- **magic**: any art that invokes supernatural powers
+- **magnet**: a device that attracts iron and produces lines of force
+- **magnetic**: of or relating to or caused by attraction for iron
+- **magnificent** (壮丽的；华丽的)
+- **maid** (女佣，女仆；少女)
+- **mail**: the bags of letters and packages that are transported by the postal service
+- **main** (主要的，最重要的)
+- **mainly** (主要地，大体上)
+- **mainland**: the main land mass of a country or continent
+- **maintain**: keep in a certain state, position, or activity
+- **maintenance**: activity involved in keeping something in good working order
+- **major**: greater in scope or effect
+- **majority**: the main part
+- **make**: perform or carry out
+- **male** (男的，雄的 n.男子)
+- **man**: an adult person who is male (as opposed to a woman)
+- **manage**: be in charge of, act on, or dispose of
+- **management**: the act of controlling something
+- **mankind**: all of the living human inhabitants of the earth
+- **manly**: characteristic of a man
+- **manner** (方式；态度；礼貌)
+- **manual**: of or relating to the hands
+- **manufacture**: put together out of artificial or natural components
+- **manufacturer**: someone who constructs or produces something
+- **many**: a large number of the persons or things being discussed
+- **map** (地图；图；天体图)
+- **marble** (大理石)
+- **March** (三月)
+- **margin**: the boundary line or area immediately inside the boundary
+- **marine**: of or relating to the sea
+- **mark**: a distinguishing symbol
+- **market** (市场；集市；销路)
+- **marriage**: the state of being a couple voluntarily joined for life
+- **married**: joined in matrimony
+- **marry**: become someone&#039;s spouse
+- **marvelous** (奇迹般的；了不起的)
+- **Marxism**: theory that capitalism will be superseded by communism
+- **Marxist**: advocate of the economic and political theories of Karl Marx
+- **mask** (面具；伪装 vt.掩饰)
+- **mass** (众多；团；群众)
+- **master**: a person who has authority over others
+- **masterpiece** (杰作，名著)
+- **mat** (席子；草席；垫子)
+- **match**: a formal contest in which people or teams compete
+- **mate**: a person&#039;s partner in marriage
+- **material** (材料；素材 a.物质的)
+- **materialism** (唯物主义)
+- **mathematical**: of or pertaining to or of the nature of mathematics
+- **mathematics**: a science dealing with the logic of quantity and arrangement
+- **maths** ((英)数学)
+- **matter** (事情；物质 vi.要紧)
+- **mature** (成熟的 vt.使成熟)
+- **maximum**: the greatest or most complete or best possible
+- **May**: thorny shrub of a small tree having white to scarlet flowers
+- **maybe**: by chance
+- **mayor**: the head of a city government
+- **me** ((宾格)我)
+- **meadow** (草地，牧草地)
+- **meal**: any of the occasions for eating food that occur by custom or habit at more or less fixed times
+- **mean**: denote or connote
+- **meaning**: the message that is intended or expressed or signified
+- **means**: how a result is obtained or an end is achieved
+- **meantime**: the time between one event, process, or period and another
+- **meanwhile**: at the same time but in another place
+- **measurable** (可测量的)
+- **measure**: determine the dimensions of something or somebody
+- **measurement**: assigning numbers to phenomena according to a rule
+- **meat** (肉)
+- **mechanic**: a person who operates devices made to perform tasks
+- **mechanical**: using tools or devices
+- **mechanically** (机械地)
+- **mechanics**: the branch of physics concerned with the motion of bodies
+- **medal**: an award for winning a championship
+- **medical**: relating to the study or practice of medicine
+- **medicine**: the profession devoted to alleviating diseases and injuries
+- **Mediterranean** (地中海 a.地中海的)
+- **medium**: the surrounding environment
+- **meet**: come together
+- **meeting**: the social act of assembling for some common purpose
+- **melon** (瓜，甜瓜)
+- **melt** (融化 vt.使融化)
+- **member** (成员，会员)
+- **memorial**: a recognition of meritorious service
+- **memory**: the cognitive process whereby past experience is remembered
+- **mend** (修理，修补，缝补)
+- **mental**: involving the mind or an intellectual process
+- **mention**: make reference to
+- **menu** (菜单；饭菜，菜肴)
+- **merchant**: a businessperson engaged in retail trade
+- **mercury** (水银，汞)
+- **mercy** (仁慈，慈悲，恩惠)
+- **mere** (仅仅的；纯粹的)
+- **merely** (仅仅，只不过)
+- **merit** (长处，优点；功过)
+- **merry** (欢乐的，愉快的)
+- **mess** (混乱，混杂，肮脏)
+- **message**: a communication that is written or spoken or signaled
+- **messenger**: a person who carries a communication to a recipient
+- **metal**: a chemical element or alloy that is usually a shiny solid
+- **meter** (计量器，计，表)
+- **method** (方法，办法；教学法)
+- **metre**: the basic unit of length adopted under the Systeme International d&#039;Unites (approximately 1.094 yards)
+- **metric**: based on a decimal unit of measurement
+- **microcomputer**: a small digital computer based on a microprocessor and designed to be used by one person at a time
+- **microphone**: a device for changing sound waves into electrical energy
+- **microscope**: magnifier of the image of small objects
+- **midday**: when the morning ends and the afternoon begins
+- **middle**: an area that is approximately central within some larger region
+- **midnight**: 12 o&#039;clock at night; the middle of the night
+- **midst**: the location of something surrounded by other things
+- **might**: physical strength
+- **mild** (和缓的；温柔的)
+- **mile** (英里)
+- **military** (军事的；军人的)
+- **milk** (乳，牛奶 vt.挤(奶))
+- **mill**: a facility for manufacturing
+- **millimetre**: a metric unit of length equal to one thousandth of a meter
+- **million**: the number that is represented as a one followed by 6 zeros
+- **mind**: that which is responsible for one&#039;s thoughts and feelings
+- **mine** (我的)
+- **miner** (矿工)
+- **mineral** (矿物 a.矿物的)
+- **minimum**: the smallest possible quantity
+- **minister**: a person authorized to conduct religious worship
+- **ministry**: the work of a person authorized to conduct religious worship
+- **minor**: inferior in number or size or amount
+- **minority**: being or relating to the smaller in number of two parts
+- **minus**: on the negative side or lower end of a scale
+- **minute**: a unit of time equal to 60 seconds or 1/60th of an hour
+- **miracle**: a marvelous event brought about by a divine being
+- **mirror**: polished surface that forms images by reflecting light
+- **miserable** (痛苦的，悲惨的)
+- **mislead**: take someone in the wrong direction or give wrong directions
+- **miss**: fail to perceive or to catch with the senses or the mind
+- **missile**: a weapon that is forcibly thrown or projected at a target
+- **missing**: not able to be found
+- **mission**: an operation that is assigned by a higher headquarters
+- **mist** (薄雾)
+- **mistake**: a wrong action attributable to bad judgment or inattention
+- **Mister** (先生)
+- **mistress**: an adulterous woman
+- **misunderstand**: interpret in the wrong way
+- **mix**: mix together different elements
+- **mixture**: a collection containing a variety of sorts of things
+- **moan** (呻吟声 vi.呻吟)
+- **mobile**: moving or capable of moving readily
+- **mode**: how something is done or how it happens
+- **model**: a representation of something, often on a smaller scale
+- **moderate**: marked by avoidance of extravagance or extremes
+- **modern**: ahead of the times
+- **modest**: marked by simplicity; having a humble opinion of yourself
+- **modify**: cause to change; make different
+- **moist** (湿润的；多雨的)
+- **moisture** (潮湿，湿气；温度)
+- **molecule**: the simplest structural unit of an element or compound
+- **moment** (片刻，瞬间，时刻)
+- **Monday** (星期一)
+- **money** (货币；金钱，财富)
+- **monitor** (班长；监视器)
+- **monkey** (猴子，猿)
+- **month**: one of the twelve divisions of the calendar year
+- **monthly**: of or occurring or payable every month
+- **monument** (纪念碑；纪念馆)
+- **mood**: a characteristic state of feeling
+- **moon**: the natural satellite of the Earth
+- **moral**: concerned with principles of right and wrong
+- **more**: greater in size or amount or extent or degree
+- **moreover** (再者，加之，此外)
+- **morning** (早晨，上午)
+- **mortal** (终有一死的；致死的)
+- **mosquito** (蚊子)
+- **most**: used to indicate the greatest amount or degree of a quality
+- **mostly**: in large part; mainly or chiefly
+- **mother** (母亲，妈妈)
+- **motion**: the act of changing location from one place to another
+- **motivate**: give an incentive for action
+- **motive**: the reason that arouses action toward a desired goal
+- **motor**: machine that creates mechanical energy and imparts movement
+- **mould** (模子，模型 vt.浇铸)
+- **mount**: go up, advance, or increase
+- **mountain**: a land mass that projects well above its surroundings
+- **mourn** (哀痛，哀悼)
+- **mouse**: small rodent having a pointed snout and small ears
+- **mouth** (嘴，口，口腔)
+- **mouthful** (满口，一口，少量)
+- **move**: change location
+- **movement**: change of position that does not entail a change of location
+- **movie**: a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement
+- **much**: great in quantity or degree or extent
+- **mud** (软泥，泥浆)
+- **muddy** (多泥的，泥泞的)
+- **mug** (大杯)
+- **multiple**: having or involving more than one part or entity
+- **multiply**: combine by adding the same number repeatedly
+- **murder** (&vi.谋杀，凶杀)
+- **murderer** (杀人犯，凶手)
+- **muscle**: animal tissue consisting predominantly of contractile cells
+- **museum**: a building for collecting and displaying valuable objects
+- **mushroom** (蘑菇，菌类植物)
+- **music**: an artistic form of auditory communication
+- **musical**: characterized by vocal or instrumental sound
+- **musician**: someone who plays a musical instrument (as a profession)
+- **must** (aux.必须；必然要)
+- **mute** (缄默的 n.哑巴)
+- **mutter** (轻声低语；抱怨)
+- **mutton** (羊肉)
+- **mutual**: common to or shared by two or more parties
+- **my** (我的)
+- **myself** (我自己；我亲自)
+- **mysterious** (神秘的；难以理解的)
+- **mystery** (神秘；神秘的事物)
+
+## N
+
+- **nail** (钉；指甲 vt.钉)
+- **naked** (裸体的；无遮敝的)
+- **name**: a language unit by which a person or thing is known
+- **namely**: as follows
+- **nap** (小睡，打盹，瞌睡)
+- **narrow** (狭的，狭窄的)
+- **nasty** (龌龊的；淫猥的)
+- **nation**: a politically organized body of people under a government
+- **national**: of or relating to or belonging to a country
+- **nationality**: the status of belonging to a particular country
+- **native** (本土的 n.本地人)
+- **natural**: relating to or concerning the physical world
+- **naturally**: in a natural or normal manner
+- **nature**: the physical world including plants and animals
+- **naughty** (顽皮的，淘气的)
+- **naval** (海军的，军舰的)
+- **navigation** (航行;航海术;导航)
+- **navy** (海军)
+- **near**: near in time or place or relationship
+- **nearby**: not far away in relative terms
+- **nearly**: slightly short of or not quite accomplished; all but
+- **neat** (整洁的；熟练的)
+- **necessarily**: in such a manner as could not be otherwise
+- **necessary**: absolutely essential
+- **necessity**: the condition of being essential or indispensable
+- **neck** (颈，脖子)
+- **necklace** (项链，项圈)
+- **need** (需要 v.aux.需要)
+- **needle** (针，缝补，编织针)
+- **needless** (不需要的)
+- **negative**: characterized by denial or opposition or resistance
+- **neglect**: leave undone or leave out
+- **Negro** (黑人)
+- **neighbour** (邻居，邻国，邻人)
+- **neighbourhood** (邻居关系；邻近)
+- **neither**: used to indicate something also does not apply
+- **nephew** (侄子，外甥)
+- **nerve**: a bundle of fibers running to organs and tissues of the body
+- **nervous**: of or relating to a system of sensory apparatus
+- **nest** (巢，窝，穴)
+- **net**: an open fabric of string or rope or wire woven together
+- **network**: an open fabric woven together at regular intervals
+- **neutral**: having no personal preference
+- **never**: not ever; at no time in the past or future
+- **nevertheless** (然而 ad.仍然)
+- **new**: not of long duration
+- **newly** (新近，最近)
+- **news**: information about recent and important events
+- **newspaper**: a daily or weekly publication with articles and advertisements
+- **next** (紧接的；贴近的)
+- **nice** (美好的，令人愉快的)
+- **niece** (侄女，外甥女)
+- **night**: the time after sunset and before sunrise while it is dark outside
+- **nine** (九，九个)
+- **nineteen** (十九，十九个)
+- **ninety** (九十，九十个)
+- **ninth** (第九；九分之一)
+- **nitrogen**: a common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues
+- **no** (不；并不 a.没有)
+- **noble** (贵族的；高尚的)
+- **nobody** (谁也不；无人)
+- **nod** (点(头)；点头表示)
+- **noise** (喧闹声；响声；噪声)
+- **noisy** (嘈杂的；喧闹的)
+- **none**: not at all or in no way
+- **nonsense**: a message that seems to convey no meaning
+- **noon** (正午，中午)
+- **nor** (也不；不)
+- **normal**: being approximately average or within certain limits
+- **normally**: under normal conditions
+- **north** (北，北方 a.北方的)
+- **northeast**: the direction corresponding to the northeastward compass point
+- **northern**: situated in or oriented toward the north
+- **northwest**: the direction corresponding to the northwestward compass point
+- **nose** (鼻子；突出部分)
+- **not** (不，没有)
+- **note**: a brief written record
+- **notebook**: a book with blank pages for recording notes or memoranda
+- **nothing**: in no respect; to no degree
+- **notice**: the act of paying attention
+- **noticeable**: capable of being detected
+- **noun** (名词)
+- **novel**: an extended fictional work in prose
+- **November** (十一月)
+- **now**: at the present moment
+- **nowadays**: in these times
+- **nowhere**: not anywhere; in or at or to no place
+- **nuclear**: constituting the core or central part
+- **nucleus**: a part of the cell responsible for growth and reproduction
+- **nuisance** (讨厌的东西)
+- **number**: a concept of quantity involving zero and units
+- **numerous**: amounting to a large indefinite number
+- **nurse**: one skilled in caring for young children or the sick
+- **nursery**: a child&#039;s room for a baby
+- **nut**: usually large hard-shelled seed
+- **nylon** (尼龙，耐纶)
+
+## O
+
+- **oak** (栎属植物；栎木)
+- **oar** (浆，橹)
+- **obey**: comply with; do what one is told
+- **object**: a tangible and visible entity
+- **objection**: the act of expressing earnest opposition or protest
+- **objective**: the goal intended to be attained
+- **oblige**: force somebody to do something
+- **observation**: the act of taking a patient look
+- **observe**: watch attentively
+- **observer**: a person who becomes aware through the senses
+- **obstacle** (障碍，障碍物，妨害)
+- **obtain** (获得，得到，买到)
+- **obvious**: easily perceived by the senses or grasped by the mind
+- **obviously** (明显地，显然地)
+- **occasion**: an event that occurs at a critical time
+- **occasional**: occurring from time to time
+- **occasionally**: now and then or here and there
+- **occupation**: the principal activity in one&#039;s life to earn money
+- **occupy**: live in (a certain place)
+- **occur**: come to pass
+- **occurrence**: an instance of something happening
+- **ocean** (海洋；洋)
+- **Oceania** (大洋洲)
+- **oˈclock** (…点钟)
+- **October** (十月)
+- **odd** (奇数的；单只的)
+- **odour** (气味，香气；味道)
+- **of** (…的；由于)
+- **off** ((离)开；(停)止)
+- **offend**: cause to feel resentment or indignation
+- **offer**: present for acceptance or rejection
+- **office**: place of business where professional duties are performed
+- **officer**: a member of a police force
+- **official**: of or relating to a place of business
+- **often** (经常，常常)
+- **oh** (嗬，哦，唉呀)
+- **oil**: a slippery or viscous liquid or liquefiable substance not miscible with water
+- **old**: having lived for a long time or attained a specific age
+- **omit**: leave undone or leave out
+- **on** (在…上；在…旁)
+- **once**: on one occasion
+- **one**: smallest whole number or a numeral representing this number
+- **oneself** (自己；亲自)
+- **onion**: bulbous plant having hollow leaves cultivated worldwide for its rounded edible bulb
+- **only**: without any others being included or involved
+- **onto** (到…上)
+- **open**: affording free passage or access
+- **opening**: an open or empty space in or between things
+- **opera** (歌剧)
+- **operate**: perform as expected when applied
+- **operation**: process or manner of functioning
+- **operational**: pertaining to a series of actions for achieving a result
+- **operator**: an agent that operates some apparatus or machine
+- **opinion** (意见，看法，主张)
+- **opponent**: someone who offers resistance
+- **opportunity**: a possibility from a favorable combination of circumstances
+- **oppose**: be against
+- **opposite**: being directly across from each other
+- **oppress** (压迫，压制；压抑)
+- **optical** (眼的；光学的)
+- **optimistic**: hopeful that the best will happen in the future
+- **option**: one of a number of things from which only one can be chosen
+- **optional**: possible but not necessary; left to personal choice
+- **or** (或，或者；即)
+- **oral**: using speech rather than writing
+- **orange** (橙(树)；柑(树))
+- **orbit** (运行轨道 vt.环绕)
+- **orchestra** (管弦乐队)
+- **order**: logical arrangement of different elements
+- **orderly**: neat or organized
+- **ordinary**: lacking special distinction, rank, or status
+- **ore** (矿，矿石，矿砂)
+- **organ**: a structure in an animal specialized for some function
+- **organic**: having properties characteristic of living beings
+- **organism**: a living thing that can act or function independently
+- **organization**: a methodical and orderly manner or approach
+- **organize**: arrange by systematic planning and united effort
+- **oriental** (东方的；东方国家的)
+- **origin**: the place where something begins
+- **original**: preceding all others in time
+- **ornament** (装饰物；装饰)
+- **orphan** (孤儿)
+- **other**: not the same one or ones already mentioned or implied
+- **otherwise**: in another and different manner
+- **ought** (aux.应当，应该)
+- **ounce** (盎司，英两)
+- **our** (我们的)
+- **ours** (我们的)
+- **ourselves** (我们自己)
+- **out** (出，在外；现出来)
+- **outcome**: something that results
+- **outdoor**: pertaining to or concerning the outdoors or outdoor activities
+- **outdoors** (在户外，在野外)
+- **outer** (外部的，外面的)
+- **outlet**: an opening that permits escape or release
+- **outline**: the line that appears to bound an object
+- **outlook**: an attitude that determines how you respond to situations
+- **output**: production of a certain amount
+- **outset**: the time at which something is supposed to begin
+- **outside**: the region that is outside of something
+- **outskirt** (外边，郊区)
+- **outstanding**: of major significance or importance
+- **outward** (外面的；向外的)
+- **outwards** (向外，往海外)
+- **oven** (炉，灶；烘箱)
+- **over**: beyond the top or upper surface or edge
+- **overall**: involving only main features
+- **overcoat**: a heavy coat worn over clothes in winter
+- **overcome**: win a victory over
+- **overhead**: located or originating from above
+- **overlook**: have a view of something from above
+- **overnight**: during or for the length of one night
+- **overseas**: beyond or across the ocean
+- **overtake**: catch up with and possibly overtake
+- **overtime** (超时的，加班的)
+- **owe**: be obliged to pay or repay
+- **owl** (猫头鹰，枭)
+- **own**: belonging to or on behalf of a specified person
+- **owner**: a person who owns something
+- **ownership**: the state of being in possession of something
+- **ox** (牛；公牛，阉牛)
+
+## P
+
+- **pace** (步，步速 vi.踱步)
+- **pacific**: disposed to peace or of a peaceful nature
+- **pack**: a convenient package or parcel (as of cigarettes or film)
+- **package**: a wrapped container
+- **packet**: a small package or bundle
+- **pad** (垫；本子 vt.填塞)
+- **page** (页)
+- **pail** (桶，提桶)
+- **pain**: a physical feeling of suffering or discomfort
+- **painful**: causing physical or psychological pain
+- **paint**: a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating
+- **painter**: an artist who paints
+- **painting**: creating a picture with paints
+- **pair**: a set of two similar things considered as a unit
+- **palace** (宫，宫殿)
+- **pale** (苍白的；浅的)
+- **palm** (手掌，手心；掌状物)
+- **pan**: shallow container made of metal
+- **panda** (小猫熊；猫熊)
+- **pane** (窗格玻璃)
+- **panel**: sheet that forms a distinct section of something
+- **pant** (气喘；心跳)
+- **paper**: a material made of cellulose pulp derived mainly from wood or rags or certain grasses
+- **parade** (游行；检阅 vi.游行)
+- **paradise** (伊甸乐园；天堂)
+- **paragraph**: one of several distinct subdivisions of a text
+- **parallel** (平行的；相同的)
+- **parcel** (包裹，小包，邮包)
+- **pardon**: accept an excuse for
+- **parent** (父亲，母亲，双亲)
+- **park** (公园；停车场)
+- **parliament** (议会，国会)
+- **part**: one of the portions into which something is regarded as divided and which together constitute a whole
+- **partial**: being or affecting only a segment
+- **partially**: in some degree; not wholly
+- **participate**: be involved in
+- **particle**: (nontechnical usage) a tiny piece of anything
+- **particular**: unique or specific to a person or thing or category
+- **particularly**: to a distinctly greater extent or degree than is common
+- **partly**: in part; in some degree; not wholly
+- **partner**: a person who is a member of a cooperative relationship
+- **party**: an occasion on which people gather to socialize and have fun
+- **pass**: go across or through
+- **passage**: the act of moving from one state or place to the next
+- **passenger**: a traveler riding in a vehicle but not operating it
+- **passion** (激情，热情；爱好)
+- **passive** (被动的；消极的)
+- **passport**: a document allowing a citizen to travel abroad
+- **past**: earlier than the present time; no longer current
+- **paste** (糊，酱；浆湖)
+- **pastime** (消遣，娱乐)
+- **pat** (&vt.&n.轻拍)
+- **patch** (补钉；碎片 vt.补缀)
+- **path** (路，小道；道路)
+- **patience**: good-natured tolerance of delay or incompetence
+- **patient**: enduring trying circumstances with even temper
+- **pattern** (型，式样，模，模型)
+- **pause** (&vi.中止，暂停)
+- **pave** (铺，筑(路等))
+- **pavement** ((英)人行道)
+- **paw** (脚爪，爪子)
+- **pay**: give money, usually in exchange for goods or services
+- **payment**: the act of giving money in exchange for something
+- **pea** (豌豆；豌豆属植物)
+- **peace**: the state prevailing during the absence of war
+- **peaceful**: not disturbed by strife or turmoil or war
+- **peach** (桃子，桃树)
+- **peak**: a V shape
+- **pear** (梨子，梨树)
+- **pearl** (珍珠；珍珠母)
+- **peasant** (农民)
+- **pebble** (卵石，细砾)
+- **peculiar** (特有的；特别的)
+- **peel** (剥(皮)，削(皮))
+- **peep** ((从缝隙中)偷看)
+- **pen** (钢笔，自来水笔)
+- **pencil** (铅笔)
+- **penetrate** (穿过 vi.穿入)
+- **peninsula**: a large mass of land projecting into a body of water
+- **penny** ((英)便士；(美)分)
+- **pension**: regular payment to allow a person to subsist without working
+- **people**: any group of human beings collectively
+- **pepper** (胡椒，胡椒粉)
+- **per** (每)
+- **perceive**: become aware of through the senses
+- **percent**: a proportion in relation to a whole
+- **percentage**: a proportion in relation to a whole
+- **perfect**: being complete of its kind and without defect or blemish
+- **perfectly** (很，完全)
+- **perform**: get done
+- **performance**: the act of doing something successfully
+- **perfume** (香味，芳香；香料)
+- **perhaps**: by chance
+- **period**: an amount of time
+- **permanent**: continuing or enduring without marked change in status
+- **permanently** (永久/持久地)
+- **permission**: approval to do something
+- **permit**: allow the presence of or allow without opposing
+- **persist**: refuse to stop
+- **person**: a human being
+- **personal**: concerning an individual or his or her private life
+- **personnel**: group of people willing to obey orders
+- **perspective**: a way of regarding situations or topics
+- **persuade**: cause somebody to adopt a certain position or belief
+- **pessimistic** (悲观的；厌世的)
+- **pet** (爱畜；宠儿 a.宠爱的)
+- **petrol**: gasoline
+- **petroleum**: a dark oil consisting mainly of hydrocarbons
+- **phase**: any distinct time period in a sequence of events
+- **phenomenon** (现象)
+- **philosopher**: a specialist in the investigation of existence and knowledge
+- **philosophy**: the rational investigation of existence and knowledge
+- **phone** (电话，电话机；耳机)
+- **photograph**: a picture taken with a camera or phone that shows people or scenes
+- **photographic** (摄影的，摄影用的)
+- **phrase** (短语；习惯用语)
+- **physical**: involving the body as distinguished from the mind or spirit
+- **physician**: a licensed medical practitioner
+- **physicist**: a scientist trained in the science of matter and energy
+- **physics**: the science of matter and energy and their interactions
+- **piano** (钢琴)
+- **pick**: look for and gather
+- **picnic** (郊游，野餐 vi.野餐)
+- **picture**: a visual representation produced on a surface
+- **pie** ((西点)馅饼)
+- **piece** (碎片，块 vt.拼合)
+- **pierce** (剌穿 vi.穿入)
+- **pig** (猪，小猪，野猪)
+- **pigeon** (鸽子)
+- **pile** (堆 vt.堆叠，累积)
+- **pill** (药丸，丸剂)
+- **pillar** (柱，柱子；栋梁)
+- **pillow** (枕头)
+- **pilot** (领航员；飞行员)
+- **pin** (针，饰针 n.别住)
+- **pinch** (捏，拧，掐掉)
+- **pine** (松树，松木)
+- **pink** (粉红色 a.粉红色的)
+- **pint** (品脱)
+- **pioneer** (拓荒者；先驱者)
+- **pipe** (管子，导管；烟斗)
+- **pipeline** (管道，管线)
+- **pistol** (手枪)
+- **pit** (坑，地坑；煤矿)
+- **pitch** (沥青)
+- **pity** (怜悯；遗憾 vt.同情)
+- **place**: a point located with respect to surface features of a region
+- **plain**: simple
+- **plan**: a series of steps to be carried out or goals to be achieved
+- **plane**: an unbounded two-dimensional shape
+- **planet** (行星)
+- **plant**: a living organism without the power to move
+- **plantation**: an estate where cash crops are grown on a large scale
+- **plaster** (灰泥；硬膏；熟石膏)
+- **plastic** (可塑的 n.塑料)
+- **plate**: dish on which food is served or from which food is eaten
+- **platform**: a raised horizontal surface
+- **play**: engage in recreational activities rather than work
+- **player**: a person who participates in or is skilled at some game
+- **playground**: an area where many people go for recreation
+- **pleasant**: being in harmony with your taste or likings
+- **please**: give enjoyment to
+- **pleasure**: something or someone that provides a source of happiness
+- **plentiful** (丰富的，富裕的)
+- **plenty** (丰富，充足，大量)
+- **plot** (小块土地 vt.密谋)
+- **plough** (犁 vt.&vi.犁，耕)
+- **pluck** (采，摘；拉下 n.拉)
+- **plug** (塞子；插头 vt.塞)
+- **plunge** (使投入；使陷入)
+- **plural** (复数的 n.复数)
+- **plus**: on the positive side or higher end of a scale
+- **P.M** (下午，午后)
+- **pocket** (衣袋 n.袖珍的)
+- **poem**: a composition in metrical feet forming rhythmical lines
+- **poet**: a writer of verse consisting of lines that often rhyme
+- **poetry**: literature in metrical form
+- **point**: a distinguishing or individuating characteristic
+- **poison** (毒，毒药 vt.毒害)
+- **poisonous** (有毒的，有害的)
+- **pole** (杆，柱)
+- **police** (警察；警察当局)
+- **policeman**: a member of a police force
+- **policy**: a plan of action adopted by an individual or social group
+- **polish** (磨光；使优美)
+- **polite**: showing regard for others in manners, speech, behavior, etc.
+- **political**: involving or characteristic of governing or social power
+- **politician**: a leader engaged in civil administration
+- **politics**: the activities involved in managing a state or a government
+- **pollute** (弄脏，污染，沾污)
+- **pollution** (污染)
+- **pond** (池塘)
+- **pool** (水塘，游泳池，水池)
+- **poor**: having little money or few possessions
+- **pop**: make a sharp explosive noise
+- **popular**: regarded with great favor or approval by the general public
+- **population**: the people who inhabit a territory or state
+- **porch** (门廊，入口处)
+- **pork** (猪肉)
+- **porridge** (粥，麦片粥)
+- **port**: where people and merchandise can enter or leave a country
+- **portable**: easily or conveniently transported
+- **porter**: a person employed to carry luggage and supplies
+- **portion**: something determined in relation to a thing that includes it
+- **portrait**: any likeness of a person, in any medium
+- **Portuguese** (葡萄牙人/语)
+- **position**: the particular part of space occupied by something
+- **positive** (确定的；积极的)
+- **possess**: have ownership of
+- **possession**: anything owned
+- **possibility**: capability of existing or happening or being true
+- **possible**: capable of happening or existing
+- **possibly**: to a degree possible of achievement or by possible means
+- **post**: piece of timber or metal fixed firmly in an upright position
+- **postage**: the charge for mailing something
+- **postman**: a man who delivers the mail
+- **postpone**: hold back to a later time
+- **pot** (锅，壶，罐，盆)
+- **potato** (马铃薯，土豆)
+- **potential**: existing in possibility
+- **pound** (磅；英磅)
+- **pour** (灌，倒 vi.倾泻)
+- **poverty**: the state of having little or no money and possessions
+- **powder** (粉末；药粉；火药)
+- **power**: possession of the qualities required to do something
+- **powerful**: having great force or effect
+- **practical**: guided by experience and observation rather than theory
+- **practically**: in a manner concerned with actual use
+- **practice**: a customary way of operation or behavior
+- **practise**: engage in a rehearsal (of)
+- **praise** (赞扬，赞美 vi.赞扬)
+- **pray**: address a deity, a prophet, a saint or an object of worship
+- **prayer**: reverent petition to a deity
+- **precaution**: a measure taken in advance to ward off impending danger
+- **preceding** (在前的；在先的)
+- **precious**: of high worth or cost
+- **precise**: sharply exact or accurate or delimited
+- **precision**: the quality of being exact
+- **predict**: make a guess about what will happen in the future
+- **preface** (序言，前言，引语)
+- **prefer**: like better; value more highly
+- **preferable**: more desirable than another
+- **preference**: the right or chance to choose
+- **prejudice**: a partiality preventing objective consideration of an issue
+- **preliminary**: preceding or in preparation for something more important
+- **premier** (总理，首相)
+- **preparation**: setting in order in advance some act or purpose
+- **prepare**: make ready or suitable or equip in advance
+- **preposition**: a word before a noun or pronoun connecting to another word
+- **prescribe**: issue commands or orders for
+- **presence**: current existence
+- **present**: happening or existing now
+- **presently**: at this time or period; now
+- **preserve**: keep in safety and protect from harm, loss, or destruction
+- **president**: the leader of a republic or democracy
+- **press**: put pressure or force upon something
+- **pressure**: the act of putting pressure on something
+- **pretend** (假托，借口 vi.假装)
+- **pretty** (漂亮的，标致的)
+- **prevail**: be larger in number, quantity, power, status or importance
+- **prevent**: keep from happening or arising; make impossible
+- **previous**: just preceding something else in time or order
+- **previously** (先前，预先)
+- **price**: the amount of money needed to purchase something
+- **pride**: a feeling of self-respect and personal worth
+- **priest** (教士，牧师，神父)
+- **primarily**: for the most part
+- **primary**: of first rank or importance or value
+- **prime**: of or relating to the first or originating agent
+- **primitive**: characteristic of an earlier ancestral type
+- **prince**: a male member of a royal family other than the sovereign
+- **princess**: a female member of a royal family other than the queen
+- **principal**: main or most important
+- **principle**: a basic generalization that is accepted as true
+- **print**: the text appearing in a book, newspaper, or other printed publication
+- **prior** (在先的；优先的)
+- **prison**: a correctional institution where persons are confined while on trial or for punishment
+- **prisoner**: a person who is confined
+- **private**: confined to particular persons or groups
+- **privilege**: a special advantage or benefit not enjoyed by all
+- **prize**: something given for victory or superiority in a contest or competition or for winning a lottery
+- **probability**: a measure of how likely it is that some event will occur
+- **probable**: likely but not certain to be or become true or real
+- **probably**: with considerable certainty; without much doubt
+- **problem**: a question raised for consideration or solution
+- **procedure**: a particular course of action intended to achieve a result
+- **proceed**: move ahead; travel onward in time or space
+- **process**: a particular course of action intended to achieve a result
+- **procession**: the act of moving forward, as toward a goal
+- **proclaim**: declare formally
+- **produce**: bring forth or yield
+- **product**: an artifact that has been created by someone or some process
+- **production**: the act or process of making something
+- **productive**: capable of bringing forth, especially abundantly
+- **profession**: an occupation requiring special education
+- **professional**: of or relating to or suitable as an occupation
+- **professor**: a member of the faculty at a college or university
+- **profit**: the advantageous quality of being beneficial
+- **program**: a series of steps to be carried out
+- **progress**: the act of moving forward, as toward a goal
+- **progressive**: favoring or promoting modern or innovative ideas
+- **prohibit**: command against
+- **project**: a planned undertaking
+- **prominent** (实起的；突出的)
+- **promise**: a verbal commitment agreeing to do something in the future
+- **promising**: likely to have a successful outcome or positive results
+- **promote**: assign to a higher position
+- **prompt** (及时的 vt.敦促)
+- **pronoun** (代名词)
+- **pronounce**: speak or utter in a certain way
+- **pronunciation**: the manner in which someone utters a word
+- **proof**: any evidence that helps to establish the truth of something
+- **proper**: marked by suitability or rightness or appropriateness
+- **properly** (适当地；彻底地)
+- **property**: something owned
+- **proportion**: relation with respect to comparative quantity or magnitude
+- **proportional**: having a constant ratio
+- **proposal** (提议，建议；求婚)
+- **propose**: present for consideration, examination, or criticism
+- **prospect**: the possibility of future success
+- **prosperity**: the condition of having good fortune
+- **prosperous**: in fortunate circumstances financially
+- **protect**: shield from danger, injury, destruction, or damage
+- **protection**: the activity of shielding someone or something
+- **protective**: intended or adapted to provide safety of some kind
+- **protein** (蛋白质，朊)
+- **protest**: a formal and solemn declaration of objection
+- **proud**: feeling self-respect, self-esteem, or self-importance
+- **prove**: establish the validity of something
+- **provide**: give something useful or necessary to
+- **provided** (以…为条件)
+- **province** (省；领域，部门)
+- **provision**: the activity of supplying something
+- **psychological**: mental or emotional as opposed to physical in nature
+- **public**: not private
+- **publication**: the act of issuing printed materials
+- **publish**: prepare and issue for public distribution or sale
+- **pudding** (布丁)
+- **puff** ((一)喷，(一)吹)
+- **pull** (拉，拖；拉，拉力)
+- **pulse**: the steady movement of the body&#039;s blood-pumping organ
+- **pump**: a device that moves fluid or gas by pressure or suction
+- **punch**: deliver a quick blow to
+- **punctual**: acting or arriving exactly at the time appointed
+- **punish**: impose a penalty on
+- **punishment**: the act of imposing a penalty
+- **pupil** (学生，小学生)
+- **puppet** (木偶，玩偶；傀儡)
+- **purchase**: acquire by means of a financial transaction
+- **pure** (纯粹的；纯洁的)
+- **purely** (纯粹地，完全地)
+- **purify** (使纯净，使洁净)
+- **purity** (纯净；纯洁；纯度)
+- **purple** (紫色 a.紫的)
+- **purpose**: what something is used for
+- **purse** (钱包，小钱袋，手袋)
+- **pursue**: follow in an effort to capture
+- **pursuit**: the act of following in an effort to overtake or capture
+- **push** (推，逼迫 vi.推)
+- **put**: cause to be in a certain state
+- **puzzle** (难题；谜 vi.使迷惑)
+
+## Q
+
+- **qualify**: prove capable or fit; meet requirements
+- **quality**: an essential and distinguishing attribute of something
+- **quantity** (量，数量，分量)
+- **quarrel** (争吵，吵架，口角)
+- **quart** (夸脱(=2 品脱))
+- **quarter**: one of four equal parts
+- **quarterly**: of or relating to a period of three months
+- **queen** (王后；女王)
+- **queer** (奇怪的，古怪的)
+- **question**: a sentence of inquiry that asks for a reply
+- **queue** (行列 vi.排队等候)
+- **quick** (快的；敏捷的)
+- **quicken** (加快 vi.加快)
+- **quickly** (快，迅速)
+- **quiet** (寂静的；安静的)
+- **quilt** (被(子))
+- **quit** (离开，退出；停止)
+- **quite** (完全；相当；的确)
+- **quiz** (小型考试，测验)
+- **quotation**: a passage or expression that is cited
+- **quote**: repeat a passage from
+
+## R
+
+- **rabbit** (兔子，野兔)
+- **race**: a contest of speed
+- **racial** (种族的，人种的)
+- **rack** (搁物架；行李架)
+- **racket** (球拍)
+- **radar**: measuring instrument using pulses of microwave radiation
+- **radiate** (发射光线；辐射)
+- **radiation**: the act of spreading outward from a central source
+- **radio**: medium for communication
+- **radioactive**: exhibiting or caused by emissions in nuclear decay
+- **radioactivity** (放射性，放射(现象))
+- **radish** (小萝卜)
+- **radium** (镭)
+- **radius**: a straight line from the center to the perimeter of a circle
+- **rag** (破布，碎布，抹布)
+- **rage** ((一阵)狂怒，盛怒)
+- **raid** (袭击；突然搜查)
+- **rail**: a horizontal bar, usually of wood or metal
+- **railroad** (铁路 vi.由铁路运输)
+- **railway**: line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight
+- **rain**: water falling in drops from vapor in the atmosphere
+- **rainbow**: an arc of colored light in the sky caused by refraction of the sun&#039;s rays by rain
+- **rainy**: (of weather) wet by periods of rain
+- **raise**: move upwards
+- **rake** (耙子 vi.耙；搜索)
+- **range**: a variety of different things or activities
+- **rank**: relative status
+- **rapid** (快的 n.急流)
+- **rapidly** (迅速地)
+- **rare**: especially good, remarkable, or superlative
+- **rarely**: not often
+- **rat** (老鼠，耗子)
+- **rate**: a quantity considered as a proportion of another quantity
+- **rather** (宁可，宁愿；相当)
+- **ratio**: relation with respect to comparative quantity or magnitude
+- **rational**: consistent with or based on or using reason
+- **raw** (未煮过的；未加工的)
+- **ray**: a group of nearly parallel lines of electromagnetic radiation
+- **razor** (剃刀)
+- **reach** (抵达；伸出 vi.达到)
+- **react**: show a response to something
+- **reaction**: an idea evoked by some experience
+- **read**: look at and say out loud something written or printed
+- **reader**: a person who can read; a literate person
+- **readily** (乐意地；无困难地)
+- **reading**: written material intended to be read
+- **ready** (准备好的；愿意的)
+- **real**: being or occurring in fact or actuality
+- **reality**: the state of being actual
+- **realize**: be fully aware or cognizant of
+- **really**: in actual fact
+- **realm**: a domain in which something is dominant
+- **reap**: get or derive
+- **rear** (后部，后面；背面)
+- **reason**: a logical motive for a belief or action
+- **reasonable**: showing sound judgment
+- **rebel** (造反 n.造反者)
+- **rebellion** (造反；叛乱；反抗)
+- **recall**: bring to mind
+- **receipt**: the act of receiving
+- **receive**: get something; come into possession of
+- **receiver**: a person who receives something
+- **recent** (新近的，最近的)
+- **recently** (最近，新近)
+- **reception**: the act of taking in
+- **recite**: repeat aloud from memory
+- **recognition**: identifying something or someone by remembering
+- **recognize**: perceive to be something or something you can identify
+- **recollect** (回忆，追忆，想起)
+- **recommend**: express a good opinion of
+- **recommendation**: praise of a person or thing as worthy or desirable
+- **record**: anything providing permanent evidence about past events
+- **recorder**: equipment for making records
+- **recover**: regain or make up for
+- **recovery**: return to an original state
+- **red** (红色的 n.红色)
+- **reduce**: make smaller
+- **reduction**: the act of decreasing something
+- **reed** (芦苇，芦杆，芦丛)
+- **reel** (卷轴，卷筒)
+- **refer**: make a remark that calls attention to
+- **reference**: the act of consulting
+- **refine**: reduce to a pure state
+- **reflect**: throw or bend back from a surface
+- **reflection**: the phenomenon of a wave being thrown back from a surface
+- **reflexion** (反射；映象；反映)
+- **reform**: make changes for improvement to remove abuse and injustices
+- **refresh**: make fresh again
+- **refreshment**: snacks and drinks served as a light meal
+- **refrigerator** (冰箱，冷藏库)
+- **refuge** (避难，庇护；庇护者)
+- **refusal**: the act of showing unwillingness
+- **refuse**: show unwillingness towards
+- **refute** (驳斥，反驳，驳倒)
+- **regard**: the condition of being honored or respected
+- **regarding** (关于)
+- **regardless**: in spite of everything
+- **region**: the extended spatial location of something
+- **register**: an official written record of names or events
+- **regret** (懊悔；抱歉 n.懊悔)
+- **regular**: conforming to a standard or pattern
+- **regularly** (有规律地)
+- **regulate**: bring into conformity with rules, principles, or usage
+- **regulation**: the act of bringing to uniformity
+- **rehearsal** (排练，排演；练习)
+- **reign** (君主统治；支配)
+- **rein** (缰绳 vi.驾驭，控制)
+- **reinforce**: strengthen and support
+- **reject**: refuse to accept or acknowledge
+- **rejoice** (欣喜，高兴)
+- **relate**: give an account of
+- **relation**: the state or quality of having something in common
+- **relationship**: a mutual connection between people
+- **relative**: not absolute or complete
+- **relatively**: by comparison to something else
+- **relativity**: the quality of having significance vis-a-vis something else
+- **relax**: make less taut
+- **release**: grant freedom to; free from confinement
+- **relevant** (有关的，贴切的)
+- **reliability** (可靠性)
+- **reliable**: able to be depended on; consistent or steady
+- **reliance** (信任，信赖，信心)
+- **relief**: the act of reducing something unpleasant
+- **relieve**: free from a burden, evil, or distress
+- **religion**: a strong belief in supernatural powers that control destiny
+- **religious**: having or showing belief in and reverence for a deity
+- **reluctant** (不愿的，勉强的)
+- **rely**: have confidence or faith in
+- **remain**: continue in a place, position, or situation
+- **remains** (残余，余额；废墟)
+- **remark**: make or write a comment on
+- **remarkable**: unusual or striking
+- **remedy**: a medicine or therapy that cures disease or relieves pain
+- **remember** (记得，想起；记住)
+- **remind**: put in the mind of someone
+- **remote**: located far away spatially
+- **removal**: the act of taking out or causing to leave
+- **remove**: take something away as by lifting, pushing, or taking off
+- **render**: give or supply
+- **renew**: reestablish on an improved basis
+- **rent**: a payment or series of payments made by a lessee to an owner
+- **repair**: fix by putting together what is torn or broken
+- **repeat**: say or state again
+- **repeatedly**: several time
+- **repent** (悔悟，悔改 vt.后悔)
+- **repetition**: the act of doing or performing again
+- **replace**: put something back where it belongs
+- **reply**: react verbally
+- **report**: to give an account or representation of in words
+- **reporter**: a person who investigates or communicates news stories
+- **represent**: be a delegate or spokesperson for
+- **representative**: serving to typify
+- **reproach** (&n.责备，指责)
+- **reproduce**: make a copy or equivalent of
+- **republic**: a form of government whose head of state is not a monarch
+- **republican**: having the supreme power lying in citizens entitled to vote
+- **reputation**: the general estimation that the public has for a person
+- **request**: express the need or desire for; ask for
+- **require**: have need of
+- **requirement**: necessary activity
+- **rescue** (&n.援救，营救)
+- **research**: Professional development
+- **researcher** (调查者；探究者)
+- **resemble**: be similar or bear a likeness to
+- **reserve**: hold back or set aside, especially for future use
+- **reservoir**: lake used to store water for community use
+- **residence**: any address at which you dwell more than temporarily
+- **resident**: someone who lives at a particular place for a long period
+- **resign**: accept as inevitable
+- **resignation** (放弃，辞职，反抗)
+- **resist**: withstand the force of something
+- **resistance**: any mechanical force that tends to slow or oppose motion
+- **resistant**: disposed to or engaged in defiance of established authority
+- **resolution**: a decision to do something or to behave in a certain manner
+- **resolve**: find a solution or answer
+- **resort**: have recourse to
+- **resource**: aid or support that may be drawn upon when needed
+- **respect**: regard highly; think much of
+- **respectful**: exhibiting an attitude of admiration or esteem
+- **respective**: considered individually
+- **respectively** (各自/分别地)
+- **respond**: show a reaction to something
+- **response**: the speech act of continuing a conversational exchange
+- **responsibility**: the social force that binds you to a course of action
+- **responsible**: worthy of or requiring trust; held accountable
+- **rest**: take a short break from one&#039;s activities in order to relax
+- **restaurant**: a building where people go to eat
+- **restless**: lacking physical or mental ease
+- **restore**: bring back into original existence, function, or position
+- **restrain**: hold back
+- **restraint**: the act of controlling by holding someone or something back
+- **restriction**: an act of limiting
+- **result**: something that follows as a consequence
+- **resume**: take up or begin anew
+- **retain**: secure and keep for possible future use or application
+- **retell** (再讲，重述，复述)
+- **retire**: withdraw from active participation
+- **retreat**: the act of withdrawing or going backward
+- **return**: go or come back to place, condition, or activity where one has been before
+- **reveal**: make visible
+- **revenge** (替…报仇 n.报仇)
+- **reverse**: change to the contrary
+- **review**: look at again; examine again
+- **revise**: make changes to
+- **revolt**: rise up against an authority
+- **revolution**: a single complete turn
+- **revolutionary**: markedly new or introducing radical change
+- **reward** (报答；报酬 vt.报答)
+- **rhythm** (韵律，格律；节奏)
+- **rib** (肋，肋骨)
+- **ribbon** (缎带，丝带；带)
+- **rice** (稻，米，饭)
+- **rich**: possessing material wealth
+- **rid** (使摆脱，使去掉)
+- **riddle** (谜，谜语)
+- **ride** (&n.骑马，乘车)
+- **rider** (骑马的人；乘车的人)
+- **ridge** (脊；岭，山脉；垄)
+- **ridiculous** (荒谬的，可笑的)
+- **rifle** (步枪，来复枪)
+- **right**: free from error; especially conforming to fact or truth
+- **rigid** (刚硬的；僵硬的)
+- **ring** (环形物(如圈、环等))
+- **ripe**: fully developed or matured and ready to be eaten or used
+- **ripen** (使熟 vi.成熟)
+- **rise**: move upward
+- **risk** (风险，危险，冒险)
+- **rival**: the contestant you hope to defeat
+- **river**: a large natural stream of water (larger than a creek)
+- **road** (路，道路，公路)
+- **roar** (吼叫；呼喊 n.吼)
+- **roast** (&vi.烤，炙，烘)
+- **rob** (&vi.抢劫；劫掠)
+- **robber** (强盗，盗贼)
+- **robbery** (抢劫，劫掠，盗取)
+- **robe** (长袍，长衣，浴衣)
+- **robot** (机器人；自动机)
+- **rock** (摇，使动摇 vi.摇)
+- **rocket** (火箭，火箭发动机)
+- **rod** (杆，竿，棒)
+- **role** (角色，作用，任务)
+- **roll**: move by turning over or rotating
+- **roller**: a mechanical device consisting of a cylindrical tube around which the hair is wound to curl it
+- **Roman**: relating to or characteristic of people of Rome
+- **romantic**: expressive of or exciting love
+- **roof** (屋顶，车顶；顶)
+- **room** (房间；地位；余地)
+- **root** (根，根子 vi.生根)
+- **rope** (绳，索)
+- **rose** (蔷薇花，蔷薇科植物)
+- **rot** (烂，腐坏 n.腐烂)
+- **rotary**: describing or moving in a circle
+- **rotate**: turn on or around an axis or a center
+- **rotation**: the act of turning as if on an axis
+- **rotten** (腐烂的，发臭的)
+- **rough** (表面不平的；粗略的)
+- **roughly** (粗糙地，粗略地)
+- **round**: having a circular shape
+- **rouse**: cause to become awake or conscious
+- **route**: an established line of travel or access
+- **routine**: an unvarying or habitual method or procedure
+- **row** ((一)排，(一)行)
+- **royal**: of or relating to a king, queen, or other monarch
+- **rub**: move over something with pressure
+- **rubber**: an elastic material obtained from the latex sap of trees (especially trees of the genera Hevea and Ficus) that can be vulcanized and finished into a variety of products
+- **rubbish**: worthless material that is to be disposed of
+- **rude** (加工粗糙的；粗野的)
+- **rug** (小地毯；毛毯)
+- **ruin** (毁灭；废墟 vt.毁坏)
+- **rule**: prescribed guide for conduct or action
+- **ruler**: a person who governs or commands
+- **rumour** (谣言，谣传，传闻)
+- **run**: move fast by using one&#039;s feet
+- **runner** (赛跑的人)
+- **rural** (农村的，田园的)
+- **rush** (冲，奔 vt.催促)
+- **Russian** (俄罗斯的 n.俄国人)
+- **rust** (锈 vi.生锈，氧化)
+- **rusty** (生锈的；变迟钝的)
+
+## S
+
+- **sack** (袋，麻袋；开除)
+- **sacred**: made, declared, or believed to be holy
+- **sacrifice**: the act of killing in order to appease a deity
+- **sad** (悲哀的，令人悲痛的)
+- **saddle**: a seat for the rider of a horse or camel
+- **sadly** (悲痛地，悲哀地)
+- **sadness** (悲痛，悲哀)
+- **safe**: free from danger or the risk of harm
+- **safely** (安全地；可靠地)
+- **safety**: being certain that adverse effects will not be caused
+- **sail**: a large piece of fabric used to propel a vessel
+- **sailor**: any member of a ship&#039;s crew
+- **saint**: a person who has died and has been canonized
+- **sake** (缘故，理由)
+- **salad**: food mixtures either arranged on a plate or tossed and served with a moist dressing; usually consisting of or including greens
+- **salary**: fixed payment for services
+- **sale**: the general activity of selling
+- **salesman**: a man salesperson
+- **salt**: white crystalline form of especially sodium chloride used to season and preserve food
+- **salute** (招呼，行礼 vi.行礼)
+- **same**: same in identity
+- **sample**: a small part intended as representative of the whole
+- **sand** (沙，沙子；沙滩)
+- **sandwich** (三明治 vt.夹入)
+- **sandy** (沙的，含沙的)
+- **satellite** (卫星；人造卫星)
+- **satisfaction**: the state of being gratified
+- **satisfactory**: giving contentment
+- **satisfy**: meet the requirements or expectations of
+- **Saturday** (星期六)
+- **sauce**: flavorful relish or dressing or topping served as an accompaniment to food
+- **saucer**: a small shallow dish for holding a cup
+- **sausage**: highly seasoned minced meat stuffed in casings
+- **save**: bring into safety
+- **saving**: recovery or preservation from loss or danger
+- **saw** (锯子 vt.锯，锯开)
+- **say**: utter aloud
+- **scale**: an ordered reference standard
+- **scan** (细看；浏览；扫描)
+- **scar**: a mark left by the healing of injured tissue
+- **scarce**: deficient in quantity or number compared with the demand
+- **scarcely**: only a very short time before
+- **scare** (惊吓 vi.受惊)
+- **scarf** (围巾，头巾；领带)
+- **scatter** (使消散；撒；散播)
+- **scene**: the place where some action occurs
+- **scenery**: the appearance of a place
+- **scent** (气味，香味；香水)
+- **schedule** (时间表；计划表)
+- **scheme** (计划，规划；诡计)
+- **scholar**: a learned person
+- **scholarship**: profound learned knowledge
+- **school**: an educational institution
+- **science**: a branch of study or knowledge involving the observation, investigation, and discovery of general laws or truths that can be tested systematically
+- **scientific**: consistent with systematic study of the physical world
+- **scientist**: a person with advanced knowledge of empirical fields
+- **scissors**: an edge tool having two crossed pivoting blades
+- **scold** (责骂 vt.申斥)
+- **scope**: the state of the environment in which a situation exists
+- **score**: a number that expresses accomplishment in a game or contest
+- **scorn** (轻蔑；嘲笑 vt.轻蔑)
+- **scout** (侦察员，侦察机)
+- **scrape**: cut the surface of; wear away the surface of
+- **scratch** (&vi.&n.搔；抓)
+- **scream** (尖叫；呼啸)
+- **screen** (屏；屏幕 vt.掩蔽)
+- **screw** (螺旋，螺丝 vt.拧紧)
+- **sea**: a large body of salt water partially enclosed by land
+- **seal**: fastener consisting of a resin that is plastic when warm
+- **seaman**: a man who serves as a sailor
+- **seaport**: a sheltered port where ships can take on or discharge cargo
+- **search**: look or seek
+- **season** (季，季节，时节)
+- **seat** (座；座部 vt.使坐下)
+- **second**: coming next after the first in position in space or time
+- **secondary**: being of second rank or importance or value
+- **secondly**: in the second place
+- **secret**: not openly made known
+- **secretary**: an assistant who handles correspondence and clerical work
+- **section**: one of several parts or pieces that fit with others
+- **secure**: free from danger or risk
+- **security**: the state of being free from danger or injury
+- **see**: perceive by sight or have the power to perceive by sight
+- **seed** (种(子)，籽，萌芽)
+- **seek** (寻找，探索；试图)
+- **seem**: give a certain impression or have a certain outward aspect
+- **seize** (抓住，逮捕；夺取)
+- **seldom** (很少，不常，难得)
+- **select**: pick out or choose from a number of alternatives
+- **selection**: the act of choosing
+- **self**: your consciousness of your own identity
+- **selfish**: concerned chiefly with your own advantage
+- **sell**: exchange or deliver for money or its equivalent
+- **seller**: someone who promotes or exchanges goods or services for money
+- **semester** (半年；学期，半学年)
+- **semiconductor** (半导体)
+- **senate**: assembly possessing high legislative powers
+- **send** (送，寄发；派遣)
+- **senior**: advanced in years
+- **sense**: the faculty through which the world is perceived
+- **sensible**: able to feel or perceive
+- **sensitive**: responsive to physical stimuli
+- **sentence**: a string of words satisfying grammatical rules of a language
+- **separate** (分离的；个别的)
+- **separately** (分离地)
+- **separation** (分离，分开/居)
+- **September** (九月)
+- **sequence**: a following of one thing after another in time
+- **series** (连续，系列；丛书)
+- **serious** (严肃的；认真的)
+- **seriously** (严肃地，认真地)
+- **servant**: a person working in the service of another
+- **serve**: devote one&#039;s life or efforts to, as of countries or ideas
+- **service**: an act of help or assistance
+- **session** (会议，一段时间)
+- **set**: put into a certain place or abstract location
+- **setting**: the physical position of something
+- **settle**: become resolved, fixed, established, or quiet
+- **settlement**: the act of colonizing; the establishment of colonies
+- **seven** (七，七个(人或物))
+- **seventeen** (十七，十七个)
+- **seventh** (第七；七分之一)
+- **seventy** (七十，七十个)
+- **several** (几个，数个)
+- **severe** (严格的；严厉的)
+- **severely** (严厉地，严格地)
+- **sew** (缝制 vi.缝纫)
+- **sex**: one of two categories into which most organisms are divided
+- **shade**: relative darkness caused when sunlight is blocked
+- **shadow**: a dark shape created by an object blocking a source of light
+- **shady** (成荫的，阴凉的)
+- **shake** (摇，使震动 n.摇动)
+- **shall** (v.将要；必须；应)
+- **shallow** (浅的；浅薄的)
+- **shame**: a painful feeling of embarrassment or inadequacy
+- **shampoo** (用洗发剂洗 n.洗头)
+- **shape** (形状；情况 vt.形成)
+- **share** (份；份额；股份)
+- **sharp** (锋利的；敏锐的)
+- **sharpen** (削尖，使敏锐)
+- **sharply** (锐利地，敏锐地)
+- **shave** (剃，刮 vi.修面)
+- **she** ((主格)她)
+- **shear** (剪；剥夺 vi.剪)
+- **shed**: cause or allow to flow or run out or over
+- **sheep** (羊，绵羊)
+- **sheet** (被单；纸张；薄板)
+- **shelf** (搁板，架子)
+- **shell**: the outer covering of an animal
+- **shelter**: covering that provides protection from the weather
+- **shepherd** (牧羊人，羊倌)
+- **shield**: armor carried on the arm to intercept blows
+- **shift** (替换，转移 n.转换)
+- **shilling** (先令)
+- **shine**: emit light; be bright, as of the sun or a light
+- **ship**: a vessel that carries passengers or freight
+- **shirt** ((男式)衬衫)
+- **shiver** (颤抖，哆嗦 n.冷颤)
+- **shock** (冲击；震惊 vi.震动)
+- **shoe** (鞋)
+- **shoot**: fire a shot
+- **shop** (商店，店铺；车间)
+- **shopkeeper**: a merchant who owns or manages a shop
+- **shopping** (买东西，购物)
+- **shore** (滨，岸)
+- **short**: having little length or lacking in length
+- **shortage**: an amount that is less than expected or required
+- **shortcoming**: a failing or deficiency
+- **shortly**: in the near future
+- **shot**: the act of firing a projectile
+- **should** (v.将；万一；就)
+- **shoulder** (肩，肩膀；挑起)
+- **shout** (&vi.呼喊，喊叫)
+- **show** (给…看；表明)
+- **shower** (阵雨；(一)阵；淋浴)
+- **shriek** (尖声喊叫 n.尖叫声)
+- **shrink** (收缩；缩小；退缩)
+- **shut** (关上，闭上，关闭)
+- **shy** (易受惊的；害羞的)
+- **sick** (有病的；恶心的)
+- **sickness** (疾病)
+- **side**: a place within a region identified relative to a center or reference location
+- **sideways**: toward one side
+- **sigh** (&vi.叹气，叹息)
+- **sight**: the ability to see; the visual faculty
+- **sightseeing**: going about to look at places of interest
+- **sign**: a visible clue that something has happened or is present
+- **signal**: any action or gesture that encodes a message
+- **signature**: your name written in your own handwriting
+- **significance** (意义，意味；重要性)
+- **significant** (有意义/重要的)
+- **silence**: the state of being quiet (as when no one is speaking)
+- **silent**: marked by absence of sound
+- **silk** (蚕丝，丝，丝织品)
+- **silly** (傻的，愚蠢的)
+- **silver** (银；银子；银器)
+- **similar** (相似的，类似的)
+- **similarly** (类似地，相似地)
+- **simple**: having few parts; not complex or complicated or involved
+- **simplicity**: the quality of being uncomplicated
+- **simplify**: make easier or reduce in complexity or extent
+- **simply**: in a simple manner; without extravagance or embellishment
+- **sin** (罪，罪孽 vi.犯罪)
+- **since** (从…以来；因为)
+- **sincere** (真诚的；真挚的)
+- **sing** (&vt.唱，演唱)
+- **singer** (歌唱家，歌手)
+- **single**: existing alone or consisting of one entity or part or aspect or individual
+- **singular**: being a single and separate person or thing
+- **sink** (下沉；下垂；降低)
+- **sir**: term of address for a man
+- **sister** (姐妹，姐，妹)
+- **sit**: take a seat
+- **site**: the piece of land on which something is located
+- **situation**: physical position in relation to the surroundings
+- **six** (六，六个)
+- **sixteen** (十六，十六个)
+- **sixth** (第六；六分之一)
+- **sixty** (六十，六十个)
+- **size** (大小；体积；尺码)
+- **skate** (冰鞋；滑冰 vi.滑冰)
+- **sketch** (略图；速写；概略)
+- **ski** (滑橇 vi.滑雪)
+- **skill**: an ability that has been acquired by training
+- **skilled**: having or showing or requiring special skill
+- **skillful** (灵巧的，娴熟的)
+- **skim** (掠过，擦过；略读)
+- **skin** (皮；兽皮；外皮)
+- **skirt** (女裙；边缘；郊区)
+- **sky** (天，天空)
+- **slam** (使劲关，砰地放下)
+- **slave**: a person who is forcibly held in servitude
+- **slavery**: the state of being in forced servitude to another person
+- **sleep** (睡眠 vi.睡 vt.睡)
+- **sleepy** (想睡的；寂静的)
+- **sleeve** (袖子，袖套)
+- **slender** (细长的；微薄的)
+- **slice** (薄片，切片；部分)
+- **slide**: move smoothly along a surface
+- **slight** (细长的；轻微的)
+- **slightly** (稍微，有点)
+- **slip**: move obliquely or sideways, usually in an uncontrolled manner
+- **slipper**: low footwear that can be slipped on and off easily
+- **slippery**: causing or tending to cause things to slip or slide
+- **slit** (裂缝 vt.切开，撕开)
+- **slogan** (标语，口号)
+- **slope**: be at an angle
+- **slow** (慢的；迟钝的)
+- **slowly** (慢慢地)
+- **slum** (贫民窟，贫民区)
+- **sly** (狡猾的；躲躲闪闪的)
+- **small** (小的，少的；小型的)
+- **smart** (巧妙的；洒脱的)
+- **smell**: the faculty that enables us to distinguish scents
+- **smile** (微笑 n.微笑，笑容)
+- **smog** (烟雾)
+- **smoke** (烟；抽烟 vi.冒烟)
+- **smooth** (平滑的；平静的)
+- **smoothly** (光滑地；平稳地)
+- **snake** (蛇)
+- **snow**: water falling from clouds in the form of ice crystals
+- **snowstorm** (雪暴，暴风雪)
+- **snowy**: covered with snow
+- **so** (这样；这么；非常)
+- **soak** (浸，泡 vi.浸泡)
+- **soap** (肥皂)
+- **sob** (&n.啜泣，呜咽)
+- **sober** (清醒的；适度的)
+- **so-called**: doubtful or suspect
+- **soccer**: a football game in which two teams of 11 players try to kick or head a ball into the opponents&#039; goal
+- **social**: living together or enjoying life in communities
+- **socialism**: a political theory advocating state ownership of industry
+- **socialist**: advocating the state ownership of industry
+- **society**: an extended group having a distinctive cultural organization
+- **sock** (短袜)
+- **soda** (碳酸钠，纯碱；汽水)
+- **soft**: yielding readily to pressure or weight
+- **softly** (柔软地；温柔地)
+- **soil** (泥土，土壤，土地)
+- **solar** (太阳的，日光的)
+- **soldier**: an enlisted man or woman who serves in an army
+- **sole**: the underside of the foot
+- **solely** (单独地，唯一地)
+- **solemn** (庄严的；隆重的)
+- **solid** (固体的 n.固体)
+- **solution**: a homogeneous mixture of two or more substances
+- **solve**: find the answer to or understand the meaning of
+- **some** (&pron.一些，若干)
+- **somebody** (某人，有人)
+- **somehow**: in some unspecified way or manner
+- **someone**: a human being
+- **something** (某事，某物)
+- **sometime**: at some indefinite or unstated time
+- **sometimes**: on certain occasions or in certain cases but not always
+- **somewhat**: to a small degree or extent
+- **somewhere**: in or at or to some place
+- **son** (儿子)
+- **song** (歌唱；歌曲，歌词)
+- **soon** (不久；早，快)
+- **sophisticated**: having worldly knowledge and refinement
+- **sore**: causing misery or pain or distress
+- **sorrow**: an emotion of great sadness associated with loss
+- **sorry**: feeling or expressing regret
+- **sort**: a category of things distinguished by some common characteristic or quality
+- **soul** (灵魂；精神；人)
+- **sound** (健康的；完好的)
+- **soup**: liquid food especially of meat or fish or vegetable stock often containing pieces of solid food
+- **sour** (酸的；脾气坏的)
+- **source**: the place where something begins
+- **south** (南，南方 a.南方的)
+- **southeast**: the compass point midway between south and east
+- **southern**: situated in or oriented toward the south
+- **southwest**: the compass point midway between south and west
+- **Soviet** (苏维埃 a.苏维埃的)
+- **sow** (播(种) vi.播种)
+- **space** (空间；场地；空白)
+- **spacecraft**: a vehicle or device able to travel beyond Earth&#039;s atmosphere
+- **spaceship** (航天飞船)
+- **spade** (铲，铁锹)
+- **span** (跨距；一段时间)
+- **Spanish** (西班牙的 n.西班牙人)
+- **spare** (节约 a.多余的)
+- **spark** (火花，火星)
+- **sparkle** (发火花 vt.使闪耀)
+- **sparrow** (麻雀)
+- **speak**: use language
+- **speaker**: someone who expresses in language
+- **spear** (矛，枪)
+- **special**: adapted to or reserved for a particular purpose
+- **specialist**: an expert devoted to one occupation or branch of learning
+- **speciality**: a distinguishing trait
+- **specialize** (成为…专家；专攻)
+- **specially**: in a particular manner
+- **specific**: stated explicitly or in detail
+- **specify**: be particular about
+- **specimen**: a bit of tissue or fluid taken for diagnostic purposes
+- **spectacle**: something or someone seen, especially a notable sight
+- **speech**: communication by word of mouth
+- **speed**: a rate at which something happens
+- **spell** (拼写 vi.拼字)
+- **spelling** (拼字，拼法，拼写法)
+- **spend**: pass time in a specific way
+- **sphere**: a round three-dimensional closed surface
+- **spider**: predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body; they spin silk to make cocoons for eggs or traps for prey
+- **spill** (使溢出 vi.溢出)
+- **spin**: revolve quickly and repeatedly around one&#039;s own axis
+- **spirit**: the vital principle or animating force within living things
+- **spiritual**: lacking material body or form or substance
+- **spit** (吐 vi.吐唾沫)
+- **splash** (&n.溅，泼，飞溅)
+- **splendid** (壮丽的；显著的)
+- **split** (劈开 vi.被劈开)
+- **spoil** (损坏，糟蹋；宠坏)
+- **sponge** (海绵)
+- **sponsor**: an advocate who presents a person
+- **spontaneous**: said or done without having been planned in advance
+- **spoon** (匙，调羹)
+- **sport**: active diversion requiring physical exertion and competition
+- **sportsman**: someone who engages in sports
+- **spot** (点，斑点；地点)
+- **spray** (浪花；喷雾 vt.喷)
+- **spread** (伸开；传播 n.传播)
+- **spring**: move forward by leaps and bounds
+- **springtime** (春季，春天)
+- **sprinkle** (洒，撒；小雨)
+- **spur** (刺激物 vt.刺激)
+- **spy** (间谍，特务 vt.侦察)
+- **square** (正方形；广场)
+- **squeeze** (&vi.榨，挤；压榨)
+- **squirrel** (松鼠)
+- **stab** (&vi.&n.刺，戳)
+- **stability** (稳定，稳定性，巩固)
+- **stable** (稳定的，不变的)
+- **stack** (堆，垛 vt.堆积)
+- **stadium** (露天大型运动场)
+- **staff** (工作人员；参谋)
+- **stage** (舞台；戏剧；阶段)
+- **stain** (沾污；给…着色)
+- **stair**: support consisting of a place to rest the foot while ascending or descending a stairway
+- **staircase** (楼梯，楼梯间)
+- **stake**: a strong wooden or metal post driven into the ground
+- **stale**: lacking freshness, palatability, or showing deterioration
+- **stamp** (戳子；邮票；标志)
+- **stand**: be standing; be upright
+- **standard** (标准 a.标准的)
+- **standpoint**: a mental position from which things are viewed
+- **star**: a celestial body of hot gases that radiates energy
+- **stare** (盯，凝视)
+- **start**: take the first step or steps in carrying out an action
+- **startle**: surprise greatly
+- **starve** (饿死 vt.使饿死)
+- **state**: the way something is with respect to its main attributes
+- **statement**: the act of affirming or asserting something
+- **statesman**: a man who is a respected leader in national or international affairs
+- **static**: not in physical motion
+- **station**: a facility equipped with special equipment and personnel
+- **statistical**: of or relating to the interpretation of quantitative data
+- **statue**: a sculpture representing a human or animal
+- **status**: the condition or someone or something at a particular time
+- **stay** (停留；住 n.逗留)
+- **steadily** (稳定地，不变地)
+- **steady** (稳固的 vt.使稳定)
+- **steal** (偷，窍取)
+- **steam** (蒸汽 vi.蒸发 vt.蒸)
+- **steamer** (轮船，汽船)
+- **steel** (钢，钢铁)
+- **steep** (险峻的，陡峭的)
+- **steer** (&vi.驾驶)
+- **stem** (茎，(树)干 vi.起源)
+- **step**: the act of changing location by raising the foot and setting it down
+- **stern** (严厉的；坚定的)
+- **steward** (乘务员，服务员)
+- **stewardess** (空中小姐，女乘务员)
+- **stick**: a long thin implement resembling a length of wood
+- **sticky**: having the sticky properties of an adhesive
+- **stiff** (硬的；僵直的)
+- **stiffen** (使硬；使僵硬)
+- **still**: not in physical motion
+- **stimulate** (刺激，激励，激发)
+- **sting** (刺；刺痛 vi.&n.刺)
+- **stir** (动；拨动；激动)
+- **stitch** (一针；针脚 vt.缝)
+- **stock**: a supply of something available for future use
+- **stocking**: the activity of supplying a stock of something
+- **stomach** (胃；肚子；食欲)
+- **stone** (石，石头；宝石)
+- **stony** (多石的；冷酷的)
+- **stool** (凳子)
+- **stoop** (俯身；弯身 n.弯腰)
+- **stop** (塞住；阻止；停止)
+- **storage**: the act of keeping something for future use
+- **store**: a mercantile establishment for the sale of goods or services
+- **storey** ((层)楼)
+- **storm**: a violent weather condition with winds 64-72 knots (11 on the Beaufort scale) and precipitation and thunder and lightning
+- **stormy**: affected or characterized by violent weather or commotion
+- **story** (故事，小说，传说)
+- **stove** (炉，火炉，电炉)
+- **straight** (直的；正直的 ad.直)
+- **strain**: exert much effort or energy
+- **strange** (陌生的；奇怪的)
+- **stranger** (陌生人；新来者)
+- **strap**: an elongated leather strip (or a strip of similar material) for binding things together or holding something in position
+- **strategy** (战略；策略)
+- **straw** (稻草，麦杆吸管)
+- **strawberry** (草莓)
+- **stream**: a natural body of water flowing on or under the earth
+- **street** (街，街道；行车道)
+- **strength**: the property of being physically or mentally powerful
+- **strengthen**: make strong or stronger
+- **stress**: special emphasis attached to something
+- **stretch** (伸展 vi.伸 n.伸展)
+- **strict**: rigidly accurate; allowing no deviation from a standard
+- **strictly** (严格地，严谨地)
+- **strike**: deliver a sharp blow, as with the hand, fist, or weapon
+- **string** (线，细绳；一串)
+- **strip**: take off or remove
+- **stripe**: a narrow marking of a different color or texture from the background
+- **stroke**: a single complete movement
+- **strong**: having strength or power greater than average or expected
+- **strongly** (强壮地，强烈地)
+- **structural** (结构的，构造的)
+- **structure**: a complex entity made of many parts
+- **struggle** (&vi.斗争，奋斗)
+- **student**: a learner who is enrolled in an educational institution
+- **study**: applying the mind to learning and understanding a subject
+- **stuff** (材料 vt.装，填，塞)
+- **stumble** (绊倒；犯错误)
+- **stupid** (愚蠢的；感觉迟钝的)
+- **style** (风格；文体；式样)
+- **subject**: some situation or event that is thought about
+- **submarine** (水下的 n.潜水艇)
+- **submerge**: put under water
+- **submit**: yield to the control of another
+- **subsequent**: following in time or order
+- **substance**: the real physical matter of which a person or thing consists
+- **substantial**: real; having a material or factual existence
+- **substitute**: a person or thing that can take the place of another
+- **subtract**: deduct; calculate the difference between two numbers
+- **suburb**: a residential district located on the outskirts of a city
+- **succeed**: attain success or reach a desired goal
+- **success**: an event that accomplishes its intended purpose
+- **successful**: having succeeded or being marked by a favorable outcome
+- **successfully** (成功地)
+- **succession**: the action or process of taking over an office or position
+- **successive**: following in order without gaps
+- **such** (这样的；如此的…)
+- **suck** (吸，吮，啜；吸收)
+- **sudden** (突然的，意外的)
+- **suddenly** (突然地)
+- **suffer**: undergo or be subjected to
+- **sufficient**: of a quantity that can fulfill a need or requirement
+- **sufficiently** (足够地，充分地)
+- **sugar** (糖)
+- **suggest**: make a proposal; declare a plan for something
+- **suggestion**: an idea that is proposed
+- **suit**: a set of garments for outerwear of the same fabric and color
+- **suitable**: meant or adapted for an occasion or use
+- **sulphur** (硫(磺)，硫黄)
+- **sum**: a quantity obtained by the addition of a group of numbers
+- **summarize**: briefly present the main points of something
+- **summary**: a brief statement that presents the main points
+- **summer** (夏，夏季)
+- **sun** (太阳，日)
+- **Sunday** (星期日，礼拜日)
+- **sunlight**: the rays of the sun
+- **sunny** (阳光充足的；快活的)
+- **sunrise** (日出(时分))
+- **sunset** (日落(时分))
+- **sunshine**: the rays of the sun
+- **super**: a caretaker for an apartment house
+- **superficial**: of, affecting, or being on or near the surface
+- **superior**: of high quality or performance
+- **supermarket**: a large self-service grocery store selling groceries and dairy products and household goods
+- **supper**: the evening meal
+- **supplement**: an additional component that improves capability
+- **supply**: circulate or distribute or equip with
+- **support** (支撑；支持；供养)
+- **suppose**: expect or believe
+- **supreme**: greatest in status or authority or power
+- **sure**: having or feeling no doubt or uncertainty
+- **surely** (确实；稳当地)
+- **surface**: the outer boundary of an artifact or a material layer
+- **surgeon** (外科医师；军医)
+- **surgery** (外科，外科手术)
+- **surname** (姓)
+- **surprise** (使惊奇；突然袭击)
+- **surprising** (惊人/出人意外的)
+- **surprisingly** (惊人地)
+- **surrender**: relinquish possession or control over
+- **surround**: extend on all sides of simultaneously; encircle
+- **surroundings**: the environment in which something exists or lives
+- **survey** (俯瞰；检查；测量)
+- **survive**: continue in existence after
+- **suspect**: regard as untrustworthy
+- **suspend**: bar temporarily
+- **suspicion**: an impression that something might be the case
+- **sustain**: lengthen or extend in duration or space
+- **swallow** (燕子)
+- **swamp** (沼泽，沼泽地)
+- **swan** (天鹅)
+- **swarm** (一大群 vi.密集)
+- **sway** (摇动 vt.摇；摇动)
+- **swear**: to declare or affirm solemnly and formally as true
+- **sweat**: salty fluid secreted by glands in the skin
+- **sweater**: a crocheted or knitted garment covering the upper part of the body
+- **sweep** (扫；刮起；扫过)
+- **sweet** (甜的；愉快的)
+- **swell** (膨胀；隆起；增长)
+- **swift** (快的；反应快的)
+- **swim** (游，游泳；眼花)
+- **swing**: change direction with a swinging motion; turn
+- **Swiss** (瑞士的 n.瑞士人)
+- **switch**: device for making or breaking the connections in a circuit
+- **sword** (剑，刀)
+- **symbol** (象征；符号，记号)
+- **sympathetic**: expressing compassion or friendly fellow feelings
+- **sympathize**: feel or express compassion
+- **sympathy**: sharing the feelings of others, especially sorrow or anguish
+- **synthetic** (综合的；合成的)
+- **system** (系统，体系；制度)
+- **systematic(al)** (有系统/计划的)
+
+## T
+
+- **table**: furniture having a smooth flat top supported by legs
+- **tablet**: a small, flat, compressed cake of some substance
+- **tag** (附加语；标签)
+- **tail** (尾巴；末尾部分)
+- **tailor**: a person whose occupation is making and altering garments
+- **take**: get into one&#039;s hands
+- **tale**: a story that tells the particulars of an occurrence or event
+- **talent** (天才；才能；人才)
+- **talk** (讲话 vt.谈论)
+- **tall** (高的，身材高的)
+- **tame** (驯服的；顺从的)
+- **tan** (棕褐色 a.棕黄色的)
+- **tank** (坦克；大容器，槽)
+- **tap** (&vi.&n.轻叩)
+- **tape** (线带；磁带，录音带)
+- **target** (靶，标的；目标)
+- **task** (任务，工作，作业)
+- **taste**: the faculty or act of tasting
+- **tax**: a charge that a citizen pays to support government programs
+- **taxi**: a car that is hired to take passengers where they want to go
+- **tea** (茶；茶叶；茶树)
+- **teach**: impart skills or knowledge to
+- **teacher**: a person whose occupation is instructing
+- **teaching** (教学，讲授；教导)
+- **team** (队，组)
+- **tear** (眼泪，泪珠)
+- **technical**: of or relating to aptitude in a practical skill
+- **technician**: someone who is trained in a specific process
+- **technique**: a practical method or art applied to some particular task
+- **technology**: the practical application of science to commerce or industry
+- **tedious** (冗长乏味的，沉闷的)
+- **teenager**: a person who is older than 12 but younger than 20
+- **telegram**: message sent by a device that communicates over a wire
+- **telegraph**: apparatus used to communicate at a distance over a wire
+- **telephone**: electronic equipment that transmits sound over distances
+- **telescope**: a magnifier of images of distant objects
+- **television**: an electronic device that receives television signals and displays them on a screen
+- **tell**: narrate or give a detailed account of
+- **temper**: a characteristic state of feeling
+- **temperature**: the degree of hotness or coldness of a body or environment
+- **temple** (圣堂，神殿，庙宇)
+- **temporary**: not permanent; not lasting
+- **tempt**: dispose, incline, or entice to
+- **temptation**: the act of influencing by exciting hope or desire
+- **ten** (十，十个)
+- **tenant** (承担人，房客，佃户)
+- **tend**: have a disposition to do or be something; be inclined
+- **tendency**: an inclination to do something
+- **tender**: easy to cut or chew
+- **tennis** (网球，网球运动)
+- **tense**: taut or rigid; stretched tight
+- **tent** (帐篷)
+- **tenth** (第十；十分之一)
+- **term**: a limited period of time during which something lasts
+- **terminal**: occurring at or forming an end
+- **terrible**: exceptionally bad or displeasing
+- **terrific** (可怕的；极大的)
+- **territory**: a region marked off for administrative or other purposes
+- **terror**: an overwhelming feeling of fear and anxiety
+- **test**: standardized procedure for measuring sensitivity or aptitude
+- **text**: the words of something written
+- **textbook**: a book prepared for use in schools or colleges
+- **textile**: artifact made by weaving or felting or knitting fibers
+- **than** ((比较级)比)
+- **thank** (谢谢，感谢 n.感谢)
+- **that** (那 pron.那 ad.那样)
+- **the** ((定冠词)这，那)
+- **theatre** (戏院；戏剧；教室)
+- **their** (他(她、它)们的)
+- **theirs** (他(她)们的东西)
+- **them** ((宾格)他们)
+- **themselves** (他们自己)
+- **then** (当时；然后；那么)
+- **theoretical**: concerned with hypotheses and not practical considerations
+- **theory**: a belief that can guide behavior
+- **there** (在那里；在那点上)
+- **thereby** (因此，从而，由此)
+- **therefore** (因此，所以)
+- **thermometer**: measuring instrument for measuring temperature
+- **these** (&pron.这些)
+- **they** ((主格)他(她)们)
+- **thick** (厚的；密的；浓)
+- **thickness** (厚(度)；密(度))
+- **thief** (窃贼，偷窃犯)
+- **thin** (薄的；淡的 vi.变薄)
+- **thing**: a separate and self-contained entity
+- **think**: judge or regard; look upon; judge
+- **third** (第三；三分之一)
+- **thirdly** (第三)
+- **thirst**: a physiological need to drink
+- **thirsty**: feeling a need or desire to drink
+- **thirteen** (十三，十三个)
+- **thirty** (三十，三十个)
+- **this** (这；今 pron.这)
+- **thorn** (刺，棘；荆棘；蒺藜)
+- **thorough**: painstakingly careful and accurate
+- **those** (那些)
+- **though**: (postpositive) however
+- **thought**: the content of cognition
+- **thoughtful**: exhibiting or characterized by careful consideration
+- **thousand** (千，千个 n.无数)
+- **thread** (线；丝；螺纹；头绪)
+- **threat**: declaration of an intention to inflict harm on another
+- **threaten**: utter intentions of injury or punishment against
+- **three** (三，三个)
+- **thrill** (一阵激动)
+- **thrive** (兴旺，繁荣，旺盛)
+- **throat** (咽喉，喉咙；嗓音)
+- **throne** (宝座，御座；王位)
+- **throng** (群，人群 vt.挤满)
+- **through**: having finished or arrived at completion
+- **throughout**: from first to last
+- **throw**: propel through the air
+- **thrust** (插，刺 n.插；讽刺)
+- **thumb** ((大)拇指)
+- **thunder** (雷 vi.打雷 vt.吼出)
+- **Thursday** (星期四)
+- **thus** (如此，这样；因而)
+- **tick** (滴答声；记号)
+- **ticket** (票，券；纲领；传票)
+- **tide** (潮，潮汐；潮流)
+- **tidy** (整洁的；整齐的)
+- **tie** (领带；联系 vt.系)
+- **tiger** (虎)
+- **tight** (紧的；紧身的)
+- **till** (conj.直到…为止)
+- **timber** (木材，木料)
+- **time**: the continuum of experience in which events pass to the past
+- **timetable**: a schedule of times of arrivals and departures
+- **timid** (胆怯的；羞怯的)
+- **tin** (锡；罐头)
+- **tiny** (微小的，极小的)
+- **tip**: the extreme end of something, especially something pointed
+- **tire**: lose interest or become bored with something or somebody
+- **tired**: depleted of strength or energy
+- **tissue** (薄绢；薄纸；组织)
+- **title**: the name of a work of art or literary composition
+- **to** (到，向，达到)
+- **toast** (烤面包 vt.烘，烤)
+- **tobacco** (烟草，烟叶)
+- **today** (在今天；现在)
+- **toe** (脚趾，足尖)
+- **together**: in contact with each other or in proximity
+- **toilet** (厕所，盥洗室，浴室)
+- **tolerance**: willingness to respect the beliefs or practices of others
+- **tolerate**: put up with something or somebody unpleasant
+- **tomato** (番茄，西红柿)
+- **tomb** (坟，冢)
+- **tomorrow** (在明天 n.明天)
+- **ton** (吨；大量)
+- **tone**: the distinctive property of a complex sound
+- **tongue** (舌，舌头；语言)
+- **tonight** (在今夜 n.今夜)
+- **too** (也，还；太，过分)
+- **tool** (工具，器具，用具)
+- **tooth** (牙齿)
+- **top**: the upper part of anything
+- **topic** (题目，论题，话题)
+- **torch** (火炬，火把；手电筒)
+- **torrent** (奔流，激流，洪流)
+- **tortoise**: a land turtle with clawed limbs
+- **torture**: infliction of suffering to punish or obtain information
+- **toss** (&vi.扔，抛，掷)
+- **total** (总的 vi.合计，总共)
+- **touch** (触摸；触动 n.触)
+- **tough** (坚韧的；健壮的)
+- **tour**: a route all the way around a particular place or area
+- **tourist**: someone who travels for pleasure
+- **toward(s)** (向；对于；接近)
+- **towel** (毛巾，手巾)
+- **tower** (塔 vi.屹立，高耸)
+- **town**: an urban area with a fixed boundary that is smaller than a city
+- **toy** (玩具，玩物)
+- **trace**: an indication that something has been present
+- **track**: a line or route along which something travels or moves
+- **tractor**: a wheeled vehicle with large wheels
+- **trade**: the commercial exchange of goods and services
+- **tradition** (传统，惯例)
+- **traditional** (传统的，惯例的)
+- **traffic** (交通，通行；交通量)
+- **tragedy** (悲剧；惨事，惨案)
+- **trail**: a path or track
+- **train**: educate for a future role or function
+- **training**: activity leading to skilled behavior
+- **traitor**: a person who says one thing and does another
+- **tram** ((有轨)电车)
+- **tramp** (流浪者，游民)
+- **transfer**: move from one place to another
+- **transform**: change or alter in appearance or nature
+- **transformation** (变化；改造；转变)
+- **transformer** (变压/转换器)
+- **transistor** (晶体管)
+- **translate**: restate from one language into another language
+- **translation**: rendering in another language with the same meaning
+- **transmission**: communication by means of sent signals
+- **transmit**: send from one person or place to another
+- **transparent**: able to be seen through with clarity
+- **transport**: move something or somebody around
+- **transportation**: the act of moving something from one location to another
+- **trap** (陷阱；诡计 vt.诱骗)
+- **travel** (&vi.&n.旅行)
+- **tray** ((浅)盘，托盘，碟)
+- **treason** (谋反，通敌，叛国罪)
+- **treasure** (财富；珍宝 vt.珍视)
+- **treat**: apply a process to with the aim of preparing for a purpose
+- **treatment**: the management of someone or something
+- **treaty**: a written agreement between two states or sovereigns
+- **tree** (树)
+- **tremble**: move quickly and involuntarily up and down or sideways
+- **tremendous**: extraordinarily large in extent or amount or power
+- **trend** (伸向；倾向 n.倾向)
+- **trial**: the act of testing something
+- **triangle**: a three-sided polygon
+- **tribe** (部落，宗族)
+- **trick** (诡计；窍门 vt.哄骗)
+- **trifle** (小事，琐事；少许)
+- **trim** (整齐的 vt.使整齐)
+- **trip** (绊；失足 vt .绊倒)
+- **triumph** (凯旋；胜利 vi.成功)
+- **troop** (军队；一群，大量)
+- **tropical** (热带的)
+- **trouble**: a source of difficulty
+- **troublesome**: difficult to deal with
+- **trousers** (裤子，长裤)
+- **truck** (卡车，载重汽车)
+- **true** (真的；忠实的)
+- **truly**: in accordance with fact or reality
+- **trumpet** (喇叭，小号)
+- **trunk** (树干；大衣箱，皮箱)
+- **trust**: belief in the honesty and reliability of others
+- **truth**: a factual statement
+- **try**: make an effort or attempt
+- **tub** (桶，盆，浴缸，浴盆)
+- **tube** (管；电子管，显像管)
+- **tuck** (折短，卷起；塞)
+- **Tuesday** (星期二)
+- **tuition**: a fee paid for instruction, especially for higher education
+- **tumble** (摔倒，跌倒；打滚)
+- **tune**: a succession of notes forming a distinctive sequence
+- **tunnel** (隧道，坑道，地道)
+- **turbine** (叶轮机，汽轮机)
+- **turbulent** (骚动的，骚乱的)
+- **turkey** (火鸡；火鸡肉)
+- **turn**: move around an axis or a center
+- **turning** (旋转；变向；转弯处)
+- **turnip** (萝卜，芜菁)
+- **tutor**: a person who gives private instruction
+- **twelfth** (第十二)
+- **twelve** (十二，十二个)
+- **twentieth** (第二十)
+- **twenty**: the cardinal number that is the sum of nineteen and one
+- **twice**: two times
+- **twin**: either of two offspring born at the same time from the same pregnancy
+- **twinkle** (闪烁，闪耀)
+- **twist**: cause an object to assume a curved or distorted shape
+- **two** (二，两个)
+- **type**: a subdivision of a particular kind of thing
+- **typewriter**: hand-operated character printer for printing written messages one character at a time
+- **typhoon** (台风)
+- **typical**: exhibiting the qualities that identify a group or kind
+- **typist**: someone paid to operate a typewriter
+- **tyre** (轮胎，车胎)
+
+## U
+
+- **ugly** (丑陋的；可怕的)
+- **ultimate** (最后的，最终的)
+- **ultimately** (最终，最后)
+- **umbrella** (伞，雨伞)
+- **unable**: lacking necessary physical or mental ability
+- **unbearable** (难堪的，忍受不了的)
+- **uncertain** (无常的；不确定的)
+- **uncle** (伯父，叔父，舅父)
+- **uncomfortable** (不舒服的；不自在的)
+- **unconscious** (不省人事的)
+- **uncover**: make visible
+- **under** (在…下面；低于.)
+- **undergo**: pass through
+- **undergraduate**: a university student who has not yet received a first degree
+- **underground**: beneath the surface of the earth
+- **underline**: draw a line or lines underneath to call attention to
+- **underneath**: on the lower or downward side; on the underside of
+- **understand**: know and comprehend the nature or meaning of
+- **understanding**: the condition of someone who knows and comprehends
+- **undertake**: enter upon an activity or enterprise
+- **undertaking** (任务，事业；许诺)
+- **undo**: cancel, annul, or reverse an action or its effect
+- **undoubtedly**: certainly
+- **uneasy**: causing or fraught with or showing anxiety
+- **unexpected**: not anticipated or planned for
+- **unfair**: marked by injustice, inequality, or bias
+- **unfortunate**: marked by or resulting in bad luck
+- **unfortunately**: by bad luck
+- **unhappy** (不幸福的，不快乐的)
+- **uniform**: clothing of distinctive design worn by members of a group
+- **union**: the state of being joined or united or linked
+- **unique**: the single one of its kind
+- **unit**: a single undivided whole
+- **unite**: join or combine
+- **unity**: an undivided or unbroken completeness with nothing wanting
+- **universal**: applicable to or common to all members of a group or set
+- **universe**: everything that exists anywhere
+- **university** (大学，综合性大学)
+- **unjust** (非正义的；不公平的)
+- **unkind** (不仁慈的，不和善的)
+- **unknown** (不知道的；未知的)
+- **unless** (除非，如果不)
+- **unlike**: marked by dissimilarity
+- **unlikely** (未必的，未必可能的)
+- **unload**: leave or discharge
+- **unlucky**: having or bringing misfortune
+- **unnecessary** (不必要的，多余的)
+- **unpleasant** (令人不快的，讨厌的)
+- **unsatisfactory** (不能令人满意的)
+- **unstable** (不稳固的；不稳定的)
+- **unsuitable** (不合适的,不适宜的)
+- **unusual**: not common or ordinary
+- **unusually** (不平常地，非常)
+- **unwilling** (不愿意的)
+- **up** (向上；起床，起来)
+- **upon** (在…上；在…旁)
+- **upper**: higher in place or position
+- **upright**: in a vertical position; not sloping
+- **upset**: cause to lose one&#039;s composure
+- **upside-down** (颠倒的，乱七八糟的)
+- **upstairs**: on a floor above
+- **up-to-date**: reflecting the latest information or changes
+- **upward**: spatially or metaphorically from a lower to a higher position
+- **upwards** (趋向上升；以上)
+- **urge**: urge or force in an indicated direction
+- **urgent**: compelling immediate action
+- **us** ((宾格)我们)
+- **usage**: the act of employing
+- **use**: put into service
+- **used**: previously owned by another
+- **useful**: having a helpful function
+- **useless**: having no beneficial utility
+- **user**: someone who employs or takes advantage of something
+- **usual**: occurring or encountered or experienced or observed frequently or in accordance with regular practice or procedure
+- **usually**: under normal conditions
+- **utility**: the quality of being of practical use
+- **utilize**: put into service
+- **utmost** (最远的 n.极限)
+- **utter** (完全的，彻底的)
+
+## V
+
+- **vacant**: not containing anyone or anything; unfilled or unoccupied
+- **vacation**: leisure time away from work devoted to rest or pleasure
+- **vacuum**: an empty area or space
+- **vague** (模糊的，含糊的)
+- **vain**: having an exaggerated sense of self-importance
+- **valid**: well grounded in logic or truth or having legal force
+- **valley** ((山)谷，溪谷；流域)
+- **valuable**: having worth or merit
+- **value**: the quality that renders something desirable
+- **van**: a closed railroad car that carries baggage or freight
+- **vanish**: become invisible or unnoticeable
+- **vanity** (虚荣心，虚夸)
+- **vapour** (汽，蒸气)
+- **variable**: something that is likely to change
+- **variation**: the process of being or becoming different
+- **variety**: a category of things distinguished by a common quality
+- **various**: having great diversity or variety
+- **vary**: become different in some particular way
+- **vase** (瓶，花瓶)
+- **vast**: unusually great in size or amount or extent or scope
+- **vegetable** (植物；蔬菜)
+- **vehicle**: a conveyance that transports people or objects
+- **veil**: a garment that covers the head and face
+- **velocity** (速度，速率)
+- **velvet** (丝绒，天鹅绒)
+- **venture**: an undertaking with an uncertain outcome
+- **verb**: a word denoting an action, occurrence, or state of existence
+- **verify**: confirm the truth of
+- **version**: something a little different from others of the same type
+- **vertical** (垂直的，竖式的)
+- **very**: being the exact same one; not any other:
+- **vessel** (容器；船，飞船；管)
+- **vest**: a sleeveless garment worn underneath a coat
+- **veteran** (老兵，老手)
+- **vex** (使烦恼，使恼火)
+- **via** (经过；通过)
+- **vibrate** (使颤动 vi.颤动)
+- **vibration** (颤动，振动；摆动)
+- **vice** (罪恶；恶习；缺点)
+- **victim**: an unfortunate person who suffers from adverse circumstances
+- **victorious**: having won
+- **victory**: a successful ending of a struggle or contest
+- **video**: broadcasting visual images of stationary or moving objects
+- **view**: the visual percept of a region
+- **viewpoint**: a mental position from which things are considered
+- **vigorous**: characterized by forceful and energetic action or activity
+- **village** (乡村，村庄)
+- **vine** (葡萄树)
+- **vinegar** (醋)
+- **violence** (猛烈，激烈；暴力)
+- **violent** (猛烈的；狂暴的)
+- **violet** (紫罗兰)
+- **violin** (小提琴)
+- **virtually**: in essence or in effect but not in fact
+- **virtue**: the quality of doing what is right
+- **visible**: capable of being seen or open to easy view
+- **vision**: the ability to see
+- **visit**: the act of going to see some person or place or thing for a short time
+- **visitor**: someone who visits
+- **visual**: relating to or using sight
+- **vital**: performing an essential function in the living body
+- **vitamin**: an organic substance essential to normal metabolism
+- **vivid**: having striking color
+- **vocabulary**: a language user&#039;s knowledge of words
+- **voice**: the sound made when a person speaks
+- **volcano** (火山)
+- **volleyball**: a game in which two teams hit an inflated ball over a high net using their hands
+- **volt** (伏特，伏)
+- **voltage** (电压)
+- **volume**: the property of something that is great in magnitude
+- **voluntary**: of your own free will or design
+- **vote**: a choice made by counting people in favor of alternatives
+- **voyage**: a journey to some distant place
+
+## W
+
+- **wage** (工资，报酬)
+- **waggon** (四轮运货马车)
+- **waist** (腰，腰部)
+- **wait**: stay in one place and anticipate or expect something
+- **waiter**: a person whose occupation is to serve at table
+- **wake**: stop sleeping
+- **waken**: stop sleeping
+- **walk** (&n.走，步行)
+- **wall**: an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure
+- **wallet** (钱包，皮夹子)
+- **wander** (漫游；迷路；离题)
+- **want**: the state of needing something that is absent or unavailable
+- **war** (战争；冲突，斗争)
+- **warm**: having or producing a comfortable and agreeable degree of heat or imparting or maintaining heat
+- **warmth**: the quality of having a moderate degree of heat
+- **warn**: notify of danger, potential harm, or risk
+- **wash**: clean with some chemical process
+- **waste**: use inefficiently or inappropriately
+- **watch**: look attentively
+- **water** (水 vt.使湿，灌溉)
+- **waterfall** (瀑布)
+- **waterproof** (不透水/防水的)
+- **wave**: (physics) a movement up and down or back and forth
+- **wavelength** (波长)
+- **wax** (蜡，蜂蜡)
+- **way**: how something is done or how it happens
+- **we** ((主格)我们)
+- **weak**: wanting in physical strength
+- **weaken**: lessen the strength of
+- **weakness**: a flaw
+- **wealth** (财富，财产；丰富)
+- **wealthy** (富的，富裕的)
+- **weapon** (武器，兵器)
+- **wear**: put clothing on one&#039;s body
+- **weary** (疲倦的 vt.使疲乏)
+- **weather**: atmospheric conditions such as temperature and precipitation
+- **weave**: pattern or structure of a fabric
+- **wedding** (婚礼)
+- **Wednesday** (星期三)
+- **weed** (杂草，野草 vi.除草)
+- **week**: any period of seven consecutive days
+- **weekday**: any day except Sunday (and sometimes except Saturday)
+- **weekend**: a time period usually extending from Friday night through Sunday; more loosely defined as any period of successive days including one and only one Sunday
+- **weekly**: a periodical that is published every week
+- **weep** (哭泣，流泪)
+- **weigh**: have a certain heft
+- **weight**: the vertical force exerted by a mass as a result of gravity
+- **welcome**: the state of being received with pleasure
+- **weld** (&n.焊接，熔接)
+- **welfare**: something that aids or promotes well-being
+- **well**: in a good or satisfactory manner or to a high standard
+- **well-known**: widely or fully known
+- **west** (西；西洋 a.西方的)
+- **western**: lying toward or situated in the west
+- **westward** (向西的 ad.向西)
+- **wet** (湿的；下雨的)
+- **what** (什么 a.什么)
+- **whatever**: one or some or every or all without specification
+- **wheat** (小麦)
+- **wheel** (轮，车轮)
+- **when** (什么时候；当…时)
+- **whenever** (无论何时，每当)
+- **where** (在哪里 pron.哪里)
+- **wherever**: where in the world
+- **whether** (是否)
+- **which** (哪一个 a.哪一个)
+- **whichever** (无论哪个/些)
+- **while** (当…的时候；而)
+- **whilst** (&n.当…的时候)
+- **whip** (鞭笞；搅打 n.鞭子)
+- **whirl** (使回旋 vi.&n.回旋)
+- **whisky** (威士忌酒)
+- **whisper** (低声地讲 vi.低语)
+- **whistle** (口哨 vi.吹口哨)
+- **white** (白的 n.白色)
+- **whitewash**: wash consisting of lime and size in water
+- **who** (谁；…的人)
+- **whoever** (谁；无论谁)
+- **whole**: all of something, including all of its elements or parts
+- **wholly**: to the full or entire extent
+- **whom** ((宾格)谁)
+- **whose** (谁的；哪个人的)
+- **why** (为什么)
+- **wicked** (坏的；令人厌恶的)
+- **wide**: having great extent from one side to the other
+- **widely**: to a great degree
+- **widen**: extend in scope or range or area
+- **widespread**: widely circulated or diffused
+- **widow**: a woman whose husband is dead, especially if not remarried
+- **width**: the extent of something from side to side
+- **wife** (妻子)
+- **wild**: wild, free, and not controlled or touched by humans
+- **will** (v.将要，会；愿)
+- **willing**: the act of making a choice
+- **win**: a victory (as in a race or other competition)
+- **wind**: air moving from high pressure to low pressure
+- **window** (窗子，窗户，窗口)
+- **wine** (葡萄酒，果酒)
+- **wing** (翼，翅膀，翅)
+- **winner** (获胜者，优胜者)
+- **winter** (冬天，冬季)
+- **wipe** (&n.揩，擦)
+- **wire** (金属线；电缆；电信)
+- **wireless** (不用电线的，无线的)
+- **wisdom**: accumulated knowledge or erudition or enlightenment
+- **wise**: having intelligence and discernment
+- **wish** (祝；想要 n.希望)
+- **wit**: mental ability
+- **with** (和…一起；具有)
+- **withdraw** (收回；撤回 vi.撤退)
+- **within** (在…里面)
+- **without** (无，没有，不)
+- **withstand**: resist or confront with resistance
+- **witness**: someone who sees an event and reports what happened
+- **wolf** (狼)
+- **woman**: an adult female person
+- **wonder** (惊异，惊奇；奇迹)
+- **wonderful** (惊人的；极好的)
+- **wood**: the hard fibrous lignified substance under the bark of trees
+- **wooden**: made or consisting of or employing wood
+- **wool** (羊毛；毛线，绒线)
+- **woollen** (羊毛制的，毛线的)
+- **word**: the divine word of God; the second person in the Trinity
+- **work**: activity directed toward making or doing something
+- **worker**: a person who works at a specific occupation
+- **workman**: an employee who performs manual or industrial labor
+- **workshop**: a place where handcrafts or manufacturing are done
+- **world**: the 3rd planet from the sun; the planet we live on
+- **world-wide** (遍及全球的)
+- **worm** (虫，蠕虫)
+- **worry** (使烦恼 vi.发愁)
+- **worse**: inferior to another in quality or condition or desirability
+- **worship**: the activity of cherishing as divine
+- **worst**: the least favorable outcome
+- **worth**: the quality of being desirable or valuable
+- **worthless**: lacking in usefulness or value
+- **worthwhile**: sufficiently valuable to justify the investment of time
+- **worthy**: an important, honorable person
+- **would** (v.将；愿；总是)
+- **wound** (创伤，伤 vt.使受伤)
+- **wrap** (裹，包，捆 n.披肩)
+- **wreath** (花环，花圈，花冠)
+- **wreck** (失事；残骸 vt.破坏)
+- **wrist** (腕，腕关节)
+- **write**: name the letters that comprise the accepted form of
+- **writer**: a person who is able to write and has written something
+- **writing**: symbols imprinted on a surface to represent sounds or words
+- **wrong** (错误的 ad.错，不对)
+
+## X
+
+- **X-ray**: electromagnetic radiation of short wavelength produced when high-speed electrons strike a solid target
+
+## Y
+
+- **yard**: enclosed land around a house or other building
+- **yawn** (打呵欠 n.呵欠)
+- **year** (年；年年)
+- **yearly** (每年的 ad.一年一度)
+- **yell** (叫喊)
+- **yellow** (黄(色)的 n.黄(色))
+- **yes** (是，是的)
+- **yesterday** (&ad.昨天，昨日)
+- **yet** (还；已经 conj.而)
+- **yield** (&vi.出产 n.产量)
+- **you** (你，你们)
+- **young**: any immature animal
+- **your** (你的，你们的)
+- **yours** (你们的(东西))
+- **yourself** (你自己；你亲自)
+- **youth**: a person who is not yet old
+- **youthful** (年轻的，青年的)
+
+## Z
+
+- **zeal** (热心，热情，热忱)
+- **zealous** (热心的，热情的)
+- **zebra** (斑马)
+- **zero** (零；零点，零度)
+- **zone** (地区，区域，范围)
+- **zoo** (动物园)
