@@ -78,7 +78,7 @@ describe('GET /api/admin/users', () => {
       .set(authHeader(adminToken))
 
     expect(res.status).toBe(200)
-    expect(res.body.data.users.every((u: any) => u.isAdmin === 1)).toBe(true)
+    expect(res.body.data.users.every((u: any) => u.isAdmin === true)).toBe(true)
   })
 
   it('supports sort options', async () => {
@@ -157,13 +157,12 @@ describe('PUT /api/admin/users/:id/set-admin', () => {
   })
 
   it('prevents removing the last admin', async () => {
-    // Self-modification takes precedence (403) over admin count check (400)
     const res = await request(app)
       .put(`/api/admin/users/${adminUser.id}/set-admin`)
       .set(authHeader(adminToken))
       .send({ isAdmin: false })
 
-    expect(res.status).toBe(403)
+    expect(res.status).toBe(400)
   })
 
   it('prevents self-modification', async () => {
@@ -172,7 +171,7 @@ describe('PUT /api/admin/users/:id/set-admin', () => {
       .set(authHeader(adminToken))
       .send({ isAdmin: true })
 
-    expect(res.status).toBe(403)
+    expect(res.status).toBe(400)
   })
 
   it('validates isAdmin is boolean', async () => {
@@ -255,7 +254,7 @@ describe('DELETE /api/admin/users/:id', () => {
       .delete(`/api/admin/users/${adminUser.id}`)
       .set(authHeader(adminToken))
 
-    expect(res.status).toBe(403)
+    expect(res.status).toBe(400)
   })
 
   it('returns not found for non-existent user', async () => {
@@ -271,7 +270,7 @@ describe('DELETE /api/admin/users/:id', () => {
       .delete(`/api/admin/users/${adminUser.id}`)
       .set(authHeader(adminToken))
 
-    expect(res.status).toBe(403)
+    expect(res.status).toBe(400)
   })
 
   it('rejects non-admin users', async () => {

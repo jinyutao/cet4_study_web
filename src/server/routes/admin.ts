@@ -7,8 +7,8 @@ import { ok, fail, validationError, notFound, forbidden, serverError } from '../
 interface UserRecord {
   id: number
   username: string
-  isAdmin: number
-  isFrozen: number
+  isAdmin: number | boolean
+  isFrozen: number | boolean
   createdAt: string
   lastActiveAt: string | null
   totalSessions: number
@@ -43,7 +43,7 @@ function generateRandomPassword(length = 12): string {
   return result
 }
 
-const ALLOWED_SORT_BY = ['created_at', 'username'] as const
+const ALLOWED_SORT_BY = ['created_at', 'username', 'last_active'] as const
 const ALLOWED_SORT_ORDER = ['asc', 'desc'] as const
 
 const router = Router()
@@ -90,7 +90,7 @@ router.get('/users', requireAuth, requireAdmin, (req: Request, res: Response) =>
         s.last_active as lastActiveAt,
         COALESCE(s.sessions_count, 0) as totalSessions,
         COALESCE(r.review_count, 0) as totalReviews,
-        COALESCE(uw.current_round, 0) as currentRound,
+        COALESCE(uw.current_round, 1) as currentRound,
         COALESCE(uw.mastered_count, 0) as masteredCount,
         uw.avg_prof as avgProficiency
       FROM users u
@@ -109,12 +109,13 @@ router.get('/users', requireAuth, requireAdmin, (req: Request, res: Response) =>
         FROM user_words GROUP BY user_id
       ) uw ON uw.user_id = u.id
       ${whereClause}
-      ORDER BY u.${safeSortBy} ${safeSortOrder}
+      ORDER BY ${safeSortBy === 'last_active' ? 's.last_active' : 'u.' + safeSortBy} ${safeSortOrder}
       LIMIT ? OFFSET ?
     `).all(...params, pageSize, offset) as UserRecord[]
 
+    const mappedUsers = users.map(u => ({ ...u, isAdmin: u.isAdmin === 1, isFrozen: u.isFrozen === 1 }))
     const pagination: PaginationInfo = { page, pageSize, total, totalPages }
-    ok(res, { users, pagination })
+    ok(res, { users: mappedUsers, pagination })
   } catch (e) {
     serverError(res, e instanceof Error ? e.message : '获取用户列表失败')
   }
@@ -149,7 +150,7 @@ router.put('/users/:id/set-admin', requireAuth, requireAdmin, (req: Request, res
     }
 
     if (req.user!.id === targetId) {
-      forbidden(res, '不能修改自己的管理员状态')
+      validationError(res, '不能修改自己的管理员状态')
       return
     }
 
@@ -206,7 +207,7 @@ router.delete('/users/:id', requireAuth, requireAdmin, (req: Request, res: Respo
     }
 
     if (req.user!.id === targetId) {
-      forbidden(res, '不能删除自己的账号')
+      validationError(res, '不能删除自己的账号')
       return
     }
 
