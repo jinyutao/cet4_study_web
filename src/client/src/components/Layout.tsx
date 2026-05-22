@@ -61,21 +61,21 @@ export default function Layout() {
 
   return (
     <div className="flex flex-col h-screen bg-gray-50">
-      <header className="hidden md:flex items-center justify-between px-6 py-3 bg-white border-b border-gray-200 shrink-0">
+      <header className="flex items-center justify-between px-4 md:px-6 py-2.5 md:py-3 bg-white border-b border-gray-200 shrink-0">
         <Link to="/dashboard" className="flex items-center gap-2">
-          <span className="text-2xl">📖</span>
-          <h1 className="text-lg font-bold text-gray-800">CET-4背单词</h1>
+          <span className="text-xl md:text-2xl">📖</span>
+          <h1 className="text-base md:text-lg font-bold text-gray-800">CET-4背单词</h1>
         </Link>
-        <div className="flex items-center gap-3">
-          <span className="text-sm text-gray-500">
+        <div className="flex items-center gap-2 md:gap-3">
+          <span className="text-xs md:text-sm text-gray-500 truncate max-w-[80px] md:max-w-none">
             {user?.username || '用户'}
           </span>
-          <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-sm font-medium">
+          <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs md:text-sm font-medium shrink-0">
             {user?.username?.charAt(0).toUpperCase() || '?'}
           </div>
           <button
             onClick={logout}
-            className="text-sm text-gray-400 hover:text-red-500 transition-colors"
+            className="text-sm text-gray-400 hover:text-red-500 transition-colors p-1"
             title="登出"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
