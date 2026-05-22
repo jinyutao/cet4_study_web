@@ -60,7 +60,7 @@ export default function Layout() {
   )
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-50">
+    <div className="flex flex-col h-screen bg-gray-50">
       <header className="hidden md:flex items-center justify-between px-6 py-3 bg-white border-b border-gray-200 shrink-0">
         <Link to="/dashboard" className="flex items-center gap-2">
           <span className="text-2xl">📖</span>
@@ -85,7 +85,7 @@ export default function Layout() {
         </div>
       </header>
 
-      <div className="flex flex-1">
+      <div className="flex flex-1 overflow-hidden">
         <aside className="hidden md:flex flex-col w-56 bg-white border-r border-gray-200 shrink-0">
           <nav className="flex flex-col gap-1 pt-4">
             {visibleItems.map((item) => (
@@ -109,7 +109,7 @@ export default function Layout() {
           </div>
         </aside>
 
-        <main className="flex-1 overflow-auto pb-20 md:pb-6">
+        <main className="flex-1 overflow-y-auto pb-20 md:pb-6">
           <div className="max-w-4xl mx-auto px-4 py-6">
             <Outlet />
           </div>
