@@ -1,6 +1,8 @@
 import { Request, Response, NextFunction } from 'express'
 import jwt from 'jsonwebtoken'
 import fs from 'fs'
+import { getDb } from '../models/database.js'
+import { fail, forbidden } from '../utils/response.js'
 
 export interface AuthPayload {
   id: number
@@ -40,20 +42,28 @@ export function verifyToken(token: string): AuthPayload {
 export function requireAuth(req: Request, res: Response, next: NextFunction): void {
   const header = req.headers.authorization
   if (!header || !header.startsWith('Bearer ')) {
-    res.status(401).json({ error: '未登录' })
+    fail(res, 'UNAUTHORIZED', '请先登录', 401)
     return
   }
   try {
     req.user = verifyToken(header.slice(7))
-    next()
   } catch {
-    res.status(401).json({ error: '登录已过期，请重新登录' })
+    fail(res, 'INVALID_TOKEN', '登录已过期，请重新登录', 401)
+    return
   }
+
+  const user = getDb().prepare('SELECT frozen FROM users WHERE id = ?').get(req.user.id) as { frozen: number } | undefined
+  if (user?.frozen) {
+    fail(res, 'USER_FROZEN', '账号已被冻结，请联系管理员', 403)
+    return
+  }
+
+  next()
 }
 
 export function requireAdmin(req: Request, res: Response, next: NextFunction): void {
   if (!req.user || !req.user.is_admin) {
-    res.status(403).json({ error: '需要管理员权限' })
+    forbidden(res, '需要管理员权限')
     return
   }
   next()

@@ -53,6 +53,46 @@ describe('POST /api/auth/register', () => {
     expect(res.body.success).toBe(false)
   })
 
+  it('rejects long password', async () => {
+    const res = await request(app)
+      .post('/api/auth/register')
+      .send({ username: 'newuser', password: 'a'.repeat(33) })
+
+    expect(res.status).toBe(400)
+  })
+
+  it('rejects non-alphanumeric username', async () => {
+    const res = await request(app)
+      .post('/api/auth/register')
+      .send({ username: 'user name!', password: 'test123456' })
+
+    expect(res.status).toBe(400)
+  })
+
+  it('rejects pure-digit username', async () => {
+    const res = await request(app)
+      .post('/api/auth/register')
+      .send({ username: '123456', password: 'test123456' })
+
+    expect(res.status).toBe(400)
+  })
+
+  it('rejects too-short username', async () => {
+    const res = await request(app)
+      .post('/api/auth/register')
+      .send({ username: 'ab', password: 'test123456' })
+
+    expect(res.status).toBe(400)
+  })
+
+  it('rejects too-long username', async () => {
+    const res = await request(app)
+      .post('/api/auth/register')
+      .send({ username: 'a'.repeat(21), password: 'test123456' })
+
+    expect(res.status).toBe(400)
+  })
+
   it('rejects empty username', async () => {
     const res = await request(app)
       .post('/api/auth/register')
@@ -178,18 +218,40 @@ describe('GET /api/auth/me', () => {
     expect(res.body.data.stats).toBeDefined()
   })
 
-  it('rejects unauthenticated request', async () => {
+  it('rejects unauthenticated request with standard error envelope', async () => {
     const res = await request(app)
       .get('/api/auth/me')
 
     expect(res.status).toBe(401)
+    expect(res.body.success).toBe(false)
+    expect(res.body.error.code).toBe('UNAUTHORIZED')
+    expect(res.body.error.message).toBeDefined()
+    expect(res.body.ts).toBeDefined()
   })
 
-  it('rejects invalid token', async () => {
+  it('rejects invalid token with standard error envelope', async () => {
     const res = await request(app)
       .get('/api/auth/me')
       .set(authHeader('invalid-token'))
 
     expect(res.status).toBe(401)
+    expect(res.body.success).toBe(false)
+    expect(res.body.error.code).toBe('INVALID_TOKEN')
+    expect(res.body.error.message).toBeDefined()
+    expect(res.body.ts).toBeDefined()
+  })
+
+  it('rejects frozen user with standard error envelope', async () => {
+    getDb().prepare('UPDATE users SET frozen = 1 WHERE id = ?').run(user.id)
+
+    const res = await request(app)
+      .get('/api/auth/me')
+      .set(authHeader(token))
+
+    expect(res.status).toBe(403)
+    expect(res.body.success).toBe(false)
+    expect(res.body.error.code).toBe('USER_FROZEN')
+    expect(res.body.error.message).toBeDefined()
+    expect(res.body.ts).toBeDefined()
   })
 })

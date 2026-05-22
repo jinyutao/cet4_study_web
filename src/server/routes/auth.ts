@@ -16,13 +16,23 @@ router.post('/register', (req: Request, res: Response) => {
       return
     }
 
-    if (typeof username !== 'string' || username.length < 2 || username.length > 32) {
-      validationError(res, '用户名长度应在 2-32 个字符之间')
+    if (typeof username !== 'string' || username.length < 3 || username.length > 20) {
+      validationError(res, '用户名长度应在 3-20 个字符之间')
       return
     }
 
-    if (typeof password !== 'string' || password.length < 6) {
-      validationError(res, '密码长度不能少于 6 个字符')
+    if (!/^[a-zA-Z0-9]+$/.test(username)) {
+      validationError(res, '用户名仅支持字母和数字')
+      return
+    }
+
+    if (/^[0-9]+$/.test(username)) {
+      validationError(res, '用户名不能为纯数字')
+      return
+    }
+
+    if (typeof password !== 'string' || password.length < 6 || password.length > 32) {
+      validationError(res, '密码长度应在 6-32 个字符之间')
       return
     }
 
@@ -103,10 +113,10 @@ router.get('/me', requireAuth, (req: Request, res: Response) => {
 
     const totalWords = getWordCount()
     const masteredCount = (db.prepare(
-      'SELECT COUNT(*) as cnt FROM user_words WHERE user_id = ? AND proficiency >= 90'
-    ).get(user.id) as { cnt: number }).cnt
+      'SELECT COUNT(*) as cnt FROM user_words WHERE user_id = ? AND round = (SELECT COALESCE(MAX(round), 1) FROM user_words WHERE user_id = ?) AND proficiency >= 90'
+    ).get(user.id, user.id) as { cnt: number }).cnt
     const currentRound = (db.prepare(
-      'SELECT COALESCE(MAX(round), 0) as rnd FROM user_words WHERE user_id = ?'
+      'SELECT COALESCE(MAX(round), 1) as rnd FROM user_words WHERE user_id = ?'
     ).get(user.id) as { rnd: number }).rnd
     const daysActive = (db.prepare(
       'SELECT COUNT(DISTINCT date(created_at)) as cnt FROM review_logs WHERE user_id = ?'
