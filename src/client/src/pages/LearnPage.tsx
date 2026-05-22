@@ -361,7 +361,20 @@ export default function LearnPage() {
           return
         }
 
-        // 3) 其他情况（本轮首次）→ 留在 mode_select
+        // 3) 无复习词但有新词 → 自动开始（非本轮首次，跳过模式选择）
+        if (today.newWordsAvailable > 0) {
+          try {
+            const startRes = await api.post<StartSessionResponse>('/learn/start', {})
+            dispatch({ type: 'START_SESSION', sessionId: startRes.sessionId, round: startRes.round })
+            newWordsFetchedRef.current = false
+            dispatch({ type: 'TRANSITION_TO_NEW_WORDS' })
+            return
+          } catch {
+            // 本轮首次（需选模式）→ 留在 mode_select
+          }
+        }
+
+        // 4) 其他情况（本轮首次）→ 留在 mode_select
       } catch {
         // 网络错误等，留在 mode_select
       } finally {
