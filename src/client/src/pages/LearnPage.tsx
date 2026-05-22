@@ -778,21 +778,20 @@ export default function LearnPage() {
               : '请选择正确的中文释义'}
           </p>
 
-          {/* Word display */}
-          <div className="text-center mb-6">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1 tracking-tight">
-              {currentWord.word}
-            </h2>
-            {currentWord.phonetic && (
-              <p className="text-sm text-gray-400 font-mono">{currentWord.phonetic}</p>
-            )}
-            {currentWord.pos && (
-              <p className="text-xs text-gray-400 mt-0.5">{currentWord.pos}</p>
-            )}
-          </div>
-
-          {/* ── Choice Mode ── */}
+          {/* ── Choice Mode: show word + choices ── */}
           {state.answerType === 'choice' && (
+            <>
+            <div className="text-center mb-6">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1 tracking-tight">
+                {currentWord.word}
+              </h2>
+              {currentWord.phonetic && (
+                <p className="text-sm text-gray-400 font-mono">{currentWord.phonetic}</p>
+              )}
+              {currentWord.pos && (
+                <p className="text-xs text-gray-400 mt-0.5">{currentWord.pos}</p>
+              )}
+            </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {currentChoices.map((choice, idx) => {
                 let btnClass =
@@ -821,6 +820,7 @@ export default function LearnPage() {
                 )
               })}
             </div>
+            </>
           )}
 
           {/* ── Spelling Mode ── */}
