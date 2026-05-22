@@ -518,45 +518,6 @@ export function getRoundCompletions(userId: number) {
   ).all(userId)
 }
 
-// ─── Public stats (guest page) ──────────────────────
-
-export function getPublicStats() {
-  const totalUsers = (getDb().prepare('SELECT count(*) as cnt FROM users').get() as any).cnt
-  const activeUsers = (getDb().prepare(
-    "SELECT count(DISTINCT user_id) as cnt FROM sessions WHERE start_time >= datetime('now', '-7 days')"
-  ).get() as any).cnt
-  const totalWords = (getDb().prepare('SELECT count(*) as cnt FROM words').get() as any).cnt
-  const totalMastered = (getDb().prepare(
-    'SELECT COALESCE(sum(CASE WHEN proficiency >= 90 THEN 1 ELSE 0 END), 0) as cnt FROM user_words'
-  ).get() as any).cnt
-  const totalSessions = (getDb().prepare('SELECT count(*) as cnt FROM sessions').get() as any).cnt
-
-  const topLearners = getDb().prepare(`
-    SELECT u.username,
-      COALESCE(uw.mastered, 0) as mastered,
-      COALESCE(uw.avg_prof, 0) as proficiency
-    FROM users u
-    LEFT JOIN (
-      SELECT user_id,
-        sum(CASE WHEN proficiency >= 90 THEN 1 ELSE 0 END) as mastered,
-        avg(proficiency) as avg_prof
-      FROM user_words GROUP BY user_id
-    ) uw ON uw.user_id = u.id
-    ORDER BY mastered DESC
-    LIMIT 5
-  `).all()
-
-  const recentActivity = getDb().prepare(`
-    SELECT date(created_at) as date, count(*) as count
-    FROM review_logs
-    WHERE created_at >= datetime('now', '-7 days')
-    GROUP BY date(created_at)
-    ORDER BY date ASC
-  `).all()
-
-  return { totalUsers, activeUsers, totalWords, totalMastered, totalSessions, topLearners, recentActivity }
-}
-
 // ─── Overall progress ──────────────────────────────
 
 export function getUserProgress(userId: number) {
