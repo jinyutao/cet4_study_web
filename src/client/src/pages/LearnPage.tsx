@@ -311,34 +311,57 @@ export default function LearnPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionKey])
 
-  // ── Effect: Resume unfinished session on mount ──
-  const resumeRef = useRef(false)
+  // ── Effect: Initialize — resume or auto-start on mount ──
+  const initRef = useRef(false)
   useEffect(() => {
-    if (resumeRef.current) return
-    resumeRef.current = true
+    if (initRef.current) return
+    initRef.current = true
 
-    const resume = async () => {
+    const init = async () => {
+      dispatch({ type: 'SET_LOADING', loading: true })
       try {
         const today = await api.get<TodayTask>('/learn/today')
-        if (!today.unfinishedSession) return
-        dispatch({ type: 'SET_LOADING', loading: true })
 
-        const { id: sessionId } = today.unfinishedSession
-        dispatch({ type: 'START_SESSION', sessionId, round: 0 })
+        // 1) 有未完成会话 → 恢复
+        if (today.unfinishedSession) {
+          const { id: sessionId } = today.unfinishedSession
+          dispatch({ type: 'START_SESSION', sessionId, round: 0 })
 
-        const reviewRes = await api.get<ReviewQueueResponse>('/learn/review-queue', { sessionId })
-        if (reviewRes.words.length === 0) {
-          newWordsFetchedRef.current = false
-          dispatch({ type: 'TRANSITION_TO_NEW_WORDS' })
-        } else {
-          dispatch({ type: 'LOAD_REVIEW_WORDS', words: reviewRes.words })
+          const reviewRes = await api.get<ReviewQueueResponse>('/learn/review-queue', { sessionId })
+          if (reviewRes.words.length === 0) {
+            newWordsFetchedRef.current = false
+            dispatch({ type: 'TRANSITION_TO_NEW_WORDS' })
+          } else {
+            dispatch({ type: 'LOAD_REVIEW_WORDS', words: reviewRes.words })
+          }
+          return
         }
+
+        // 2) 无未完成会话但有复习词 → 自动开始新会话（跳过模式选择）
+        if (today.dueReviewCount > 0) {
+          const startRes = await api.post<StartSessionResponse>('/learn/start', {})
+          dispatch({ type: 'START_SESSION', sessionId: startRes.sessionId, round: startRes.round })
+
+          const reviewRes = await api.get<ReviewQueueResponse>('/learn/review-queue', {
+            sessionId: startRes.sessionId,
+          })
+          if (reviewRes.words.length === 0) {
+            newWordsFetchedRef.current = false
+            dispatch({ type: 'TRANSITION_TO_NEW_WORDS' })
+          } else {
+            dispatch({ type: 'LOAD_REVIEW_WORDS', words: reviewRes.words })
+          }
+          return
+        }
+
+        // 3) 其他情况（本轮首次）→ 留在 mode_select
       } catch {
+        // 网络错误等，留在 mode_select
       } finally {
         dispatch({ type: 'SET_LOADING', loading: false })
       }
     }
-    resume()
+    init()
   }, [])
 
   // ── Effect: Fetch new words when entering phase ──
