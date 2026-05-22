@@ -5,15 +5,13 @@ import { ok, serverError } from '../utils/response.js'
 interface TopLearner {
   username: string
   masteredCount: number
-  proficiency: number
+  daysActive: number
 }
 
 interface RecentActivityItem {
   username: string
-  round: number
-  wordsMastered: number
-  totalWords: number
-  completedAt: string
+  action: string
+  timestamp: string
 }
 
 const router = Router()
@@ -25,24 +23,23 @@ router.get('/stats', (_req: Request, res: Response) => {
     const totalUsers = (db.prepare('SELECT COUNT(*) as cnt FROM users').get() as { cnt: number }).cnt
     const totalWords = getWordCount()
     const activeUsers = (db.prepare(
-      "SELECT COUNT(DISTINCT user_id) as cnt FROM sessions WHERE start_time >= datetime('now', '-7 days')"
+      "SELECT COUNT(DISTINCT user_id) as cnt FROM review_logs WHERE created_at >= datetime('now', '-7 days')"
     ).get() as { cnt: number }).cnt
     const totalReviews = (db.prepare('SELECT COUNT(*) as cnt FROM review_logs').get() as { cnt: number }).cnt
 
     const topLearners = db.prepare(`
       SELECT u.username,
         COALESCE(SUM(CASE WHEN uw.proficiency >= 90 THEN 1 ELSE 0 END), 0) as masteredCount,
-        COALESCE(AVG(uw.proficiency), 0) as proficiency
+        COALESCE((SELECT COUNT(DISTINCT date(rl.created_at)) FROM review_logs rl WHERE rl.user_id = u.id), 0) as daysActive
       FROM users u
-      LEFT JOIN user_words uw ON uw.user_id = u.id
+      JOIN user_words uw ON uw.user_id = u.id AND uw.round = (SELECT COALESCE(MAX(uw2.round), 1) FROM user_words uw2 WHERE uw2.user_id = u.id)
       GROUP BY u.id, u.username
       ORDER BY masteredCount DESC
       LIMIT 10
     `).all() as TopLearner[]
 
     const recentActivity = db.prepare(`
-      SELECT u.username, rc.round, rc.words_mastered as wordsMastered,
-        rc.total_words as totalWords, rc.completed_at as completedAt
+      SELECT u.username, ('完成了第 ' || rc.round || ' 轮学习') AS action, rc.completed_at AS timestamp
       FROM round_completions rc
       JOIN users u ON u.id = rc.user_id
       ORDER BY rc.completed_at DESC
