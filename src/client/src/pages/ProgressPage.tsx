@@ -217,7 +217,7 @@ export default function ProgressPage() {
                 </div>
 
                 <div className="flex items-center justify-between mt-1 text-xs text-gray-400">
-                  <span>正确率 {Math.round(round.avgCorrectRate * 100)}%</span>
+                  <span>正确率 {Math.round(round.avgCorrectRate)}%</span>
                   <span>平均熟练度 {Math.round(round.avgProficiency)}</span>
                 </div>
 
