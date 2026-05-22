@@ -15,19 +15,21 @@ export function generateChoices(
   count: number = 4,
   externalDistractors?: string[]
 ): ChoiceItem[] {
-  const neighborIds = new Set(pool.map(w => w.wordId))
+  // 1) 优先从全量字典池中取干扰项
+  const seen = new Set<string>([correctWord.chinese])
+  let candidates: string[] = []
+  if (externalDistractors) {
+    candidates = externalDistractors.filter(c => !seen.has(c))
+    candidates.forEach(c => seen.add(c))
+  }
 
-  // 1) 从 wordQueue 中取干扰项
-  let candidates = pool
-    .filter(w => w.wordId !== correctWord.wordId && w.chinese !== correctWord.chinese)
-    .map(w => w.chinese)
-
-  // 2) 从外部字典池中补足
-  if (externalDistractors && candidates.length < count - 1) {
-    const seen = new Set(candidates)
-    seen.add(correctWord.chinese)
-    const extras = externalDistractors.filter(c => !seen.has(c) && !neighborIds.has(c as any))
+  // 2) 不足时从当前 wordQueue 补
+  if (candidates.length < count - 1) {
+    const extras = pool
+      .filter(w => w.wordId !== correctWord.wordId && !seen.has(w.chinese))
+      .map(w => w.chinese)
     candidates = [...candidates, ...extras]
+    extras.forEach(c => seen.add(c))
   }
 
   const distractors = candidates
@@ -35,7 +37,7 @@ export function generateChoices(
     .slice(0, count - 1)
     .map(text => ({ text, correct: false }))
 
-  // 3) 兜底（不应触发）
+  // 3) 兜底
   while (distractors.length < count - 1) {
     distractors.push({ text: '（干扰项）', correct: false })
   }
