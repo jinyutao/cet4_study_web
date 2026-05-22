@@ -26,7 +26,7 @@ CET-4 词汇学习网站（4517 词）。TypeScript + Express + React 19 + Vite 
 ├── src/server/       Express 后端（routes/ 路由, models/ 数据层, middleware/ 鉴权）
 ├── src/client/       React 前端（Vite + Tailwind）
 ├── tests/            API 集成测试（vitest + supertest）
-│   ├── server/routes/   6 个路由模块共 100 项测试
+│   ├── server/routes/   6 个路由模块共 110 项测试
 │   └── db/              Schema 验证测试
 ├── docker/           Dockerfile + compose
 ├── cli/              运行时管理脚本（reset-password.js, seed-test.js）
@@ -64,7 +64,7 @@ bash start.sh --help              # 查看帮助
 docker exec docker-cet4-web-1 npm run build:client    # 容器内构建前端（与 start.sh build 等价）
 docker exec docker-cet4-web-1 node /app/dist/scripts/seed.js        # 4517 词种子
 docker exec -e DB_PATH=/app/data/cet4_test.db docker-cet4-web-1 node /app/dist/scripts/seed_test.js  # 50 词种子
-docker exec docker-cet4-web-1 npx vitest run                    # 运行全部 API 测试（100 项）
+docker exec docker-cet4-web-1 npx vitest run                    # 运行全部 API 测试（110 项）
 docker exec docker-cet4-web-1 npx vitest run tests/server/routes/auth.test.ts  # 单文件测试
 # Schema 验证（需先复制到容器：docker cp tests/db/schema_test.js docker-cet4-web-1:/app/tests/db/）
 docker exec docker-cet4-web-1 node tests/db/schema_test.js
@@ -74,14 +74,11 @@ docker exec docker-cet4-web-1 node tests/db/schema_test.js
 
 - 开发全程禁止使用宿主机 Node.js：不安装 node_modules、不执行 npm/npx/tsx，所有操作通过 Docker 容器完成
 - 不要用绝对路径，所有路径相对于项目根目录
-- 不要在 `isLoggedIn=true` 硬编码之外修改 DEMO 阶段的 API mock
 - 不要提交 node_modules 到 git
 - 不要使用 `--force` 或 `--no-verify` 提交
 
 ## NOTES
 
-- 当前 DEMO 阶段：`src/server/index.ts` 返回 mock 数据，`isLoggedIn=true` 显示登录后界面
-- 真实后端代码已编写（database.ts, auth.ts, seed.ts）但未部署
-- SM-2 算法和真实后端部署在 DEMO 确认后进行
+- 服务端已完全使用生产级代码：SM-2 算法、bcrypt 密码哈希、JWT 认证、冻结用户检查、完整管理员权限
 - Docker 容器名 `docker-cet4-web-1`（docker-compose 自动命名，`exec` 命令使用此名）
-- API 测试共 **100 项**，覆盖 6 个路由模块 21 个端点，通过 vitest + supertest 运行在 Docker 容器内
+- API 测试共 **110 项**，覆盖 6 个路由模块 21 个端点，通过 vitest + supertest 运行在 Docker 容器内
