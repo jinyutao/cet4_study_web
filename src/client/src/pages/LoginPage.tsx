@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../hooks/useAuth'
 
 type TabKey = 'login' | 'register'
@@ -69,9 +69,9 @@ export default function LoginPage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center p-4">
       <div className="w-full max-w-md py-12">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-600 text-white text-3xl mb-4 shadow-lg shadow-blue-200">
+          <Link to="/" className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-600 text-white text-3xl mb-4 shadow-lg shadow-blue-200 hover:bg-blue-700 transition-colors">
             📖
-          </div>
+          </Link>
           <h1 className="text-2xl font-bold text-gray-900">CET-4 背单词</h1>
           <p className="text-sm text-gray-500 mt-1">高效备考·轻松过关</p>
         </div>
