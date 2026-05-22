@@ -89,6 +89,9 @@ docker exec -e DB_PATH=/app/data/cet4_test.db docker-cet4-web-1 node /app/dist/s
 │   └── models/        # 数据层
 ├── src/client/        # React 前端
 │   └── src/pages/     # 页面组件
+├── tests/             # 测试
+│   ├── server/routes/ # API 集成测试（100 项）
+│   └── db/            # Schema 验证测试
 ├── docker/            # Docker 引擎
 │   ├── Dockerfile
 │   ├── docker-compose.yml
@@ -115,7 +118,36 @@ bash start.sh build                # 容器内构建前端
 bash start.sh reset-password <用户名> [新密码]
 bash start.sh fix-ownership        # 修复 data/config/logs 所有权
 bash start.sh --help               # 查看帮助
+
+# API 测试
+docker exec docker-cet4-web-1 npx vitest run                    # 全部 100 项
+docker exec docker-cet4-web-1 npx vitest run tests/server/routes/auth.test.ts  # 单文件
+
+# Schema 验证
+docker cp tests/db/schema_test.js docker-cet4-web-1:/app/tests/db/
+docker exec docker-cet4-web-1 node tests/db/schema_test.js
 ```
+
+## 测试
+
+### API 集成测试（100 项）
+
+使用 vitest + supertest 对全部 21 个 API 端点进行 HTTP 级集成测试，覆盖正常流程、参数验证、权限控制和边界情况。
+
+| 模块 | 测试文件 | 用例数 |
+|------|---------|--------|
+| 认证 | `tests/server/routes/auth.test.ts` | 15 |
+| 学习 | `tests/server/routes/learn.test.ts` | 31 |
+| 进度 | `tests/server/routes/progress.test.ts` | 12 |
+| 管理 | `tests/server/routes/admin.test.ts` | 25 |
+| 公开 | `tests/server/routes/public.test.ts` | 5 |
+| 设置 | `tests/server/routes/settings.test.ts` | 12 |
+
+测试在内存数据库中运行，每次测试前重置数据，互不干扰。
+
+### Schema 验证测试（111 项）
+
+`tests/db/schema_test.js` 直接连接 SQLite 数据库，验证表结构、列定义、索引、外键和数据完整性。
 
 ## Docker 注意
 
