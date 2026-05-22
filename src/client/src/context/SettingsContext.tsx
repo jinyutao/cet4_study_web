@@ -40,7 +40,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   const updateSettings = useCallback(async (partial: Partial<UserSettings>) => {
     setIsLoading(true)
     try {
-      const updated = await api.put<UserSettings>('/api/settings', partial)
+      const updated = await api.put<UserSettings>('/settings', partial)
       setSettings(updated)
     } finally {
       setIsLoading(false)
