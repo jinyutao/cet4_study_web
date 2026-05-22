@@ -4,7 +4,7 @@ import { api } from '../lib/api'
 import { useTimer } from '../hooks/useTimer'
 import { generateChoices } from '../lib/shuffle'
 import { SettingsContext } from '../context/SettingsContext'
-import type { ApiError } from '../types/api'
+import type { ApiError, TodayTask } from '../types/api'
 import type { WordItem, UserSettings } from '../types/models'
 import type {
   StartSessionResponse,
@@ -310,6 +310,36 @@ export default function LearnPage() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionKey])
+
+  // ── Effect: Resume unfinished session on mount ──
+  const resumeRef = useRef(false)
+  useEffect(() => {
+    if (resumeRef.current) return
+    resumeRef.current = true
+
+    const resume = async () => {
+      try {
+        const today = await api.get<TodayTask>('/learn/today')
+        if (!today.unfinishedSession) return
+        dispatch({ type: 'SET_LOADING', loading: true })
+
+        const { id: sessionId } = today.unfinishedSession
+        dispatch({ type: 'START_SESSION', sessionId, round: 0 })
+
+        const reviewRes = await api.get<ReviewQueueResponse>('/learn/review-queue', { sessionId })
+        if (reviewRes.words.length === 0) {
+          newWordsFetchedRef.current = false
+          dispatch({ type: 'TRANSITION_TO_NEW_WORDS' })
+        } else {
+          dispatch({ type: 'LOAD_REVIEW_WORDS', words: reviewRes.words })
+        }
+      } catch {
+      } finally {
+        dispatch({ type: 'SET_LOADING', loading: false })
+      }
+    }
+    resume()
+  }, [])
 
   // ── Effect: Fetch new words when entering phase ──
   useEffect(() => {
