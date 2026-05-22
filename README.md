@@ -68,6 +68,8 @@ docker exec -e DB_PATH=/app/data/cet4_test.db docker-cet4-web-1 node /app/dist/s
 | `data/cet4_test.db` | B/C/W 首字母（B:17, C:17, W:16） | 50 |
 | `data/cet4_test_afjz.db` | A/F/J/Z 首字母 | 550 |
 
+数据库调试页面: `http://server:9098/test_db?db=cet4_test.db`
+
 ## 技术栈
 
 | 层级 | 技术 |
