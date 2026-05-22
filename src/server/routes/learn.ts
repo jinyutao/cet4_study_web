@@ -549,4 +549,28 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
   }
 })
 
+// ─── 4.7 GET /distractors ───────────────────────────────
+
+router.get('/distractors', requireAuth, (req: Request, res: Response) => {
+  try {
+    const excludeRaw = (req.query.exclude as string) || ''
+    const excludeIds = excludeRaw.split(',').map(Number).filter(n => n > 0)
+    const count = Math.min(Math.max(Number(req.query.count) || 3, 1), 10)
+
+    let sql = 'SELECT chinese FROM words'
+    const params: unknown[] = []
+    if (excludeIds.length > 0) {
+      sql += ' WHERE id NOT IN (' + excludeIds.map(() => '?').join(',') + ')'
+      params.push(...excludeIds)
+    }
+    sql += ' ORDER BY RANDOM() LIMIT ?'
+    params.push(count)
+
+    const rows = getDb().prepare(sql).all(...params) as { chinese: string }[]
+    ok(res, { distractors: rows.map(r => r.chinese) })
+  } catch (e) {
+    serverError(res, (e as Error).message)
+  }
+})
+
 export default router

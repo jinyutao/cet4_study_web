@@ -4,7 +4,7 @@ import { api } from '../lib/api'
 import { useTimer } from '../hooks/useTimer'
 import { generateChoices } from '../lib/shuffle'
 import { SettingsContext } from '../context/SettingsContext'
-import type { ApiError, TodayTask } from '../types/api'
+import type { ApiError, TodayTask, DistractorsResponse } from '../types/api'
 import type { WordItem, UserSettings } from '../types/models'
 import type {
   StartSessionResponse,
@@ -278,6 +278,7 @@ export default function LearnPage() {
   const settingsCtx = useContext(SettingsContext)
   const settings = settingsCtx?.settings ?? defaultSettings
   const newWordsFetchedRef = useRef(false)
+  const distractorPoolRef = useRef<string[]>([])
 
   const [state, dispatch] = useReducer(learnReducer, initialState)
 
@@ -292,7 +293,7 @@ export default function LearnPage() {
   // Current choices (memoized per word)
   const currentChoices = useMemo<{ text: string; correct: boolean }[]>(() => {
     if (!currentWord || state.wordQueue.length === 0) return []
-    return generateChoices(currentWord, state.wordQueue, 4)
+    return generateChoices(currentWord, state.wordQueue, 4, distractorPoolRef.current)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentWord?.wordId])
 
@@ -321,6 +322,12 @@ export default function LearnPage() {
       dispatch({ type: 'SET_LOADING', loading: true })
       try {
         const today = await api.get<TodayTask>('/learn/today')
+
+        // 预取干扰词池（全量字典中随机取，供四选一使用）
+        try {
+          const dr = await api.get<DistractorsResponse>('/learn/distractors', { count: 50 })
+          distractorPoolRef.current = dr.distractors
+        } catch { /* 非关键，忽略 */ }
 
         // 1) 有未完成会话 → 恢复
         if (today.unfinishedSession) {

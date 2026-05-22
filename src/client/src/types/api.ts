@@ -155,6 +155,11 @@ export interface RoundsResponse {
   currentRound: number
 }
 
+// --- 干扰项 ---
+export interface DistractorsResponse {
+  distractors: string[]
+}
+
 // --- 管理员 ---
 export interface AdminUserListResponse {
   users: import('./models').AdminUserItem[]
