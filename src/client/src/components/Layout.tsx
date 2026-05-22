@@ -53,7 +53,7 @@ function MobileTab({
 
 export default function Layout() {
   const location = useLocation()
-  const { user } = useAuth()
+  const { user, logout } = useAuth()
 
   const visibleItems = navItems.filter(
     (item) => item.path !== '/admin' || user?.isAdmin
@@ -73,6 +73,15 @@ export default function Layout() {
           <div className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white text-sm font-medium">
             {user?.username?.charAt(0).toUpperCase() || '?'}
           </div>
+          <button
+            onClick={logout}
+            className="text-sm text-gray-400 hover:text-red-500 transition-colors"
+            title="登出"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+            </svg>
+          </button>
         </div>
       </header>
 
@@ -87,6 +96,17 @@ export default function Layout() {
               />
             ))}
           </nav>
+          <div className="mt-auto px-4 pb-4">
+            <button
+              onClick={logout}
+              className="flex items-center gap-3 w-full px-4 py-2.5 text-sm text-gray-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+              </svg>
+              退出登录
+            </button>
+          </div>
         </aside>
 
         <main className="flex-1 overflow-auto pb-20 md:pb-6">
