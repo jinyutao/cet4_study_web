@@ -9,12 +9,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../data/cet4_test.db')
 const dbDir = path.dirname(DB_PATH)
 if (!fs.existsSync(dbDir)) fs.mkdirSync(dbDir, { recursive: true })
-if (fs.existsSync(DB_PATH)) fs.unlinkSync(DB_PATH)
 
+// 注意：Express 容器启动时已经创建了同路径数据库（包含完整 schema），
+// 这里只打开已有数据库，不删除文件，避免 Express 持有的旧文件句柄看不到新数据。
 const db = new Database(DB_PATH)
 db.pragma('journal_mode = WAL')
 db.pragma('foreign_keys = ON')
 
+// 确保 schema 存在（Express 已经创建了，这里做幂等保护）
 db.exec(`
   CREATE TABLE IF NOT EXISTS words (
     id INTEGER PRIMARY KEY AUTOINCREMENT, word TEXT NOT NULL UNIQUE,
@@ -63,7 +65,7 @@ db.exec(`
   );
   CREATE INDEX IF NOT EXISTS idx_user_words_next_review ON user_words(user_id, next_review);
   CREATE INDEX IF NOT EXISTS idx_review_logs_created ON review_logs(user_id, created_at);
-`)
+`);
 
 const words = [
   ["a", null, "art", "一(个)；每一(个)", null],

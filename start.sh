@@ -69,12 +69,13 @@ fi
 
 # ─── 前端构建（容器内，无需宿主机 Node.js） ──────
 if [ "$MODE" = "build" ]; then
-  if ! docker image inspect cet4-web:latest >/dev/null 2>&1; then
-    echo "错误: 镜像 cet4-web:latest 不存在，请先执行 bash start.sh 构建"
+  IMG=$(docker images --format '{{.Repository}}:{{.Tag}}' | grep 'cet4-web' | head -1)
+  if [ -z "$IMG" ]; then
+    echo "错误: cet4-web 镜像不存在，请先执行 bash start.sh 构建"
     exit 1
   fi
   echo "在容器内构建前端..."
-  docker run --rm --user "$CURRENT_UID:$CURRENT_GID" -v "$(pwd):/workspace" -w /workspace cet4-web:latest npm run build:client
+  docker run --rm --user "$CURRENT_UID:$CURRENT_GID" -v "$(pwd):/workspace" -w /workspace "$IMG" npm run build:client
   echo "✅ 构建完成！刷新浏览器即可查看效果"
   exit 0
 fi
@@ -95,7 +96,7 @@ if [ "$MODE" = "--test" ] || [ "$MODE" = "-t" ] || [ "$MODE" = "test" ]; then
   echo "等待容器就绪..."
   sleep 3
   echo "创建测试数据库（50 词）..."
-  docker exec --user "$CURRENT_UID:$CURRENT_GID" cet4-web node cli/seed-test.js
+  docker exec cet4-web node cli/seed-test.js
 
   # 修复容器创建的文件所有权（防止 root 归属）
   sudo chown -R "$CURRENT_UID:$CURRENT_GID" ./data ./config ./logs 2>/dev/null || true
