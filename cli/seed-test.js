@@ -7,6 +7,12 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DB_PATH = process.env.DB_PATH || path.join(__dirname, '../data/cet4_test.db')
+const MARKDOWN_PATH = path.join(__dirname, '../ref/CET4_词汇表_精简版.md')
+
+// README: B/C/W 首字母，B:17, C:17, W:16 = 50 词
+const FILTER = new Set(['B', 'C', 'W'])
+const PER_LETTER = { B: 17, C: 17, W: 16 }
+
 const dbDir = path.dirname(DB_PATH)
 if (!fs.existsSync(dbDir)) fs.mkdirSync(dbDir, { recursive: true })
 
@@ -65,77 +71,64 @@ db.exec(`
   );
   CREATE INDEX IF NOT EXISTS idx_user_words_next_review ON user_words(user_id, next_review);
   CREATE INDEX IF NOT EXISTS idx_review_logs_created ON review_logs(user_id, created_at);
-`);
+`)
 
-const words = [
-  ["a", null, "art", "一(个)；每一(个)", null],
-  ["abandon", "[əˈbændən]", "vt", "丢弃；放弃，抛弃", null],
-  ["ability", "[əˈbiliti]", "n", "能力；能耐，本领", "the quality of having the means or skills to do something"],
-  ["able", "[ˈeibl]", "a", "有能力的；出色的", "having the necessary means or skill to do something"],
-  ["abnormal", "[æbˈnɔːməl]", "a", "不正常的；变态的", "not typical or usual or regular"],
-  ["aboard", "[əˈbɔːd]", "ad", "在船(车)上；上船", "on a ship, train, plane or other vehicle"],
-  ["about", "[ˈəbaut]", "prep", "关于；在…周围", null],
-  ["above", "[əˈbʌv]", "prep", "在…上面；高于", null],
-  ["abroad", "[əˈbrɔːd]", "ad", "(在)国外；到处", "to or in a foreign country"],
-  ["absence", "[ˈæbsəns]", "n", "缺席，不在场；缺乏", "the state of being not present"],
-  ["absent", "[ˈæbsənt]", "a", "不在场的；缺乏的", "not being in a specified place"],
-  ["absolute", "[ˈæbsəluːt]", "a", "绝对的；纯粹的", "perfect or complete or pure"],
-  ["absolutely", "[ˈæbsəluːtli]", "ad", "完全地；绝对地", "totally and definitely; without question"],
-  ["absorb", "[əbˈsɔːb]", "vt", "吸收；使专心", "take in a liquid"],
-  ["abstract", "[ˈæbstrækt]", "a", "抽象的；深奥的", "existing only in the mind; not concrete"],
-  ["abundant", "[əˈbʌndənt]", "a", "丰富的；大量的", "present in great quantity"],
-  ["abuse", "[əˈbjuːs]", "n", "滥用；虐待", "cruel or inhumane treatment"],
-  ["academic", "[ˌækəˈdemik]", "a", "学院的；学术的", "associated with academia or an academy"],
-  ["accelerate", "[əkˈseləreit]", "vt", "(使)加快；促进", "move faster"],
-  ["accent", "[ˈæksənt]", "n", "口音；腔调；重音", "distinctive manner of oral expression"],
-  ["accept", "[əkˈsept]", "vt", "接受；领会；承认", "receive willingly something given or offered"],
-  ["access", "[ˈækses]", "n", "接近；通道，入口", "the right to enter"],
-  ["accident", "[ˈæksidənt]", "n", "意外；事故", "an unfortunate mishap"],
-  ["accompany", "[əˈkʌmpəni]", "vt", "陪伴；伴随；陪同", "go or travel along with"],
-  ["accomplish", "[əˈkʌmpliʃ]", "vt", "达到(目的)；完成", "achieve or reach a goal"],
-  ["account", "[əˈkaunt]", "n", "记述；解释；账目", "a record or statement of financial expenditure"],
-  ["accumulate", "[əˈkjuːmjuleit]", "vt", "积累；积聚；堆积", "get or gather together"],
-  ["accurate", "[ˈækjurit]", "a", "准确的；正确无误的", "conforming exactly to truth or fact"],
-  ["accuse", "[əˈkjuːz]", "vt", "指责；归咎于", "bring an accusation against"],
-  ["accustomed", "[əˈkʌstəmd]", "a", "惯常的；习惯的", "often used or practiced"],
-  ["ache", "[eik]", "vi", "痛；渴望", "a dull persistent pain"],
-  ["achieve", "[əˈtʃiːv]", "vt", "完成，实现；达到", "gain with effort"],
-  ["achievement", "[əˈtʃiːvmənt]", "n", "成就；成绩；完成", "the action of accomplishing something"],
-  ["acknowledge", "[əkˈnɔlidʒ]", "vt", "承认；告知收到", "declare to be true or admit the existence"],
-  ["acquire", "[əˈkwaiə]", "vt", "取得；获得；学到", "come into the possession of something"],
-  ["across", "[əˈkrɔs]", "prep", "横过；在…对面", null],
-  ["act", "[ækt]", "vi", "行动；做，做事", "behave in a certain manner"],
-  ["action", "[ˈækʃən]", "n", "行动；作用；功能", "something done (usually as opposed to something said)"],
-  ["active", "[ˈæktiv]", "a", "活跃的；积极的", "characterized by energetic activity"],
-  ["activity", "[ækˈtiviti]", "n", "活动；活力；行动", "any specific behavior"],
-  ["actor", "[ˈæktə]", "n", "男演员；演剧的人", "a person who acts and gets paid for it"],
-  ["actress", "[ˈæktris]", "n", "女演员", "a female actor"],
-  ["actual", "[ˈæktjuəl]", "a", "实际的；现行的", "taking place in reality; not pretended"],
-  ["actually", "[ˈæktjuəli]", "ad", "实际上；竟然", "as the true or stated case"],
-  ["adapt", "[əˈdæpt]", "vt", "使适应；改编", "make fit for a particular purpose"],
-  ["add", "[æd]", "vt", "添加；增加；补充", "join or combine with others"],
-  ["addition", "[əˈdiʃən]", "n", "加，加法；附加物", "a component that is added to something"],
-  ["additional", "[əˈdiʃənl]", "a", "附加的；额外的", "further or extra"],
-  ["address", "[əˈdres]", "n", "地址；演说；谈吐", "the place where a person or organization can be found"],
-  ["adequate", "[ˈædikwit]", "a", "足够的；可以胜任的", "sufficient for the purpose"],
-  ["adjust", "[əˈdʒʌst]", "vt", "调整；调节；校正", "adapt or conform oneself to new conditions"],
-]
+if (!fs.existsSync(MARKDOWN_PATH)) {
+  console.error(`错误: 找不到词汇表文件 ${MARKDOWN_PATH}`)
+  process.exit(1)
+}
 
+// ── 从 markdown 中提取 B/C/W 首字母词 ──────────
+const content = fs.readFileSync(MARKDOWN_PATH, 'utf-8')
+const lines = content.split('\n')
+const picked = { B: [], C: [], W: [] }
+
+for (const line of lines) {
+  const trimmed = line.trim()
+  if (!trimmed || !trimmed.startsWith('|') || !trimmed.endsWith('|')) continue
+  const cells = trimmed.slice(1, -1).split('|').map(c => c.trim())
+  if (cells.length < 5) continue
+  const word = cells[1]
+  if (!word || word.includes('-') || /^\d+$/.test(word)) continue
+  const first = word[0].toUpperCase()
+  if (!FILTER.has(first)) continue
+
+  const phonetic = cells[2] || null
+  const pos = cells[3] || null
+  const chinese = cells[4]
+  const englishDef = cells.length >= 6 ? cells[5] : null
+  const cleanEnglishDef = englishDef && englishDef !== '-' && englishDef !== ''
+    ? englishDef.replace(/&#039;/g, "'").replace(/&amp;/g, '&')
+    : null
+  const cleanPhonetic = phonetic && phonetic.startsWith('[') ? phonetic : null
+
+  const quota = PER_LETTER[first]
+  if (picked[first].length < quota) {
+    picked[first].push({ word, phonetic: cleanPhonetic, pos: pos || null, chinese, englishDef: cleanEnglishDef })
+  }
+}
+
+const entries = Object.values(picked).flat()
+console.log(`从词汇表提取 B/C/W 单词:`)
+for (const w of entries) {
+  const letter = w.word[0].toUpperCase()
+  console.log(`  ${letter.padEnd(2)} ${w.word.padEnd(20)} ${(w.chinese || '').slice(0, 30)}`)
+}
+
+// ── 写入数据库 ────────────────────────────
 const insertWord = db.prepare(
   'INSERT OR IGNORE INTO words (word, phonetic, pos, chinese, english_def) VALUES (?, ?, ?, ?, ?)'
 )
 
-const tx = db.transaction(() => {
+const inserted = db.transaction(() => {
   let count = 0
-  for (const w of words) {
-    const result = insertWord.run(w[0], w[1], w[2], w[3], w[4])
-    if (result.changes > 0) count++
+  for (const w of entries) {
+    if (insertWord.run(w.word, w.phonetic, w.pos, w.chinese, w.englishDef).changes > 0) count++
   }
   return count
-})
+})()
 
-const inserted = tx()
-console.log(`已插入 ${inserted} 个单词`)
+console.log(`\n成功插入 ${inserted} 个单词`)
 
 const hash = bcrypt.hashSync('test123', 10)
 const createUser = db.prepare(
@@ -147,12 +140,19 @@ createUser.run('admin', hash, 1)
 const insertSettings = db.prepare(
   'INSERT OR IGNORE INTO user_settings (user_id) VALUES (?)'
 )
-const users = db.prepare('SELECT id FROM users').all()
-for (const u of users) insertSettings.run(u.id)
+for (const u of db.prepare('SELECT id FROM users').all()) insertSettings.run(u.id)
 
 db.close()
 
-console.log('✅ 测试数据库已创建')
-console.log('   50 个单词, 2 个用户')
-console.log('   测试账号: test / test123 (管理员)')
-console.log('   测试账号: admin / test123 (管理员)')
+// ── 验证 ────────────────────────────────
+const verifyDb = new Database(DB_PATH)
+const wordCount = verifyDb.prepare('SELECT count(*) as cnt FROM words').get().cnt
+const bcCount = verifyDb.prepare("SELECT count(*) as cnt FROM words WHERE substr(upper(word),1,1)='B'").get().cnt
+const ccCount = verifyDb.prepare("SELECT count(*) as cnt FROM words WHERE substr(upper(word),1,1)='C'").get().cnt
+const wcCount = verifyDb.prepare("SELECT count(*) as cnt FROM words WHERE substr(upper(word),1,1)='W'").get().cnt
+verifyDb.close()
+
+console.log(`\n✅ 测试数据库已创建`)
+console.log(`   ${wordCount} 个单词 (B:${bcCount}  C:${ccCount}  W:${wcCount})`)
+console.log(`   测试账号: test / test123 (管理员)`)
+console.log(`   测试账号: admin / test123 (管理员)`)
