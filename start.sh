@@ -53,8 +53,12 @@ if [ "$MODE" = "start" ]; then
   docker compose -f docker/docker-compose.yml up -d --build
   docker compose -f docker/docker-compose.yml ps
 
-  # 修复容器创建的文件所有权（防止 root 归属）
-  sudo chown -R "$CURRENT_UID:$CURRENT_GID" ./data ./config ./logs 2>/dev/null || true
+  # 检查文件所有权
+  if ls -la ./data ./config ./logs 2>/dev/null | grep -q '^[^d].*root ' 2>/dev/null || [ "$(stat -c '%u' ./data/cet4.db 2>/dev/null)" != "$(id -u)" ] 2>/dev/null; then
+    echo "⚠️  volume 文件归属 root，当前用户无法写入" >&2
+    echo "   请执行: bash start.sh fix-ownership" >&2
+    exit 1
+  fi
 
   echo "访问 http://$(hostname -I | awk '{print $1}'):9098"
   echo ""
@@ -98,8 +102,12 @@ if [ "$MODE" = "--test" ] || [ "$MODE" = "-t" ] || [ "$MODE" = "test" ]; then
   echo "创建测试数据库（50 词）..."
   docker exec cet4-web node cli/seed-test.js
 
-  # 修复容器创建的文件所有权（防止 root 归属）
-  sudo chown -R "$CURRENT_UID:$CURRENT_GID" ./data ./config ./logs 2>/dev/null || true
+  # 检查文件所有权
+  if ls -la ./data ./config ./logs 2>/dev/null | grep -q '^[^d].*root ' 2>/dev/null || [ "$(stat -c '%u' ./data/cet4_test.db 2>/dev/null)" != "$(id -u)" ] 2>/dev/null; then
+    echo "⚠️  volume 文件归属 root，当前用户无法写入" >&2
+    echo "   请执行: bash start.sh fix-ownership" >&2
+    exit 1
+  fi
   docker compose -f docker/docker-compose.yml ps
   echo "访问 http://$(hostname -I | awk '{print $1}'):9098"
   echo ""
