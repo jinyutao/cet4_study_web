@@ -54,6 +54,12 @@ if [ "$MODE" = "start" ]; then
   docker compose -f docker/docker-compose.yml up -d --build
   docker compose -f docker/docker-compose.yml ps
 
+  echo "初始化数据库（4517 词）..."
+  # seed 脚本有自动跳过逻辑（已存在单词则不重复导入），可安全重复执行
+  docker exec cet4-web node /app/dist/scripts/seed.js 2>/dev/null || \
+    (sleep 2 && docker exec cet4-web node /app/dist/scripts/seed.js) || \
+    echo "⚠️ 数据库初始化失败，可手动执行: docker exec cet4-web node /app/dist/scripts/seed.js" >&2
+
   # 容器 root 进程在 volume 上创建的文件会归属 root，start.sh 已预创建 data/cet4.db
   if ls -la ./data ./config ./logs 2>/dev/null | grep -q '^[^d].*root ' 2>/dev/null || [ "$(stat -c '%u' ./data/cet4.db 2>/dev/null)" != "$(id -u)" ] 2>/dev/null; then
     echo "⚠️  volume 文件归属 root，当前用户无法写入" >&2
