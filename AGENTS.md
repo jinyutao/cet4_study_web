@@ -76,6 +76,7 @@ docker exec docker-cet4-web-1 node tests/db/schema_test.js
 - 不要用绝对路径，所有路径相对于项目根目录
 - 不要提交 node_modules 到 git
 - 不要使用 `--force` 或 `--no-verify` 提交
+- git commit message 必须使用中文
 
 ## NOTES
 
