@@ -1030,7 +1030,7 @@ function SessionComplete({
   // Use API result if available, else fallback to local scores
   const pct =
     result?.correctRate !== undefined
-      ? Math.round(result.correctRate * 100)
+      ? Math.round(result.correctRate)
       : totalCount > 0
         ? Math.round((correctCount / totalCount) * 100)
         : 0
