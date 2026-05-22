@@ -380,9 +380,15 @@ router.post('/answer', requireAuth, (req: Request, res: Response) => {
       'SELECT words_reviewed, words_passed, words_failed FROM sessions WHERE id = ?'
     ).get(sessionId) as { words_reviewed: number; words_passed: number; words_failed: number }
 
+    const totalStageWords = (getDb().prepare(`
+      SELECT COUNT(*) as cnt FROM user_words uw
+      WHERE uw.user_id = ? AND uw.round = ?
+        AND (uw.next_review <= datetime('now') OR (uw.repetitions = 0 AND uw.total_attempts > 0))
+    `).get(userId, session.round) as { cnt: number }).cnt
+
     const sessionProgress = {
       reviewed: updatedSession.words_reviewed,
-      total: updatedSession.words_reviewed,
+      total: totalStageWords,
       passed: updatedSession.words_passed,
       failed: updatedSession.words_failed,
     }
@@ -417,6 +423,9 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
     const session = validateSessionOwnership(sessionId, userId)
     if (!session) {
       return notFound(res, '学习会话不存在')
+    }
+    if (session.status !== 'active') {
+      return validationError(res, '该学习会话已结束')
     }
 
     const isAbandoned = abandoned === true

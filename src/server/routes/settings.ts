@@ -42,14 +42,14 @@ router.put('/', requireAuth, (req: Request, res: Response) => {
     const body = req.body as Record<string, unknown>
 
     if (body.newWordsPerSession !== undefined) {
-      if (typeof body.newWordsPerSession !== 'number' || body.newWordsPerSession < 5 || body.newWordsPerSession > 50) {
-        validationError(res, 'newWordsPerSession 必须在 5-50 之间')
+      if (typeof body.newWordsPerSession !== 'number' || !Number.isInteger(body.newWordsPerSession) || body.newWordsPerSession < 5 || body.newWordsPerSession > 50) {
+        validationError(res, 'newWordsPerSession 必须是 5-50 之间的整数')
         return
       }
     }
     if (body.dailyGoal !== undefined) {
-      if (typeof body.dailyGoal !== 'number' || body.dailyGoal < 5 || body.dailyGoal > 120) {
-        validationError(res, 'dailyGoal 必须在 5-120 之间')
+      if (typeof body.dailyGoal !== 'number' || !Number.isInteger(body.dailyGoal) || body.dailyGoal < 5 || body.dailyGoal > 120) {
+        validationError(res, 'dailyGoal 必须是 5-120 之间的整数')
         return
       }
     }
