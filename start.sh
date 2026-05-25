@@ -86,7 +86,14 @@ if [ "$MODE" = "build" ]; then
     exit 1
   fi
   echo "在容器内构建前端..."
-  docker run --rm --user "$CURRENT_UID:$CURRENT_GID" -v "$(pwd):/workspace" -w /workspace "$IMG" npm run build:client
+  docker run --rm \
+    -v "$(pwd)/src/client:/app/src/client" \
+    -v "$(pwd)/vite.config.js:/app/vite.config.js" \
+    -v "$(pwd)/postcss.config.js:/app/postcss.config.js" \
+    -v "$(pwd)/tailwind.config.js:/app/tailwind.config.js" \
+    -v "$(pwd)/tsconfig.json:/app/tsconfig.json" \
+    -v "$(pwd)/dist/client:/app/dist/client" \
+    "$IMG" sh -c "npm run build:client && chown -R $CURRENT_UID:$CURRENT_GID /app/dist/client"
   echo "✅ 构建完成！刷新浏览器即可查看效果"
   exit 0
 fi
