@@ -34,7 +34,7 @@ router.get('/stats', (_req: Request, res: Response) => {
       FROM users u
       JOIN user_words uw ON uw.user_id = u.id AND uw.round = (SELECT COALESCE(MAX(uw2.round), 1) FROM user_words uw2 WHERE uw2.user_id = u.id)
       GROUP BY u.id, u.username
-      ORDER BY masteredCount DESC
+      ORDER BY masteredCount DESC, daysActive DESC
       LIMIT 10
     `).all() as TopLearner[]
 
