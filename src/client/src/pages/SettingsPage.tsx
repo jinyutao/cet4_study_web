@@ -1,7 +1,9 @@
 import { useState, useEffect, useContext } from 'react'
 import { SettingsContext } from '../context/SettingsContext'
 import { AuthContext } from '../context/AuthContext'
+import { api } from '../lib/api'
 import type { UserSettings } from '../types/models'
+import type { TodayTask } from '../types/api'
 
 function estimateTime(dailyGoal: number): string {
   if (dailyGoal <= 0) return '0 分钟'
@@ -64,6 +66,13 @@ export default function SettingsPage() {
   const [dailyReminder, setDailyReminder] = useState(settings.dailyReminder)
   const [reminderTime, setReminderTime] = useState(settings.reminderTime)
   const [saving, setSaving] = useState(false)
+  const [hasActiveSession, setHasActiveSession] = useState(false)
+
+  useEffect(() => {
+    api.get<TodayTask>('/learn/today').then(data => {
+      setHasActiveSession(data.unfinishedSession !== null)
+    }).catch(() => {})
+  }, [])
 
   useEffect(() => {
     setNewWordsPerSession(settings.newWordsPerSession)
@@ -133,7 +142,15 @@ export default function SettingsPage() {
         <p className="text-sm text-gray-500 mt-0.5">自定义你的学习体验</p>
       </header>
 
-      <section className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
+      <section className="relative bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
+        {hasActiveSession && (
+          <div className="absolute inset-0 rounded-2xl bg-white/60 backdrop-blur-[1px] z-10 flex items-center justify-center">
+            <div className="bg-white/90 rounded-xl px-5 py-3 shadow-sm border border-gray-200 text-sm text-gray-500 flex items-center gap-2">
+              <span>🔒</span>
+              <span>本轮学习中不可更改，结束后可调整</span>
+            </div>
+          </div>
+        )}
         <h3 className="font-semibold text-gray-800 mb-4 flex items-center gap-2">
           <span className="text-lg">📚</span>
           学习设置
