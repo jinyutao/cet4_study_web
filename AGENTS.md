@@ -77,6 +77,7 @@ docker exec docker-cet4-web-1 node tests/db/schema_test.js
 - 不要提交 node_modules 到 git
 - 不要使用 `--force` 或 `--no-verify` 提交
 - git commit message 必须使用中文
+- 所有 `git push` 必须经人工确认后才能执行，禁止自动推送
 
 ## NOTES
 
