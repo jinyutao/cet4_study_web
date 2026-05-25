@@ -11,6 +11,9 @@
 # 启动服务
 bash start.sh
 
+# 停止服务
+bash start.sh stop
+
 # 测试模式（50 词小数据库）
 bash start.sh --test
 
@@ -114,6 +117,7 @@ docker exec -e DB_PATH=/app/data/cet4_test.db docker-cet4-web-1 node /app/dist/s
 ```bash
 bash start.sh                      # 构建并启动
 bash start.sh --test               # 测试模式（50 词）
+bash start.sh stop                 # 停止服务（数据库安全关闭）
 bash start.sh build                # 容器内构建前端
 bash start.sh reset-password <用户名> [新密码]
 bash start.sh fix-ownership        # 修复 data/config/logs 所有权

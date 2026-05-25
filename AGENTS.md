@@ -58,6 +58,7 @@ CET-4 词汇学习网站（4517 词）。TypeScript + Express + React 19 + Vite 
 ```bash
 bash start.sh                     # 构建并启动
 bash start.sh --test              # 测试模式（50 词）
+bash start.sh stop                # 停止服务（数据库安全关闭）
 bash start.sh build               # 容器内构建前端
 bash start.sh reset-password <用户名> [新密码]
 bash start.sh --help              # 查看帮助
