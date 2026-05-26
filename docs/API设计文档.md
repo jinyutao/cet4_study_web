@@ -463,6 +463,7 @@ interface TodayTask {
     failedCount: number;
   } | null;
   estimatedMinutes: number;       // 预估完成时间（分钟）
+  wordScope: string;              // 派生自 new_word_mode：'all' | 'A' | ... | 'Z'
 }
 ```
 
@@ -493,7 +494,8 @@ interface TodayTask {
     "newWordMode": "random",
     "lastSessionToday": false,
     "unfinishedSession": null,
-    "estimatedMinutes": 18
+    "estimatedMinutes": 18,
+    "wordScope": "all"
   },
   "ts": "2026-05-21T18:00:00Z"
 }
@@ -511,7 +513,7 @@ interface TodayTask {
 
 ```typescript
 interface StartSessionRequest {
-  newWordMode?: "random" | "alpha";  // 本轮首次必填，后续沿用
+  newWordMode?: string;            // 本轮首次必填：'random' | 'alpha' | 'A' | ... | 'Z'
 }
 ```
 
@@ -540,7 +542,7 @@ interface StartSessionResponse {
   round: number;
   reviewCount: number;       // 本轮复习队列中的词数（可能为 0）
   newWordsInRound: number;   // 本轮已学新词数
-  newWordsTotal: number;     // 本轮总词数
+  newWordsTotal: number;     // 本轮总词数（全词模式为 4517，字母模式为该字母词数）
 }
 ```
 
@@ -695,7 +697,7 @@ LIMIT ?
 
 ### 4.4 GET /api/learn/new-words — 获取本轮新词
 
-从本轮未学词库中按用户选择模式抽取 N 个新词。
+从本轮未学词库中按用户选择模式抽取 N 个新词。若 `new_word_mode` 为单字母则仅从该字母开头的词中抽取。
 
 **认证**：需要
 
@@ -711,9 +713,10 @@ LIMIT ?
 ```typescript
 interface NewWordsResponse {
   words: NewWordItem[];
-  remainingNew: number;           // 本轮剩余未学词数
-  mode: "random" | "alpha";      // 实际使用的模式
+  remainingNew: number;           // 本轮剩余未学词数（全词模式为全部，字母模式按该字母过滤）
+  mode: "random" | "alpha";      // 实际使用的新词模式
   hasPreviewed: boolean;         // 当前场次 是否已预览过
+  wordScope: string;             // 派生自 new_word_mode：'all' 或 'A'~'Z'
 }
 
 interface NewWordItem {
