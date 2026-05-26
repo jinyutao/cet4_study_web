@@ -63,7 +63,7 @@ interface ApiError {
 | 状态码 | 含义 | 使用场景 |
 |--------|------|----------|
 | `200` | 成功 | 正常响应 |
-| `201` | 创建成功 | 注册、创建 Session |
+| `201` | 创建成功 | 注册、创建场次 |
 | `400` | 请求参数错误 | 校验失败、缺少必填字段、格式错误 |
 | `401` | 未认证 | 未提供 token、token 过期、token 无效 |
 | `403` | 无权限 | 普通用户访问管理员接口、被冻结用户 |
@@ -501,9 +501,9 @@ interface TodayTask {
 
 ---
 
-### 4.2 POST /api/learn/start — 创建新 Session
+### 4.2 POST /api/learn/start — 创建新场次
 
-开始一次学习会话。如果是本轮首次，用户可能在此之前已在 UI 上选择了新词模式（见设计文档 6.1 流程）。服务端检查有无未完成的旧 session，如果有则自动关闭。
+开始一次学习场次。如果是本轮首次，用户可能在此之前已在 UI 上选择了新词模式（见设计文档 6.1 流程）。服务端检查有无未完成的旧场次，如果有则自动关闭。
 
 **认证**：需要
 
@@ -520,14 +520,14 @@ interface StartSessionRequest {
 | 条件 | 行为 |
 |------|------|
 | 本轮未选择新词模式且未传参 | 返回错误 `VALIDATION_ERROR` |
-| 有未完成的 active Session | 自动将旧 session 标记为 `abandoned`，创建新的 |
+| 有未完成的 active 场次 | 自动将旧场次标记为 `abandoned`，创建新的 |
 
 **服务端逻辑**：
 
 1. 查询用户当前轮次 `currentRound`
 2. 查询该轮是否已有 `new_word_mode` 设置（存储在 `user_settings` 表）
 3. 如果是本轮首次，校验并存储 `newWordMode`
-4. 关闭之前的 active session（如有）
+4. 关闭之前的 active 场次（如有）
 5. 插入 `sessions` 表，`status='active'`
 6. 统计 `reviewCount`（今日到期数 + 上次错词数）
 
@@ -572,8 +572,8 @@ interface StartSessionResponse {
 
 | 操作 | 涉及的表 | SQL |
 |------|---------|-----|
-| 关闭旧 session | `sessions` | `UPDATE sessions SET status='abandoned', end_time=datetime('now') WHERE user_id=? AND status='active'` |
-| 写入新 session | `sessions` | `INSERT INTO sessions (user_id, round, status) VALUES (?, ?, 'active')` |
+| 关闭旧场次 | `sessions` | `UPDATE sessions SET status='abandoned', end_time=datetime('now') WHERE user_id=? AND status='active'` |
+| 写入新场次 | `sessions` | `INSERT INTO sessions (user_id, round, status) VALUES (?, ?, 'active')` |
 | 读当前轮次 | `user_words` | `SELECT MAX(round) FROM user_words WHERE user_id=?` |
 | 读本轮已学词数 | `user_words` | `SELECT COUNT(*) FROM user_words WHERE user_id=? AND round=?` |
 | 读本轮总词数 | `words` | `SELECT COUNT(*) FROM words` |
@@ -590,12 +590,12 @@ interface StartSessionResponse {
 
 | 参数 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| `sessionId` | number | 必填 | 当前 Session ID |
+| `sessionId` | number | 必填 | 当前场次 ID |
 | `limit` | number | 50 | 一次性最多取的词数 |
 
 **排序规则**：
 
-1. 先排上次 session 中标记为"困难"的词（`isDifficult`）
+1. 先排上次场次 中标记为"困难"的词（`isDifficult`）
 2. 按遗忘风险降序（`天数超期 / interval_days` 越大越优先）
 3. 按熟练度升序（越不熟越优先）
 
@@ -703,7 +703,7 @@ LIMIT ?
 
 | 参数 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|
-| `sessionId` | number | 必填 | 当前 Session ID |
+| `sessionId` | number | 必填 | 当前场次 ID |
 | `count` | number | `newWordsPerSession` | 抽取数量，不传则使用用户设置 |
 
 **Response `data` 类型**：
@@ -713,7 +713,7 @@ interface NewWordsResponse {
   words: NewWordItem[];
   remainingNew: number;           // 本轮剩余未学词数
   mode: "random" | "alpha";      // 实际使用的模式
-  hasPreviewed: boolean;         // 当前 session 是否已预览过
+  hasPreviewed: boolean;         // 当前场次 是否已预览过
 }
 
 interface NewWordItem {
@@ -739,7 +739,7 @@ interface NewWordItem {
 | 读取新词 | `words` + `user_words` | 见上方随机/字母序查询 |
 | `remainingNew` | `words` + `user_words` | `SELECT COUNT(*) FROM words w WHERE w.id NOT IN (SELECT uw.word_id FROM user_words uw WHERE uw.user_id=? AND uw.round=?)` |
 | `mode` | `user_settings` | `SELECT new_word_mode FROM user_settings WHERE user_id = ?` |
-| `hasPreviewed` | `sessions` | 检查该 session 是否已有 `words_reviewed > 0`（有则已预览过） |
+| `hasPreviewed` | `sessions` | 检查该场次 是否已有 `words_reviewed > 0`（有则已预览过） |
 
 **学习流程说明**：
 
@@ -794,7 +794,7 @@ interface AnswerRequest {
    - 根据 `correct` 和 `responseTimeMs` 计算质量评分 `q`（见设计文档 4.3 节）
    - 更新 `user_words` 表中的 `ef`, `interval_days`, `repetitions`, `proficiency`, `consecutive_correct`, `total_correct`, `total_attempts`
    - 插入 `review_logs` 记录
-4. 计算 `sessionProgress`（当前 session 该阶段的进度）
+4. 计算 `sessionProgress`（当前场次 该阶段的进度）
 
 **数据库**：
 
@@ -866,7 +866,7 @@ interface AnswerResponse {
   proficiency: number;         // 更新后的熟练度 0-100
   nextReview: string;          // 下次复习日期
   isNewLearned: boolean;       // 如果是本轮首次接触该词，为 true
-  sessionProgress: {           // 本轮 session 进度
+  sessionProgress: {           // 本轮场次进度
     reviewed: number;
     total: number;             // 当前阶段总词数（复习/新词/总测，视阶段而定）
     passed: number;
@@ -912,13 +912,13 @@ interface AnswerResponse {
 }
 ```
 
-> **答错的处理**：前端收到 `isCorrect=false` 时，应将此词放入 retest 队列，在当前阶段结束后重新测试该词。同一 session 内反复测试错词直到答对（q≥3）。
+> **答错的处理**：前端收到 `isCorrect=false` 时，应将此词放入 retest 队列，在当前阶段结束后重新测试该词。同一场次 内反复测试错词直到答对（q≥3）。
 >
 > **选择题干扰项生成**：前端通过 `GET /api/learn/distractors?count=50` 在页面初始化时预取全量字典池，优先从中选取 3 个干扰项，不足时从当前 wordQueue 补足。选项位置随机排列。
 
 ---
 
-### 4.6 POST /api/learn/complete — 完成本 Session
+### 4.6 POST /api/learn/complete — 完成本场次
 
 用户完成全部阶段（复习 → 新词 → 总测通关）后调用。
 
@@ -937,7 +937,7 @@ interface CompleteSessionRequest {
 
 1. 更新 `sessions` 表：`end_time=now`, `duration_seconds`, `status="completed"|"abandoned"`
 2. 如果 `abandoned=false`（正常完成）：
-   - 更新本轮本 Session 涉及的 `user_words` 的 `last_reviewed_at`
+   - 更新本轮本场次涉及的 `user_words` 的 `last_reviewed_at`
    - 检查轮次完成条件：`proficiency >= 90` 的词数 >= `total * 90%`
 3. 如果达到轮次完成条件：
    - 自动创建 `round_completions` 记录
@@ -946,7 +946,7 @@ interface CompleteSessionRequest {
 **数据库**：
 
 ```sql
--- 1. 关闭 session
+-- 1. 关闭场次
 UPDATE sessions SET
   end_time = datetime('now'),
   duration_seconds = CAST((julianday('now') - julianday(start_time)) * 86400 AS INTEGER),
@@ -988,7 +988,7 @@ interface CompleteSessionResponse {
   totalPassed: number;
   totalFailed: number;
   correctRate: number;               // 本次正确率（百分比，保留一位小数）
-  proficiencyChange: number;         // 本次 session 熟练度平均增长值
+  proficiencyChange: number;         // 本次场次熟练度平均增长值
   roundCompleted: boolean;           // 本轮是否已完成
   roundInfo?: {                      // 如果本轮完成
     completedRound: number;
@@ -1068,7 +1068,7 @@ interface ProgressOverview {
   targetProficiency: number;      // 目标掌握率（默认 90%）
   progressPercent: number;        // 已掌握词数 / 总词数 × 100
   daysInRound: number;            // 本轮已进行天数
-  totalSessions: number;          // 本轮总 Session 数
+  totalSessions: number;          // 本轮总场次数
   totalReviews: number;           // 本轮总答题次数
   avgCorrectRate: number;         // 本轮平均正确率
   streakDays: number;             // 连续学习天数
@@ -1304,7 +1304,7 @@ interface RoundInfo {
   masteredCount: number;
   progressPercent: number;
   completedAt: string | null;  // 完成日期（如有）
-  sessionsCount: number;       // 该轮总 Session 数
+  sessionsCount: number;       // 该轮总场次数
   avgCorrectRate: number;
   avgProficiency: number;
   startDate: string;           // 该轮首次学习日期
@@ -1398,7 +1398,7 @@ SELECT ? AS round, 'active' AS status,
 
 ```typescript
 interface UserSettings {
-  newWordsPerSession: number;      // 每 session 新词数，默认 15，范围 [5, 50]
+  newWordsPerSession: number;      // 每场次新词数，默认 15，范围 [5, 50]
   dailyGoal: number;               // 每日学习目标词数，默认 40，范围 [5, 120]
   spellingMode: boolean;           // true=启用拼写题，false=仅选择题
   firstLetterHint: boolean;        // 拼写题是否展示首字母提示
@@ -1916,7 +1916,7 @@ interface DeleteUserResponse {
 
 ## 9. API 调用时序图
 
-以下展示一个完整学习 Session 的前后端 API 调用顺序：
+以下展示一个完整学习场次的前后端 API 调用顺序：
 
 ```
 前端                                             后端
@@ -1987,7 +1987,7 @@ interface DeleteUserResponse {
 | 用户名已存在 | `POST /api/auth/register` | `DUPLICATE_USERNAME` | 409 |
 | 登录信息错误 | `POST /api/auth/login` | `INVALID_CREDENTIALS` | 401 |
 | 单词不存在 | `POST /api/learn/answer` | `NOT_FOUND` | 404 |
-| Session 不属于当前用户 | `POST /api/learn/answer` | `FORBIDDEN` | 403 |
+| 场次不属于当前用户 | `POST /api/learn/answer` | `FORBIDDEN` | 403 |
 | 本轮首次未传 newWordMode | `POST /api/learn/start` | `VALIDATION_ERROR` | 400 |
 | 删除唯一管理员 | `DELETE /api/admin/users/:id` | `VALIDATION_ERROR` | 400 |
 | 删除自身 | `DELETE /api/admin/users/:id` | `VALIDATION_ERROR` | 400 |

@@ -302,7 +302,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans
 - 熟练度分布：Lv5 1840 / Lv4 960 / Lv3 480 / Lv2 180 / Lv1 60
 
 **交互**：
-- `开始学习` → `/learn`
+- `开始学习` → `/learn`（如有未完成场次则恢复，否则创建新场次）
 - 热力图格子 hover 显示天数提示
 - 熟练度条形图无交互（静态展示）
 
@@ -319,6 +319,9 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans
 ```
 Mode Select ──▶ Review ──▶ New Words ──▶ Final Test ──▶ Complete
   (Phase 0)     (Phase 1)   (Phase 2)     (Phase 3)     (Phase 4)
+  选新词模式      复习阶段      新词阶段      总测试阶段      场次完成
+                   └────────── 一场学习场次 (Session) ──────────┘
+                              └─── 三个答题阶段 (Phases) ───┘
 ```
 
 #### Phase 0: 模式选择
@@ -341,7 +344,7 @@ Mode Select ──▶ Review ──▶ New Words ──▶ Final Test ──▶ 
 
 **交互**：
 - Radio 卡片选择（带圆圈单选指示器）
-- 选择后「开始学习」按钮激活
+- 选择后「开始学习」按钮激活（选定新词模式后进入该场次的复习阶段）
 - alpha 模式带「推荐」标签
 
 #### Phase 1-3: 答题
