@@ -1049,6 +1049,33 @@ interface CompleteSessionResponse {
 }
 ```
 
+### 4.7 GET /api/learn/word-letters — 词汇首字母分布
+
+返回各首字母的单词数量，供模式选择页判断哪些字母可选。
+
+**认证**：需要
+
+**Response `data` 类型**：
+
+```typescript
+interface WordLettersResponse {
+  letters: { letter: string; cnt: number }[]
+}
+```
+
+**示例**：
+```json
+{
+  "success": true,
+  "data": {
+    "letters": [
+      { "letter": "A", "cnt": 210 },
+      { "letter": "B", "cnt": 310 }
+    ]
+  }
+}
+```
+
 ---
 
 ## 5. 进度

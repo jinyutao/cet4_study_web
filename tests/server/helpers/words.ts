@@ -5,14 +5,14 @@ export function getTestWordIds(count = 10): number[] {
   return rows.map(r => r.id)
 }
 
-export function seedUserWords(userId: number, wordIds: number[], round = 1): void {
+export function seedUserWords(userId: number, wordIds: number[], round = 1, proficiency = 0): void {
   const insert = getDb().prepare(`
     INSERT OR IGNORE INTO user_words
       (user_id, word_id, round, ef, interval_days, repetitions, proficiency, next_review, first_learned_at)
-    VALUES (?, ?, ?, 2.5, 0, 0, 0, datetime('now'), datetime('now'))
+    VALUES (?, ?, ?, 2.5, 0, 0, ?, datetime('now'), datetime('now'))
   `)
   for (const wid of wordIds) {
-    insert.run(userId, wid, round)
+    insert.run(userId, wid, round, proficiency)
   }
 }
 

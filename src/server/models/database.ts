@@ -105,7 +105,8 @@ CREATE TABLE IF NOT EXISTS round_completions (
   completed_at    TEXT DEFAULT (datetime('now')),
   words_mastered  INTEGER,
   total_words     INTEGER,
-  avg_proficiency REAL
+  avg_proficiency REAL,
+  word_mode       TEXT
 );
 
 -- 用户个性化设置
@@ -149,6 +150,8 @@ export function getDb(): Database.Database {
 export function initDb(): void {
   const d = getDb()
   d.exec(SCHEMA_SQL)
+  // 迁移：为旧数据库添加新列
+  try { d.exec('ALTER TABLE round_completions ADD COLUMN word_mode TEXT') } catch {}
 }
 
 export function isWordsEmpty(): boolean {
@@ -324,30 +327,57 @@ export function updateUserWordAfterReview(
   )
 }
 
-export function getDueReviews(userId: number, round: number, limit: number = 50) {
+export function getDueReviews(userId: number, round: number, limit: number = 50, scope?: string) {
+  let scopeFilter = ''
+  const params: unknown[] = [userId, round, limit]
+  if (scope && scope !== 'random' && scope !== 'alpha') {
+    scopeFilter = 'AND upper(w.word) LIKE ?'
+    params.splice(2, 0, scope + '%')
+  }
+
   return getDb().prepare(`
     SELECT w.*, uw.* FROM words w
     JOIN user_words uw ON uw.word_id = w.id
     WHERE uw.user_id = ? AND uw.round = ?
       AND (uw.next_review IS NULL OR uw.next_review <= datetime('now'))
       AND uw.proficiency < 100
+      ${scopeFilter}
     ORDER BY uw.next_review ASC
     LIMIT ?
-  `).all(userId, round, limit)
+  `).all(...params)
 }
 
-export function getNewWordsCount(userId: number, round: number): number {
+export function getNewWordsCount(userId: number, round: number, scope?: string): number {
+  let scopeFilter = ''
+  const params: unknown[] = [userId, round]
+  if (scope && scope !== 'random' && scope !== 'alpha') {
+    scopeFilter = 'AND upper(w.word) LIKE ?'
+    params.push(scope + '%')
+  }
+
   const row = getDb().prepare(`
     SELECT count(*) as cnt FROM words w
     WHERE w.id NOT IN (
       SELECT uw.word_id FROM user_words uw
       WHERE uw.user_id = ? AND uw.round = ?
-    )
-  `).get(userId, round) as { cnt: number }
+    ) ${scopeFilter}
+  `).get(...params) as { cnt: number }
   return row.cnt
 }
 
-export function getNewWords(userId: number, round: number, count: number, mode: 'random' | 'alpha' = 'random') {
+export function getNewWords(userId: number, round: number, count: number, mode: string = 'random') {
+  const isLetterMode = mode !== 'random' && mode !== 'alpha' && mode.length === 1
+  if (isLetterMode) {
+    return getDb().prepare(`
+      SELECT w.* FROM words w
+      WHERE w.id NOT IN (
+        SELECT uw.word_id FROM user_words uw
+        WHERE uw.user_id = ? AND uw.round = ?
+      ) AND upper(w.word) LIKE ?
+      ORDER BY RANDOM()
+      LIMIT ?
+    `).all(userId, round, mode + '%', count)
+  }
   if (mode === 'alpha') {
     const lastLearned = getDb().prepare(`
       SELECT substr(w.word, 1, 1) AS initial FROM user_words uw
@@ -505,11 +535,11 @@ export function updateUserSettings(userId: number, updates: Record<string, any>)
 
 // ─── Round completion queries ───────────────────────
 
-export function recordRoundCompletion(userId: number, round: number, wordsMastered: number, totalWords: number, avgProficiency: number): void {
+export function recordRoundCompletion(userId: number, round: number, wordsMastered: number, totalWords: number, avgProficiency: number, wordMode: string): void {
   getDb().prepare(`
-    INSERT INTO round_completions (user_id, round, words_mastered, total_words, avg_proficiency)
-    VALUES (?, ?, ?, ?, ?)
-  `).run(userId, round, wordsMastered, totalWords, avgProficiency)
+    INSERT INTO round_completions (user_id, round, words_mastered, total_words, avg_proficiency, word_mode)
+    VALUES (?, ?, ?, ?, ?, ?)
+  `).run(userId, round, wordsMastered, totalWords, avgProficiency, wordMode)
 }
 
 export function getRoundCompletions(userId: number) {

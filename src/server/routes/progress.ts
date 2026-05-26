@@ -51,6 +51,7 @@ interface HeatmapDay {
 interface RoundInfo {
   round: number
   status: 'completed' | 'active' | 'locked'
+  wordMode?: string | null
   totalWords: number
   masteredCount: number
   progressPercent: number
@@ -59,6 +60,7 @@ interface RoundInfo {
   avgCorrectRate: number
   avgProficiency: number
   startDate: string
+  estimatedSessions: number
 }
 
 interface RoundsData {
@@ -298,10 +300,11 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
     const totalWords = getWordCount()
     const completions = getRoundCompletions(userId) as Array<{
       id: number; user_id: number; round: number; completed_at: string
-      words_mastered: number; total_words: number; avg_proficiency: number
+      words_mastered: number; total_words: number; avg_proficiency: number; word_mode: string | null
     }>
 
     const rounds: RoundInfo[] = []
+    const newWordsPerSession = getUserSettings(userId)?.new_words_per_session || 15
 
     for (const comp of completions) {
       const sessionsCount = (getDb().prepare(`
@@ -324,6 +327,7 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
       rounds.push({
         round: comp.round,
         status: 'completed',
+        wordMode: comp.word_mode || null,
         totalWords: comp.total_words || totalWords,
         masteredCount: comp.words_mastered,
         progressPercent: 100,
@@ -332,6 +336,7 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         avgCorrectRate,
         avgProficiency: comp.avg_proficiency,
         startDate,
+        estimatedSessions: Math.ceil((comp.total_words || totalWords) / newWordsPerSession),
       })
     }
 
@@ -367,9 +372,11 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         FROM sessions WHERE user_id = ? AND round = ?
       `).get(userId, currentRound) as { d: string }).d
 
+      const settings = getUserSettings(userId)
       rounds.push({
         round: currentRound,
         status: 'active',
+        wordMode: settings?.new_word_mode || null,
         totalWords,
         masteredCount,
         progressPercent,
@@ -378,6 +385,7 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         avgCorrectRate,
         avgProficiency,
         startDate,
+        estimatedSessions: Math.ceil(totalWords / newWordsPerSession),
       })
     }
 

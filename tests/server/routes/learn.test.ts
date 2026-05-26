@@ -455,3 +455,147 @@ describe('POST /api/learn/complete', () => {
     expect(res.body.data.streakDays).toBeGreaterThanOrEqual(0)
   })
 })
+
+describe('Word scope (letter mode)', () => {
+  it('accepts letter as newWordMode in /start', async () => {
+    const res = await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'B' })
+
+    expect(res.status).toBe(201)
+    expect(res.body.data.sessionId).toBeGreaterThan(0)
+  })
+
+  it('persists letter newWordMode to user settings', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'B' })
+
+    const settings = getDb().prepare(
+      'SELECT new_word_mode FROM user_settings WHERE user_id = ?'
+    ).get(user.id) as { new_word_mode: string }
+
+    expect(settings.new_word_mode).toBe('B')
+  })
+
+  it('/today returns wordScope but full word count unaffected', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'B' })
+
+    const res = await request(app)
+      .get('/api/learn/today')
+      .set(authHeader(token))
+
+    expect(res.status).toBe(200)
+    expect(res.body.data.wordScope).toBe('B')
+    expect(res.body.data.newWordMode).toBe('B')
+    // newWordsAvailable 不受 scope 影响，Dashboard 显示全量
+    expect(res.body.data.newWordsAvailable).toBe(50)
+  })
+
+  it('/today with scope returns correct available count', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'E' })
+
+    const res = await request(app)
+      .get('/api/learn/today')
+      .set(authHeader(token))
+
+    expect(res.status).toBe(200)
+    expect(res.body.data.wordScope).toBe('E')
+    // Dashboard shows full count (50), not scoped (4)
+    expect(res.body.data.newWordsAvailable).toBe(50)
+  })
+
+  it('/new-words returns only letter-matching words', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'E' })
+
+    const todayRes = await request(app)
+      .get('/api/learn/today')
+      .set(authHeader(token))
+
+    const sessionId = todayRes.body.data.unfinishedSession?.id
+    expect(sessionId).toBeGreaterThan(0)
+
+    const res = await request(app)
+      .get(`/api/learn/new-words?sessionId=${sessionId}`)
+      .set(authHeader(token))
+
+    expect(res.status).toBe(200)
+    expect(res.body.data.wordScope).toBe('E')
+    expect(res.body.data.words.length).toBeGreaterThan(0)
+    // All returned words should start with 'E' (case-insensitive)
+    for (const w of res.body.data.words) {
+      expect(w.word[0].toUpperCase()).toBe('E')
+    }
+  })
+
+  it('/new-words remainingNew reflects scope', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'E' })
+
+    const todayRes = await request(app)
+      .get('/api/learn/today')
+      .set(authHeader(token))
+
+    const sessionId = todayRes.body.data.unfinishedSession?.id
+    expect(sessionId).toBeGreaterThan(0)
+
+    const res = await request(app)
+      .get(`/api/learn/new-words?sessionId=${sessionId}&count=10`)
+      .set(authHeader(token))
+
+    expect(res.status).toBe(200)
+    expect(res.body.data.wordScope).toBe('E')
+    // E has 4 words total, all fetched. remainingNew reflects 4 unscoped words (not 50 global)
+    expect(res.body.data.remainingNew).toBe(4)
+  })
+
+  it('/review-queue filters by scope', async () => {
+    await request(app)
+      .post('/api/learn/start')
+      .set(authHeader(token))
+      .send({ newWordMode: 'A' })
+
+    const todayRes = await request(app)
+      .get('/api/learn/today')
+      .set(authHeader(token))
+
+    const sessionId = todayRes.body.data.unfinishedSession?.id
+
+    // Seed some A-words and a non-A-word for review
+    const wordIds = getTestWordIds(50)
+    const allWords = getDb().prepare('SELECT id, word FROM words WHERE id IN (' +
+      wordIds.map(() => '?').join(',') + ')').all(...wordIds) as { id: number; word: string }[]
+
+    const aWord = allWords.find(w => w.word[0].toUpperCase() === 'A')
+    const nonAWord = allWords.find(w => w.word[0].toUpperCase() !== 'A')
+
+    if (aWord && nonAWord) {
+      seedUserWords(user.id, [aWord.id, nonAWord.id], 1)
+
+      const res = await request(app)
+        .get(`/api/learn/review-queue?sessionId=${sessionId}`)
+        .set(authHeader(token))
+
+      expect(res.status).toBe(200)
+      // Should only return the A-word, not the non-A-word
+      const words = res.body.data.words as { word: string }[]
+      for (const w of words) {
+        expect(w.word[0].toUpperCase()).toBe('A')
+      }
+    }
+  })
+})
+

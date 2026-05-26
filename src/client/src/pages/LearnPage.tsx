@@ -1,10 +1,10 @@
-import { useReducer, useEffect, useContext, useMemo, useCallback, useRef } from 'react'
+import { useReducer, useEffect, useContext, useMemo, useCallback, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { api } from '../lib/api'
 import { useTimer } from '../hooks/useTimer'
 import { generateChoices } from '../lib/shuffle'
 import { SettingsContext } from '../context/SettingsContext'
-import type { ApiError, TodayTask, DistractorsResponse } from '../types/api'
+import type { ApiError, TodayTask, DistractorsResponse, WordLettersResponse } from '../types/api'
 import type { WordItem, UserSettings } from '../types/models'
 import type {
   StartSessionResponse,
@@ -16,12 +16,13 @@ import type {
 
 // ── Types ──────────────────────────────────────────
 type Phase = 'mode_select' | 'review' | 'new_words' | 'final_test' | 'complete'
-type WordMode = 'random' | 'alpha'
+type WordMode = 'random' | 'alpha' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z'
 type AnswerType = 'choice' | 'spelling'
 
 interface LearnState {
   phase: Phase
   wordMode: WordMode | null
+  wordScope: string
   sessionId: number | null
   round: number
   answerCount: number
@@ -44,6 +45,7 @@ interface LearnState {
 
 type LearnAction =
   | { type: 'SELECT_MODE'; mode: WordMode }
+  | { type: 'SET_WORD_SCOPE'; scope: string }
   | { type: 'SET_LOADING'; loading: boolean }
   | { type: 'SET_ERROR'; error: string | null }
   | { type: 'CLEAR_ERROR' }
@@ -101,6 +103,7 @@ const PHASE_ORDER: Phase[] = ['review', 'new_words', 'final_test']
 const initialState: LearnState = {
   phase: 'mode_select',
   wordMode: null,
+  wordScope: 'all',
   sessionId: null,
   round: 0,
   answerCount: 0,
@@ -126,6 +129,9 @@ function learnReducer(state: LearnState, action: LearnAction): LearnState {
   switch (action.type) {
     case 'SELECT_MODE':
       return { ...state, wordMode: action.mode, error: null }
+
+    case 'SET_WORD_SCOPE':
+      return { ...state, wordScope: action.scope }
 
     case 'SET_LOADING':
       return { ...state, loading: action.loading }
@@ -322,6 +328,9 @@ export default function LearnPage() {
       dispatch({ type: 'SET_LOADING', loading: true })
       try {
         const today = await api.get<TodayTask>('/learn/today')
+        if (today.wordScope) {
+          dispatch({ type: 'SET_WORD_SCOPE', scope: today.wordScope })
+        }
 
         // 预取干扰词池（全量字典中随机取，供四选一使用）
         try {
@@ -397,8 +406,11 @@ export default function LearnPage() {
 
   const handleStartSession = useCallback(async () => {
     if (!state.wordMode) return
+    const mode = state.wordMode
+    const scopeLetter = mode !== 'random' && mode !== 'alpha' ? mode : 'all'
     dispatch({ type: 'SET_LOADING', loading: true })
     dispatch({ type: 'CLEAR_ERROR' })
+    dispatch({ type: 'SET_WORD_SCOPE', scope: scopeLetter })
     try {
       const startRes = await api.post<StartSessionResponse>('/learn/start', {
         newWordMode: state.wordMode,
@@ -432,7 +444,12 @@ export default function LearnPage() {
         sessionId: state.sessionId,
       })
       const words = mapNewWords(res.words)
-      dispatch({ type: 'LOAD_NEW_WORDS', words, hasPreviewed: res.hasPreviewed })
+      if (words.length === 0) {
+        // 无新词可学，直接进入总测试
+        dispatch({ type: 'TRANSITION_TO_FINAL_TEST' })
+      } else {
+        dispatch({ type: 'LOAD_NEW_WORDS', words, hasPreviewed: res.hasPreviewed })
+      }
       dispatch({ type: 'SET_LOADING', loading: false })
     } catch (e) {
       const err = e as ApiError
@@ -711,6 +728,11 @@ export default function LearnPage() {
           <div className="flex items-center gap-2">
             <span className="text-lg">{phaseEmoji}</span>
             <span className="text-sm font-semibold text-gray-700">{phaseLabel}</span>
+            {state.wordScope !== 'all' && (
+              <span className="px-1.5 py-0.5 bg-blue-100 text-blue-600 rounded text-[10px] font-medium">
+                {state.wordScope} 开头
+              </span>
+            )}
           </div>
           <div className="flex items-center gap-3 text-xs text-gray-400">
             <span>
@@ -981,73 +1003,116 @@ function ModeSelection({
   onSelect: (m: WordMode) => void
   onStart: () => void
 }) {
+  const allLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+  const scopeLetter = wordMode && wordMode !== 'random' && wordMode !== 'alpha' ? wordMode : null
+  const [letterCounts, setLetterCounts] = useState<Record<string, number>>({})
+
+  useEffect(() => {
+    api.get<WordLettersResponse>('/learn/word-letters').then(data => {
+      const map: Record<string, number> = {}
+      for (const l of data.letters) map[l.letter] = l.cnt
+      setLetterCounts(map)
+    }).catch(() => {})
+  }, [])
+
   return (
     <div className="max-w-lg mx-auto">
       <div className="text-center mb-6">
         <span className="text-4xl">🎯</span>
         <h2 className="text-xl font-bold text-gray-800 mt-2">准备开始新一轮学习</h2>
         <p className="text-sm text-gray-400 mt-1">
-          请选择本轮新词学习顺序（一轮内不可更改）
+          请选择本轮学习模式（一轮内不可更改）
         </p>
       </div>
 
-      <div className="space-y-3">
-        {/* Random mode */}
-        <button
-          onClick={() => onSelect('random')}
-          className={`w-full text-left p-5 rounded-2xl border-2 transition-all ${
-            wordMode === 'random'
-              ? 'border-blue-500 bg-blue-50 shadow-md'
-              : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'
-          }`}
-        >
-          <div className="flex items-start gap-3">
-            <div
-              className={`mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
-                wordMode === 'random' ? 'border-blue-500' : 'border-gray-300'
+      <div className="space-y-4">
+        {/* All-words modes */}
+        <div>
+          <p className="text-xs text-gray-400 mb-2 font-medium">全部词汇</p>
+          <div className="space-y-3">
+            <button
+              onClick={() => onSelect('random')}
+              className={`w-full text-left p-4 rounded-2xl border-2 transition-all ${
+                wordMode === 'random'
+                  ? 'border-blue-500 bg-blue-50 shadow-md'
+                  : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'
               }`}
             >
-              {wordMode === 'random' && <div className="w-3 h-3 rounded-full bg-blue-500" />}
-            </div>
-            <div>
-              <p className="font-semibold text-gray-800">全随机</p>
-              <p className="text-sm text-gray-400 mt-0.5">
-                整个词汇表随机抽取，每次都有新鲜感
-              </p>
-            </div>
-          </div>
-        </button>
-
-        {/* Alpha mode */}
-        <button
-          onClick={() => onSelect('alpha')}
-          className={`w-full text-left p-5 rounded-2xl border-2 transition-all ${
-            wordMode === 'alpha'
-              ? 'border-violet-500 bg-violet-50 shadow-md'
-              : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'
-          }`}
-        >
-          <div className="flex items-start gap-3">
-            <div
-              className={`mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
-                wordMode === 'alpha' ? 'border-violet-500' : 'border-gray-300'
-              }`}
-            >
-              {wordMode === 'alpha' && <div className="w-3 h-3 rounded-full bg-violet-500" />}
-            </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <p className="font-semibold text-gray-800">按首字母乱序</p>
-                <span className="text-xs bg-violet-100 text-violet-600 px-2 py-0.5 rounded-full font-medium">
-                  推荐
-                </span>
+              <div className="flex items-start gap-3">
+                <div className={`mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
+                  wordMode === 'random' ? 'border-blue-500' : 'border-gray-300'
+                }`}>
+                  {wordMode === 'random' && <div className="w-3 h-3 rounded-full bg-blue-500" />}
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-800">全随机</p>
+                  <p className="text-sm text-gray-400 mt-0.5">整个词汇表随机抽取，每次都有新鲜感</p>
+                </div>
               </div>
-              <p className="text-sm text-gray-400 mt-0.5">
-                从 A→Z 分组推进，组内随机打乱，有章节感，适合系统化学习
-              </p>
+            </button>
+
+            <button
+              onClick={() => onSelect('alpha')}
+              className={`w-full text-left p-4 rounded-2xl border-2 transition-all ${
+                wordMode === 'alpha'
+                  ? 'border-violet-500 bg-violet-50 shadow-md'
+                  : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'
+              }`}
+            >
+              <div className="flex items-start gap-3">
+                <div className={`mt-0.5 w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
+                  wordMode === 'alpha' ? 'border-violet-500' : 'border-gray-300'
+                }`}>
+                  {wordMode === 'alpha' && <div className="w-3 h-3 rounded-full bg-violet-500" />}
+                </div>
+                <div>
+                  <div className="flex items-center gap-2">
+                    <p className="font-semibold text-gray-800">按首字母乱序</p>
+                    <span className="text-xs bg-violet-100 text-violet-600 px-2 py-0.5 rounded-full font-medium">推荐</span>
+                  </div>
+                  <p className="text-sm text-gray-400 mt-0.5">从 A→Z 分组推进，组内随机打乱，有章节感</p>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+
+        {/* Letter-specific modes */}
+        <div>
+          <p className="text-xs text-gray-400 mb-2 font-medium flex items-center gap-2">
+            仅学某字母开头的单词
+            {scopeLetter && (
+              <span className="text-xs bg-blue-100 text-blue-600 px-2 py-0.5 rounded-full">
+                本轮掌握 {scopeLetter} 开头的单词
+              </span>
+            )}
+          </p>
+          <div className="p-3 rounded-2xl border border-gray-200 bg-white">
+            <div className="flex flex-wrap gap-1.5">
+              {allLetters.map(l => {
+                const count = letterCounts[l]
+                const hasWords = count === undefined || count > 0
+                return (
+                <button
+                  key={l}
+                  onClick={() => hasWords && onSelect(l as WordMode)}
+                  disabled={!hasWords}
+                  title={!hasWords ? `没有 ${l} 开头的单词` : `${count} 个单词`}
+                  className={`w-9 h-9 rounded-lg text-sm font-semibold transition-all ${
+                    wordMode === l
+                      ? 'bg-blue-600 text-white shadow-sm scale-110'
+                      : !hasWords
+                        ? 'bg-gray-100 text-gray-300 cursor-not-allowed'
+                        : 'bg-gray-50 text-gray-600 hover:bg-gray-100 hover:text-blue-600'
+                  }`}
+                >
+                  {l}
+                </button>
+                )
+              })}
             </div>
           </div>
-        </button>
+        </div>
       </div>
 
       {error && (

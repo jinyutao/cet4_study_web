@@ -62,6 +62,11 @@ export interface TodayTask {
     failedCount: number
   } | null
   estimatedMinutes: number
+  wordScope: string
+}
+
+export interface StartSessionRequest {
+  newWordMode?: string
 }
 
 export interface StartSessionResponse {
@@ -83,6 +88,7 @@ export interface NewWordsResponse {
   remainingNew: number
   mode: 'random' | 'alpha'
   hasPreviewed: boolean
+  wordScope: string
 }
 
 export interface AnswerResponse {
@@ -179,4 +185,8 @@ export interface AdminActionResponse {
     reviewLogs: number
     roundCompletions: number
   }
+}
+
+export interface WordLettersResponse {
+  letters: { letter: string; cnt: number }[]
 }

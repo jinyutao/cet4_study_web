@@ -88,7 +88,8 @@ CREATE TABLE IF NOT EXISTS round_completions (
   completed_at    TEXT DEFAULT (datetime('now')),
   words_mastered  INTEGER,
   total_words     INTEGER,
-  avg_proficiency REAL
+  avg_proficiency REAL,
+  word_mode       TEXT
 );
 
 CREATE TABLE IF NOT EXISTS user_settings (

@@ -62,13 +62,13 @@ bash start.sh stop                # 停止服务（数据库安全关闭）
 bash start.sh build               # 容器内构建前端
 bash start.sh reset-password <用户名> [新密码]
 bash start.sh --help              # 查看帮助
-docker exec docker-cet4-web-1 npm run build:client    # 容器内构建前端（与 start.sh build 等价）
-docker exec docker-cet4-web-1 node /app/dist/scripts/seed.js        # 4517 词种子
-docker exec -e DB_PATH=/app/data/cet4_test.db docker-cet4-web-1 node /app/dist/scripts/seed_test.js  # 50 词种子
-docker exec docker-cet4-web-1 npx vitest run                    # 运行全部 API 测试（110 项）
-docker exec docker-cet4-web-1 npx vitest run tests/server/routes/auth.test.ts  # 单文件测试
-# Schema 验证（需先复制到容器：docker cp tests/db/schema_test.js docker-cet4-web-1:/app/tests/db/）
-docker exec docker-cet4-web-1 node tests/db/schema_test.js
+docker exec cet4-web npm run build:client    # 容器内构建前端（与 start.sh build 等价）
+docker exec cet4-web node /app/dist/scripts/seed.js        # 4517 词种子
+docker exec -e DB_PATH=/app/data/cet4_test.db cet4-web node /app/dist/scripts/seed_test.js  # 50 词种子
+# 运行 API 测试（需挂载测试文件）
+docker run --rm -v "$(pwd)/tests:/app/tests" -v "$(pwd)/vitest.config.ts:/app/vitest.config.ts" -v "$(pwd)/src/server:/app/src/server" -v "$(pwd)/tsconfig.json:/app/tsconfig.json" cet4-web:latest npx vitest run
+# Schema 验证（需先复制到容器：docker cp tests/db/schema_test.js cet4-web:/app/tests/db/）
+docker exec cet4-web node tests/db/schema_test.js
 ```
 
 ## ANTI-PATTERNS
@@ -83,5 +83,5 @@ docker exec docker-cet4-web-1 node tests/db/schema_test.js
 ## NOTES
 
 - 服务端已完全使用生产级代码：SM-2 算法、bcrypt 密码哈希、JWT 认证、冻结用户检查、完整管理员权限
-- Docker 容器名 `docker-cet4-web-1`（docker-compose 自动命名，`exec` 命令使用此名）
+- Docker 容器名 `cet4-web`（`docker-compose.yml` 中 `container_name` 指定，`exec` 命令使用此名）
 - API 测试共 **110 项**，覆盖 6 个路由模块 21 个端点，通过 vitest + supertest 运行在 Docker 容器内

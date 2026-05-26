@@ -197,6 +197,11 @@ export default function ProgressPage() {
                     >
                       {isCompleted ? '已完成' : isActive ? '进行中' : '未开启'}
                     </span>
+                    {round.wordMode && (
+                      <span className="text-xs px-2 py-0.5 rounded-full font-medium bg-gray-100 text-gray-500">
+                        {round.wordMode === 'random' ? '全随机' : round.wordMode === 'alpha' ? '按首字母乱序' : `仅 ${round.wordMode} 开头`}
+                      </span>
+                    )}
                   </div>
                   <span
                     className={`text-lg font-bold ${
@@ -213,7 +218,7 @@ export default function ProgressPage() {
                   <span>
                     掌握 {round.masteredCount} / {round.totalWords} 词
                   </span>
-                  <span>{round.sessionsCount} 次学习</span>
+                  <span>{round.sessionsCount} / {round.estimatedSessions} 次学习</span>
                 </div>
 
                 <div className="flex items-center justify-between mt-1 text-xs text-gray-400">

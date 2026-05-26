@@ -27,7 +27,13 @@ interface CountResult {
 }
 
 interface StartBody {
-  newWordMode?: 'random' | 'alpha'
+  newWordMode?: string  // 'random' | 'alpha' | 'A' | ... | 'Z'
+}
+
+function getScope(newWordMode: string): string | undefined {
+  if (newWordMode === 'random' || newWordMode === 'alpha') return undefined
+  if (newWordMode && newWordMode.length === 1) return newWordMode.toUpperCase()
+  return undefined
 }
 
 interface AnswerBody {
@@ -87,12 +93,13 @@ router.get('/today', requireAuth, (req: Request, res: Response) => {
   try {
     const userId = req.user!.id
     const currentRound = getCurrentRound(userId)
-    const dueReviews = getDueReviews(userId, currentRound)
-    const dueReviewCount = dueReviews.length
-    const newWordsAvailable = getNewWordsCount(userId, currentRound)
     const settings = getUserSettings(userId)
-    const newWordsPerSession = settings?.new_words_per_session ?? 15
     const newWordMode = settings?.new_word_mode ?? 'random'
+    const scope = getScope(newWordMode)
+    const dueReviews = getDueReviews(userId, currentRound, 50, scope)
+    const dueReviewCount = dueReviews.length
+    const newWordsAvailable = getNewWordsCount(userId, currentRound)  // 全量统计，不受 scope 影响
+    const newWordsPerSession = settings?.new_words_per_session ?? 15
 
     const todaySessionCount = (getDb().prepare(`
       SELECT COUNT(*) as cnt FROM sessions
@@ -122,6 +129,7 @@ router.get('/today', requireAuth, (req: Request, res: Response) => {
       newWordsAvailable,
       newWordsPerSession,
       newWordMode,
+      wordScope: scope || 'all',
       lastSessionToday,
       unfinishedSession,
       estimatedMinutes,
@@ -169,7 +177,8 @@ router.post('/start', requireAuth, (req: Request, res: Response) => {
       SELECT COUNT(*) as cnt FROM user_words WHERE user_id = ? AND round = ?
     `).get(userId, currentRound) as CountResult).cnt
 
-    const newWordsTotal = getWordCount()
+    const scope = getScope(newWordMode || getUserSettings(userId)?.new_word_mode || 'random')
+    const newWordsTotal = scope ? getNewWordsCount(userId, currentRound, scope) + newWordsInRound : getWordCount()
 
     ok(res, {
       sessionId,
@@ -201,6 +210,14 @@ router.get('/review-queue', requireAuth, (req: Request, res: Response) => {
       return notFound(res, '学习会话不存在')
     }
 
+    const settings = getUserSettings(userId)
+    const mode = settings?.new_word_mode || 'random'
+    const scope = getScope(mode)
+    const scopeFilter = scope ? 'AND upper(w.word) LIKE ?' : ''
+    const params: unknown[] = [userId, session.round]
+    if (scope) params.push(scope + '%')
+    params.push(limit)
+
     const words = getDb().prepare(`
       SELECT
         w.id AS wordId,
@@ -216,24 +233,47 @@ router.get('/review-queue', requireAuth, (req: Request, res: Response) => {
       WHERE uw.user_id = ?
         AND uw.round = ?
         AND (uw.next_review <= datetime('now') OR (uw.repetitions = 0 AND uw.total_attempts > 0))
+        ${scopeFilter}
       ORDER BY
         isDifficult DESC,
         (julianday('now') - julianday(uw.next_review)) / NULLIF(uw.interval_days, 1) DESC,
         uw.proficiency ASC
       LIMIT ?
-    `).all(userId, session.round, limit) as Array<{
+    `).all(...params) as Array<{
       wordId: number; word: string; phonetic: string | null; pos: string | null; chinese: string
       proficiency: number; reviewType: string; isDifficult: number
     }>
 
-    const total = (getDb().prepare(`
+    // 当 scope 激活且 review 队列为空时，强制拉取 scope 内所有未掌握的词
+    const fallback = scope && words.length === 0
+      ? (getDb().prepare(`
+          SELECT
+            w.id AS wordId, w.word, w.phonetic, w.pos, w.chinese,
+            uw.proficiency,
+            'review' AS reviewType, 0 AS isDifficult
+          FROM user_words uw
+          JOIN words w ON w.id = uw.word_id
+          WHERE uw.user_id = ? AND uw.round = ? AND uw.proficiency < 90
+            AND upper(w.word) LIKE ?
+          ORDER BY uw.proficiency ASC
+          LIMIT 50
+        `).all(userId, session.round, scope + '%') as typeof words)
+      : []
+
+    const resultWords = words.length > 0 ? words : fallback
+
+    const totalParams: unknown[] = [userId, session.round]
+    if (scope) totalParams.push(scope + '%')
+    const total = fallback.length > 0 ? fallback.length : (getDb().prepare(`
       SELECT COUNT(*) as cnt FROM user_words uw
+      JOIN words w ON w.id = uw.word_id
       WHERE uw.user_id = ? AND uw.round = ?
         AND (uw.next_review <= datetime('now') OR (uw.repetitions = 0 AND uw.total_attempts > 0))
-    `).get(userId, session.round) as CountResult).cnt
+        ${scopeFilter}
+    `).get(...totalParams) as CountResult).cnt
 
     ok(res, {
-      words: words.map(w => ({
+      words: resultWords.map(w => ({
         wordId: w.wordId,
         word: w.word,
         phonetic: w.phonetic,
@@ -268,7 +308,7 @@ router.get('/new-words', requireAuth, (req: Request, res: Response) => {
     }
 
     const count = Number(req.query.count) || settings?.new_words_per_session || 15
-    const mode = (settings?.new_word_mode || 'random') as 'random' | 'alpha'
+    const mode = settings?.new_word_mode || 'random'
     const round = session.round
 
     const rawWords = getNewWords(userId, round, count, mode) as Array<{
@@ -283,7 +323,8 @@ router.get('/new-words', requireAuth, (req: Request, res: Response) => {
       chinese: w.chinese,
     }))
 
-    const remainingNew = getNewWordsCount(userId, round)
+    const scope = getScope(mode)
+    const remainingNew = getNewWordsCount(userId, round, scope)
     const hasPreviewed = session.words_reviewed > 0
 
     ok(res, {
@@ -291,6 +332,7 @@ router.get('/new-words', requireAuth, (req: Request, res: Response) => {
       remainingNew,
       mode,
       hasPreviewed,
+      wordScope: scope || 'all',
     })
   } catch (e) {
     serverError(res, (e as Error).message)
@@ -448,7 +490,12 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
       }
 
       const currentRound = session.round
-      const totalWords = getWordCount()
+      const settings = getUserSettings(userId)
+      const mode = settings?.new_word_mode || 'random'
+      const scope = getScope(mode)
+      const totalWords = scope
+        ? (getDb().prepare(`SELECT COUNT(*) as cnt FROM words WHERE upper(word) LIKE ?`).get(scope + '%') as CountResult).cnt
+        : getWordCount()
 
       const statsRow = getDb().prepare(`
         SELECT
@@ -458,7 +505,9 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
       `).get(userId, currentRound) as { total_words: number; mastered_words: number }
 
       const masteredCount = statsRow.mastered_words || 0
-      const roundCompleted = totalWords > 0 && masteredCount >= totalWords * 0.9
+      // Scope 模式下全部词已引入即算一轮完成；非 scope 模式按 90% 掌握率
+      const allScopedIntroduced = scope && statsRow.total_words >= totalWords
+      const roundCompleted = totalWords > 0 && (allScopedIntroduced || masteredCount >= totalWords * 0.9)
 
       if (roundCompleted) {
         const avgProfRow = getDb().prepare(`
@@ -467,7 +516,7 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
         `).get(userId, currentRound) as { avg_prof: number | null }
 
         const avgProficiency = avgProfRow.avg_prof ?? 0
-        recordRoundCompletion(userId, currentRound, masteredCount, totalWords, avgProficiency)
+        recordRoundCompletion(userId, currentRound, masteredCount, totalWords, avgProficiency, mode)
 
         getDb().prepare(`
           UPDATE user_words SET
@@ -478,6 +527,11 @@ router.post('/complete', requireAuth, (req: Request, res: Response) => {
             next_review = datetime('now')
           WHERE user_id = ? AND round = ?
         `).run(userId, currentRound)
+
+        // 重置学习模式，新轮可重新选择
+        getDb().prepare(
+          'UPDATE user_settings SET new_word_mode = ? WHERE user_id = ?'
+        ).run('random', userId)
 
         return {
           roundCompleted: true,
@@ -568,6 +622,21 @@ router.get('/distractors', requireAuth, (req: Request, res: Response) => {
 
     const rows = getDb().prepare(sql).all(...params) as { chinese: string }[]
     ok(res, { distractors: rows.map(r => r.chinese) })
+  } catch (e) {
+    serverError(res, (e as Error).message)
+  }
+})
+
+// ─── 4.8 GET /word-letters ──────────────────────────────
+
+router.get('/word-letters', requireAuth, (_req: Request, res: Response) => {
+  try {
+    const rows = getDb().prepare(`
+      SELECT upper(substr(word, 1, 1)) as letter, count(*) as cnt
+      FROM words GROUP BY letter ORDER BY letter
+    `).all() as { letter: string; cnt: number }[]
+
+    ok(res, { letters: rows })
   } catch (e) {
     serverError(res, (e as Error).message)
   }

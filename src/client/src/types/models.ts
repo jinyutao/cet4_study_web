@@ -66,6 +66,7 @@ export interface HeatmapDay {
 export interface RoundInfo {
   round: number
   status: 'completed' | 'active' | 'locked'
+  wordMode?: string | null
   totalWords: number
   masteredCount: number
   progressPercent: number
@@ -74,6 +75,8 @@ export interface RoundInfo {
   avgCorrectRate: number
   avgProficiency: number
   startDate: string
+  wordMode?: string | null
+  estimatedSessions: number
 }
 
 // --- 管理员用户项 ---
