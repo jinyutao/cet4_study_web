@@ -636,7 +636,15 @@ router.get('/word-letters', requireAuth, (_req: Request, res: Response) => {
       FROM words GROUP BY letter ORDER BY letter
     `).all() as { letter: string; cnt: number }[]
 
-    ok(res, { letters: rows })
+    // 补全 26 个字母，缺失的填 0
+    const map: Record<string, number> = {}
+    for (const r of rows) map[r.letter] = r.cnt
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(l => ({
+      letter: l,
+      cnt: map[l] || 0,
+    }))
+
+    ok(res, { letters })
   } catch (e) {
     serverError(res, (e as Error).message)
   }
