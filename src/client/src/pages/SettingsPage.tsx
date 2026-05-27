@@ -144,7 +144,7 @@ export default function SettingsPage() {
 
       <section className="relative bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
         {hasActiveSession && (
-          <div className="absolute inset-0 rounded-2xl bg-white/60 backdrop-blur-[1px] z-10 flex items-center justify-center">
+          <div className="absolute inset-0 rounded-2xl bg-white/60 backdrop-blur-[1px] z-10 flex items-start justify-center pt-[33%]">
             <div className="bg-white/90 rounded-xl px-5 py-3 shadow-sm border border-gray-200 text-sm text-gray-500 flex items-center gap-2">
               <span>🔒</span>
               <span>本轮学习中不可更改，结束后可调整</span>

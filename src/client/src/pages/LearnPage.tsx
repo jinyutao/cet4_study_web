@@ -55,6 +55,7 @@ type LearnAction =
   | { type: 'PREVIEW_DONE' }
   | { type: 'SET_ANSWER_TYPE'; answerType: AnswerType }
   | { type: 'SELECT_CHOICE'; index: number; isCorrect: boolean; wordId: number }
+  | { type: 'PRESELECT_CHOICE'; index: number }
   | { type: 'SET_SPELLING_INPUT'; input: string }
   | { type: 'RECORD_ANSWER'; response: AnswerResponse }
   | { type: 'NEXT_QUESTION' }
@@ -205,6 +206,9 @@ function learnReducer(state: LearnState, action: LearnAction): LearnState {
             ? [...state.retestWordIds, action.wordId]
             : state.retestWordIds,
       }
+
+    case 'PRESELECT_CHOICE':
+      return { ...state, selectedChoice: action.index }
 
     case 'SET_SPELLING_INPUT':
       return { ...state, spellingInput: action.input }
@@ -724,17 +728,17 @@ export default function LearnPage() {
     <div className="max-w-lg mx-auto space-y-5">
       {/* ── Header — Progress + Phase Dots ── */}
       <header className="space-y-2">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className="text-lg">{phaseEmoji}</span>
-            <span className="text-sm font-semibold text-gray-700">{phaseLabel}</span>
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-1.5 min-w-0">
+            <span className="text-base sm:text-lg shrink-0">{phaseEmoji}</span>
+            <span className="text-xs sm:text-sm font-semibold text-gray-700 truncate">{phaseLabel}</span>
             {state.wordScope !== 'all' && (
-              <span className="px-1.5 py-0.5 bg-blue-100 text-blue-600 rounded text-[10px] font-medium">
+              <span className="px-1.5 py-0.5 bg-blue-100 text-blue-600 rounded text-[10px] font-medium shrink-0">
                 {state.wordScope} 开头
               </span>
             )}
           </div>
-          <div className="flex items-center gap-3 text-xs text-gray-400">
+          <div className="flex items-center gap-2 text-xs text-gray-400 shrink-0">
             <span>
               {state.currentIndex + 1}/{state.wordQueue.length}
             </span>
@@ -792,19 +796,27 @@ export default function LearnPage() {
 
       {/* ── Quiz Card ── */}
       {currentWord && (
-        <section className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100">
-          {/* Prompt */}
-          <p className="text-sm text-gray-400 mb-3 text-center">
+        <section className="bg-white rounded-2xl p-4 sm:p-6 lg:p-8 shadow-sm border border-gray-100">
+            <p className="text-xs sm:text-sm text-gray-400 mb-2 sm:mb-3 text-center">
             {state.answerType === 'spelling'
               ? '请输入英文单词（大小写敏感）'
-              : '请选择正确的中文释义'}
+              : state.answerLocked
+                ? ''
+                : state.selectedChoice !== null
+                  ? '再次点击确认答案'
+                  : '点击选中，再次点击确认'}
           </p>
+          {!state.answerLocked && state.selectedChoice !== null && (
+            <p className="text-xs text-blue-400 mb-2 text-center">
+              💡 可点击其他选项切换，确认后不可更改
+            </p>
+          )}
 
           {/* ── Choice Mode: show word + choices ── */}
           {state.answerType === 'choice' && (
             <>
-            <div className="text-center mb-6">
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1 tracking-tight">
+            <div className="text-center mb-4 sm:mb-6">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-1 tracking-tight">
                 {currentWord.word}
               </h2>
               {currentWord.phonetic && (
@@ -814,26 +826,36 @@ export default function LearnPage() {
                 <p className="text-xs text-gray-400 mt-0.5">{currentWord.pos}</p>
               )}
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
               {currentChoices.map((choice, idx) => {
                 let btnClass =
-                  'w-full py-3 px-4 rounded-xl border-2 text-sm font-medium transition-all select-none'
+                  'w-full py-2.5 sm:py-3 px-3 sm:px-4 rounded-xl border-2 text-sm font-medium transition-all select-none'
 
-                if (!state.answerLocked) {
-                  btnClass +=
-                    ' border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 cursor-pointer active:scale-[0.98]'
-                } else if (choice.correct) {
-                  btnClass += ' border-emerald-500 bg-emerald-50 text-emerald-700'
+                if (state.answerLocked) {
+                  if (choice.correct) {
+                    btnClass += ' border-emerald-500 bg-emerald-50 text-emerald-700'
+                  } else if (state.selectedChoice === idx) {
+                    btnClass += ' border-red-400 bg-red-50 text-red-600'
+                  } else {
+                    btnClass += ' border-gray-100 bg-gray-50 text-gray-400'
+                  }
                 } else if (state.selectedChoice === idx) {
-                  btnClass += ' border-red-400 bg-red-50 text-red-600'
+                  btnClass += ' border-blue-500 bg-blue-50 text-blue-700 shadow-sm'
                 } else {
-                  btnClass += ' border-gray-100 bg-gray-50 text-gray-400'
+                  btnClass += ' border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700 cursor-pointer active:scale-[0.99]'
                 }
 
                 return (
                   <button
                     key={idx}
-                    onClick={() => handleChoiceSelect(idx)}
+                    onClick={() => {
+                      if (state.answerLocked) return
+                      if (state.selectedChoice === idx) {
+                        handleChoiceSelect(idx)
+                      } else {
+                        dispatch({ type: 'PRESELECT_CHOICE', index: idx })
+                      }
+                    }}
                     disabled={state.answerLocked}
                     className={btnClass}
                   >
@@ -933,21 +955,21 @@ export default function LearnPage() {
 
       {/* ── Score record bar ── */}
       {state.scores.length > 0 && (
-        <section className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100">
+        <section className="bg-white rounded-2xl p-3 sm:p-4 shadow-sm border border-gray-100">
           <div className="flex items-center justify-between mb-2">
             <p className="text-xs text-gray-400">本轮答题记录</p>
             <p className="text-xs text-gray-400">
               {state.scores.filter(Boolean).length}/{state.scores.length} 正确
             </p>
           </div>
-          <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap gap-1">
             {state.scores.length === 0 ? (
               <span className="text-xs text-gray-300">还没有答题记录</span>
             ) : (
               state.scores.map((s, i) => (
                 <span
                   key={i}
-                  className={`inline-flex items-center justify-center w-7 h-7 rounded-full text-xs font-bold ${
+                  className={`inline-flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full text-[10px] sm:text-xs font-bold ${
                     s ? 'bg-emerald-100 text-emerald-600' : 'bg-red-100 text-red-500'
                   }`}
                 >
