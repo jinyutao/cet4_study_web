@@ -214,7 +214,7 @@ export default function ProgressPage() {
 
                 <ProgressBar percent={round.progressPercent} />
 
-                <div className="flex items-center justify-between mt-2 text-xs text-gray-400">
+                <div className="flex items-center justify-between gap-4 mt-2 text-xs text-gray-400">
                   <span>
                     掌握 {round.masteredCount} / {round.totalWords} 词
                   </span>
