@@ -79,6 +79,7 @@ docker exec cet4-web node tests/db/schema_test.js
 - 不要使用 `--force` 或 `--no-verify` 提交
 - git commit message 必须使用中文
 - 所有 `git push` 必须经人工确认后才能执行，禁止自动推送
+- `git-master` 工具仅用于提交（commit），禁止用于推送（push）
 
 ## NOTES
 
