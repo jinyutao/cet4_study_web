@@ -306,6 +306,13 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
     const rounds: RoundInfo[] = []
     const newWordsPerSession = getUserSettings(userId)?.new_words_per_session || 15
 
+    // 计算活动 scope：如果 new_word_mode 是单字母，则为字母模式
+    const curSettings = getUserSettings(userId)
+    const curMode = curSettings?.new_word_mode || 'random'
+    const activeScopeTotal = curMode !== 'random' && curMode !== 'alpha' && curMode?.length === 1
+      ? (getDb().prepare(`SELECT COUNT(*) as cnt FROM words WHERE upper(word) LIKE ?`).get(curMode + '%') as CountResult).cnt
+      : totalWords
+
     for (const comp of completions) {
       const sessionsCount = (getDb().prepare(`
         SELECT COUNT(*) as cnt FROM sessions
@@ -346,8 +353,8 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         WHERE user_id = ? AND round = ? AND proficiency >= 90
       `).get(userId, currentRound) as CountResult).cnt
 
-      const progressPercent = totalWords > 0
-        ? Math.round((masteredCount / totalWords) * 1000) / 10
+      const progressPercent = activeScopeTotal > 0
+        ? Math.round((masteredCount / activeScopeTotal) * 1000) / 10
         : 0
 
       const sessionsCount = (getDb().prepare(`
@@ -377,7 +384,7 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         round: currentRound,
         status: 'active',
         wordMode: settings?.new_word_mode || null,
-        totalWords,
+        totalWords: activeScopeTotal,
         masteredCount,
         progressPercent,
         completedAt: null,
@@ -385,7 +392,7 @@ router.get('/rounds', requireAuth, (req: Request, res: Response) => {
         avgCorrectRate,
         avgProficiency,
         startDate,
-        estimatedSessions: Math.ceil(totalWords / newWordsPerSession),
+        estimatedSessions: Math.ceil(activeScopeTotal / newWordsPerSession),
       })
     }
 

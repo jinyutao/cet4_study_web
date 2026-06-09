@@ -480,7 +480,7 @@ describe('Word scope (letter mode)', () => {
     expect(settings.new_word_mode).toBe('B')
   })
 
-  it('/today returns wordScope but full word count unaffected', async () => {
+  it('/today returns scoped newWordsAvailable when scope is active', async () => {
     await request(app)
       .post('/api/learn/start')
       .set(authHeader(token))
@@ -493,8 +493,8 @@ describe('Word scope (letter mode)', () => {
     expect(res.status).toBe(200)
     expect(res.body.data.wordScope).toBe('B')
     expect(res.body.data.newWordMode).toBe('B')
-    // newWordsAvailable 不受 scope 影响，Dashboard 显示全量
-    expect(res.body.data.newWordsAvailable).toBe(50)
+    // scope 模式 newWordsAvailable 按字母过滤
+    expect(res.body.data.newWordsAvailable).toBe(4)
   })
 
   it('/today with scope returns correct available count', async () => {
@@ -509,8 +509,8 @@ describe('Word scope (letter mode)', () => {
 
     expect(res.status).toBe(200)
     expect(res.body.data.wordScope).toBe('E')
-    // Dashboard shows full count (50), not scoped (4)
-    expect(res.body.data.newWordsAvailable).toBe(50)
+    // scope 模式 newWordsAvailable 按字母过滤
+    expect(res.body.data.newWordsAvailable).toBe(4)
   })
 
   it('/new-words returns only letter-matching words', async () => {

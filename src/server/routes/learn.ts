@@ -98,7 +98,7 @@ router.get('/today', requireAuth, (req: Request, res: Response) => {
     const scope = getScope(newWordMode)
     const dueReviews = getDueReviews(userId, currentRound, 50, scope)
     const dueReviewCount = dueReviews.length
-    const newWordsAvailable = getNewWordsCount(userId, currentRound)  // 全量统计，不受 scope 影响
+    const newWordsAvailable = getNewWordsCount(userId, currentRound, scope)
     const newWordsPerSession = settings?.new_words_per_session ?? 15
 
     const todaySessionCount = (getDb().prepare(`
